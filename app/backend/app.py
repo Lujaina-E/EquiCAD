@@ -17,10 +17,10 @@ from flask import send_from_directory
 app = Flask(__name__)
 CORS(
     app,
-    resources={r"/api/*": {"origins": [
+    origins=[
         "https://netlify-equicad-frontend.netlify.app",
         "http://localhost:3000"
-    ]}},
+    ],
     supports_credentials=True,
     allow_headers="*",
     methods=["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"]
