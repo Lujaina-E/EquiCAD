@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: cad-bias-backend
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: starter  # choose your plan
+    envVars:
+      - key: REDIS_URL
+        sync: true
+      - key: OPENAI_API_KEY
+        sync: true
+      - key: OCR_MODEL_ID
+        sync: true
+      - key: FINE_TUNED_MODEL_ID
+        sync: true
