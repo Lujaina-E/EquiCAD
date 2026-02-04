@@ -23,7 +23,7 @@ CORS(
     ]}},
     supports_credentials=True,
     allow_headers="*",
-    methods=["GET", "POST", "OPTIONS"]
+    methods=["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"]
 )
 
 load_dotenv()
