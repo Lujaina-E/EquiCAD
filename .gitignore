@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+.Trash/
+.AppleDouble/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.sqlite3
+
+# Node / frontend
+node_modules/
+dist/
+build/
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
