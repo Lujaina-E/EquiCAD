@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, make_response
 from flask_cors import CORS
 from openai import OpenAI
 import os
@@ -25,6 +25,17 @@ CORS(
     allow_headers="*",
     methods=["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"]
 )
+
+# Handle preflight OPTIONS explicitly
+@app.before_request
+def handle_options():
+    if request.method == "OPTIONS":
+        response = make_response()
+        response.headers.add("Access-Control-Allow-Origin", "https://netlify-equicad-frontend.netlify.app")
+        response.headers.add("Access-Control-Allow-Credentials", "true")
+        response.headers.add("Access-Control-Allow-Headers", "*")
+        response.headers.add("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,OPTIONS,PATCH")
+        return response
 
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
