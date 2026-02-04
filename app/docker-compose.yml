@@ -8,17 +8,6 @@ services:
       - ./backend/.env
     ports:
       - "5000:5000"
-    command: >
-      gunicorn app:app
-      --workers 2
-      --threads 4
-      --timeout 300
-      --max-requests 1000
-      --max-requests-jitter 100
-      --bind 0.0.0.0:5000
-      --access-logfile -
-      --error-logfile -
-      --log-level info
     depends_on:
       redis:
         condition: service_healthy
