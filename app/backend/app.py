@@ -15,11 +15,16 @@ import uuid
 from flask import send_from_directory
 
 app = Flask(__name__)
-CORS(app, origins=[
-    "https://equicad-frontend.onrender.com",
-    "https://netlify-equicad-frontend.netlify.app",
-    "http://localhost:3000"
-])
+CORS(
+    app,
+    resources={r"/*": {"origins": [
+        "https://netlify-equicad-frontend.netlify.app",
+        "http://localhost:3000"
+    ]}},
+    supports_credentials=True,
+    allow_headers="*",
+    methods=["GET", "POST", "OPTIONS"]
+)
 
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
