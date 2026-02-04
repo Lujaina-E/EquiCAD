@@ -22,8 +22,8 @@ CORS(
         "http://localhost:3000"
     ],
     supports_credentials=True,
-    allow_headers="*",
-    methods=["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"]
+    # allow_headers="*",
+    # methods=["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"]
 )
 
 load_dotenv()
