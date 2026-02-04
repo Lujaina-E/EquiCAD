@@ -105,7 +105,7 @@ a) create a .env file in the directory /app/frontend/ and place this line:
 
   b) create a .env.production file in the directory /app/frontend/ and place this line: 
 
-`VITE_API_URL=https://equicad-lexy.onrender.com/api`
+`VITE_API_URL=https://equicad-production.up.railway.app/api`
 
 2. Backend Environment Variables 
    
