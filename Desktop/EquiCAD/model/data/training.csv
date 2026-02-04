@@ -1,0 +1,4433 @@
+Data Point
+"{
+  ""Text"": ""While both genders reported chest pain as the most frequent complaint, women more often added atypical symptoms. These vague complaints may have led clinicians to broaden the differential diagnosis and include non-cardiac diseases. Women reported a history of CAD less frequently than men. 
+After accounting for these variables, women were still less likely to undergo diagnostic angiography than men."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Symptom Misinterpretation""
+}"
+"{
+  ""Text"": ""The primary influence of gender was the decision to perform coronary angiography. Although gender did not influence the decision to proceed with coronary revascularization, it did impact on the modality of coronary revascularization."",
+  ""Assigned Label"": ""No Bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""In contrast, in patients undergoing an initial strategy of PTCA, women were significantly less likely than men to undergo a subsequent revascularization, with a relative risk of 0.74 (P50.011)."",
+   ""Assigned Label"": ""No Bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""It should also be acknowledged that we were able to track only clinically-driven TVR that might have been less in women, not because of less restenosis but rather because of fewer referrals for repeat catheterisations."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Women are less likely to have a discussion around risk factors for coronary artery disease compared with men."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Angiography was more consistently rated as having ‘high’ utility for male versus female patients."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Therapies for female-predominant phenotypes including nonobstructive coronary artery disease and heart failure with preserved ejection fraction are less well researched, contributing to undertreated female patients."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Women often have their presenting symptoms misattributed to non-AMI etiologies."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Symptom Misinterpretation""
+}"
+"{
+  ""Text"": ""Women are under-represented in cardiovascular trials, even when taking the prevalence to participant ratio into account."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Sampling Bias""
+}"
+"{
+  ""Text"": ""There are fewer proven therapeutic options for conditions with a female predisposition such as HFpEF and MINOCA because of fewer trials conducted and more negative outcomes in trials."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Sampling Bias""
+}"
+"{
+  ""Text"": ""Women are less likely to receive timely reperfusion therapy for ST-elevation myocardial infarction, coronary angiography for non-ST-elevation myocardial infarction, dual antiplatelet therapy, and secondary prevention therapies."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Provider bias in interpreting a greater number of presenting symptoms, some of which have been labelled as ‘atypical,’ can lead to mislabelling presentations as noncardiovascular."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Symptom Misinterpretation""
+}"
+"{
+  ""Text"": ""Coronary microvascular dysfunction and MINOCA, which are more common in women, often require additional testing that is not always considered standard of care."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Women with an AMI but no obstructive CAD are less likely to undergo additional diagnostic testing needed to identify MINOCA."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Since the nonobstructive type is harder to diagnose, women may not be diagnosed and treated as quickly as men."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Even women who have a history of CAD were less likely to report discussions around risk factors compared with men."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Women are under-referred for invasive cardiac procedures even when indications are present."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Women are 21% less likely than men to be told they are at risk for heart disease, 15% less likely to be told they are at risk of CAD, and are also less likely to self-identify as being at risk. This difference exists even after accounting for sociodemographic characteristics, access to health care, medical history, and the presence of traditional risk factors."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Despite the greater associated risk of diabetes to AMI for women, they are less likely to receive guideline-recommended care from their physicians."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Silent myocardial infarctions, which tend to be more prevalent among women, may not be identifiable from hospital records."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Women with an AMI but no obstructive CAD require additional testing that is not always considered standard of care."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""The electrocardiograph is a cornerstone investigation in the diagnosis of AMI, however, electrocardiograph changes are less common for women with MINOCA, which might further contribute to provider bias in attributing presenting symptoms to noncardiac causes."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Symptom Misinterpretation""
+}"
+"{
+  ""Text"": ""Women, however, are more likely to describe their chest pain differently (tightness as opposed to pressure), present with additional symptoms such as jaw pain or dyspnea, and are therefore less likely to have their symptoms recognized as cardiac by treating physicians resulting in provider bias."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Symptom Misinterpretation""
+}"
+"{
+  ""Text"": ""Therefore, symptoms that might be categorized as ‘noncardiac’ on the basis of this definition might not truly be unrelated to cardiac causes for women."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Symptom Misinterpretation""
+}"
+"{
+  ""Text"": ""A contemporary meta-analysis of 2,264,600 primary care patients at high risk or with established cardiovascular disease showed lower prescription rates of aspirin, statins, and angiotensin-converting enzyme inhibitors in women compared with men."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""At the patient level, women attend cardiac rehabilitation postevent to a lesser extent and are less likely to be followed by a specialist, particularly with nonobstructive syndromes."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Furthermore, there are data to suggest that providers are less likely to refer patients if they are older and are women."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""The limited number of observations for younger veterans and active duty personnel with coronary heart disease is especially pronounced among women."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Sampling Bias""
+}"
+"{
+  ""Text"": ""Despite less time being spent discussing risk factors, paradoxically we know that women with CAD tend to have more risk factors than their age-matched counterparts."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Women are more likely to have prehospital delay in presentation after symptom onset (by ∼30 min compared to men), as well as underdiagnosis of myocardial infarction and lower priority for emergency ambulance services, while less likely to be presented to a percutaneous coronary intervention-capable facility 
+and receive reperfusion therapy."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""The limited number of observations for younger age bands, especially among women, could introduce error into our age-adjusted estimates."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Sampling Bias""
+}"
+"{
+  ""Text"": ""Since the nonobstructive type is harder to diagnose, women may not be diagnosed and treated as quickly as men."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""After an abnormal cardiac stress test, women are less likely to undergo any subsequent diagnostic testing, including secondary stress testing or angiography."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Respondents were less certain of their CAD estimates for the female patient."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Cardiologists who associated risk taking more with men than with women were more likely to view angiography as highly useful for male versus female patients."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""An assumption that all women with symptoms of angina or an abnormal stress test do not have obstructive CAD could result in significant health disparities."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Symptom Misinterpretation""
+}"
+"{
+  ""Text"": ""Physicians estimated the likelihood of obstructive CAD similarly but felt less certain of these estimates for the female patient."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Implicit gender bias explained some, but not all, of the gender variability in simulated clinical decision-making for suspected CAD."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""The inappropriate application of prior knowledge or assumptions about differences between populations can result in knowledge-mediated bias. An assumption that all women with symptoms of angina or an abnormal stress test do not have obstructive CAD or are more risk avoidant, resulting in lower angiography 
+rates in women, could result in significant health disparities."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Symptom Misinterpretation""
+}"
+"{
+  ""Text"": ""Until recently, few longitudinal studies of CAD in the general population have included women subjects."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Sampling Bias""
+}"
+"{
+  ""Text"": ""None of these variables entered the models, showing that depression and flights of stairs per day were risk factors exclusively for women and fibrinogen was important only in men."",
+  ""Assigned Label"": ""No Bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Female sex is conventionally considered a risk factor for coronary artery bypass grafting and has been included as a poor prognostic factor in multiple cardiac operative risk evaluation scores."",
+  ""Assigned Label"": ""No Bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Despite these facts, studies have suggested that physicians are less likely to pursue an aggressive approach to CAD in women than in men."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Some studies have shown higher rates of mortality and complications in women compared with men after coronary revascularization; however, after multivariable adjustment, female sex was often deemed not an independent predictor of poor outcome."",
+  ""Assigned Label"": ""No Bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""In STICH, the inclusion and exclusion criteria added to a protocolized application of medical therapy may have made women more similar to their male counterparts, and they may have received better medical therapy compared with cohort studies without those stipulations. Others have reported a lower use of 
+medical therapy in women with CAD with less cardiovascular disease risk stratification."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Women consistently present with a higher burden of symptoms and comorbidities as compared with men and experience worse outcomes."",
+  ""Assigned Label"": ""No Bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Potential explanations for this difference include differential diagnosis of CHD by physicians or differential treatment whereby physicians do not treat CHD as aggressively in women."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Women more often had non-obstructive CAD (17% vs. 5.4%, P < .01) and were less likely to have either three-vessel disease (15% vs. 20%, P = .02) or a significant LMCA stenosis (6.8% vs. 11%, P < .01)."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Obstructive coronary artery disease is more common in men, while nonobstructive coronary artery disease is more common in women."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Women are more likely to have heart disease in the tiny arteries of the heart, called coronary microvascular disease. This can make the disease harder to identify and cause delays in treatment."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""The size and structure of the heart is different for women and men. A woman’s heart and blood vessels are smaller, and the muscular walls of women’s hearts are thinner."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""There was a trend for percutaneous coronary revascularization among women, and conversely, a trend for surgical revascularization among men."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""ACE-I and ARBs were least likely to be prescribed (63%), but again indistinguishable between genders [OR = 0.92 (0.77-1.09)]. There was no difference in the prescription of any of these medications by gender at the time of discharge."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Once significant CAD was elucidated, women and men were equally referred for revascularization procedures."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Numerous studies have shown that women undergoing coronary revascularization procedures do so at a higher risk for an adverse outcome compared with men."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Women were older (64.0 versus 60.5 years), with more congestive heart failure (14% versus 7%), hypertension (68% versus 42%), treated diabetes mellitus (31% versus 15%), and unstable angina (67% versus 61%) than men."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""In patients undergoing an initial strategy of CABG, women were significantly more likely to undergo a subsequent procedure, with a relative risk of 1.74 (P50.043)."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""In women undergoing PTCA, there was a higher incidence of congestive heart failure or pulmonary edema (4.8% versus 1.4%) than in men (P50.005)."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""At 4 years, in patients undergoing an initial strategy of CABG, 18.8% of women compared with 13.2% of men (P50.047) reported angina, whereas in patients undergoing an initial strategy of PTCA, 23.3% of women compared with 19.7% of men (P50.27) reported anginal symptoms."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""The incidence of periprocedural congestive heart failure or pulmonary edema was significantly higher in both treatment strategies in women compared with men."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Women are less prone to CAD than men, which could partly be attributable to differences in gene–environment interactions. Interestingly, the locus on chromosome 10q11.21 showed a stronger association in women than in men. The nature of the locus with CXCL12 as the most proximate gene (Table 3) 
+does not suggest an immediate mechanism that could explain a gender interaction and whether this finding, which was of borderline statistical significance and would not have been significant if we had adjusted for the multiple interaction analyses carried out, represents a true sex difference in effect requires 
+further investigation."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Using an unselected PCI population, our gender-specific and stent-based risk-adjusted analysis indicates a profound prognostic advantage for DES compared to BMS in both genders. Female patients appeared to derive an even greater benefit from DES treatment."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""The benefits of reduced mortality and MI with DES were even more apparent among women, whereas the decline in TVR was more intense among men."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Thus, our data encourage that the use of DES be maximised among both women and men in order to attenuate the potential difference in cardiac prognosis between genders."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Sex influences pathogenesis, pathophysiology, presentation, postoperative complications, surgical outcomes, and survival."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""The short and long sleep duration increased the mortality of CAD in females, but the effect wasn’t found in males."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""After the subgroup analysis, the negative effect of short and long sleep duration was only observed for mortality of CAD in females."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Men were treated more often for STEMI compared to women. However, the rate of PCI for acute coronary syndrome (including STEMI, non-STEMI, and unstable angina together) was similar for both women and men."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Women were treated more often for proximal main vessel disease, but men were more likely to sustain three-vessel CAD."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Earlier studies have suggested that women sustain increased mortality following PCI compared to men, which may be explained by differences in comorbid clinical conditions."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""CBF change was 2-fold larger in premenopausal women compared with age-matched men."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Compared to men, women had less obstructive disease and a lower plaque mass."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Intensive risk-factors’ modification had the same beneficial effects on plaque progression in both genders."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Women with stable angina or acute coronary syndromes (ACS) experience higher in-hospital mortality, 1-year post-event mortality, and 5-year mortality after myocardial infarction (MI) as compared to men."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""The gender differences in clinical and angiographic outcomes following PCI seem to be more profound in acute coronary syndromes, particularly following MI events."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Gender influences atherosclerotic coronary artery disease (CAD) risk, and may conceivably affect the efficacy of coronary revascularisation procedures."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""The impact of DES on clinical and angiographic outcomes in women is of particular interest because CAD is a major determinant of morbidity and mortality among both genders, but particularly among elderly women."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Although angiographic success of attempted lesions was similar in women and men, angiographic success of intended lesions was higher in women because complete revascularization (number of intended lesions successfully dilated) was achieved more often in women."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""At an average of 5.4 years after revascularization, mortality and mortality plus myocardial infarction were the same for women and men in both treatment strategies."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""There was a similar occurrence of triple-vessel coronary disease and similar numbers of significant lesions, significant proximal lesions, significant proximal left anterior descending artery lesions, and total occlusions in women and men. Lesion morphology was also similar between groups."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""The mean number of significant lesions and the number of total grafts were the same in women and men."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Although angiographic success in attempted lesions was similar between women and men (80% versus 78%), angiographic success in intended lesions was higher in women (75% versus 71%) than in men."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Premenopausal women have sex-specific protective mechanisms against obstructive CAD of the epicardial vessels."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Chest pain remains the typical symptom for both sexes who present with acute myocardial infarction."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Angiographically, women are more likely to have nonobstructive coronary artery disease compared with men."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""MINOCA accounts for 10.5% and 3.4% of AMI presentations for women and men respectively."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""In young adults who present with acute myocardial infarction (AMI), paradoxically women are more likely than men to have diabetes."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Women continue to have higher in-hospital, short-term, and long-term mortality rates than men after an AMI."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Women are also at increased risk of serious side effects of reperfusion therapy including bleeding, particularly with thrombolytics."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""SCAD has a unique demographic and risk factor profile, with women comprising approximately 90% of cases."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""SCAD is believed to be the etiology of MI in 24–35% of women below the age of 60 years."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""SCAD is the most common etiology of MI in pregnant patients."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Pregnancy-associated SCAD accounts for approximately 5–10% of all SCAD cases."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Women have more microvascular dysfunction compared to men, which could be the basis of premature CAD."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Women undergoing CABG tended to have more comorbidities at surgical presentation than men."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""However, studies focused on coronary syndrome in women corroborate the idea that women with comorbid depression have a higher incidence of cardiovascular events."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Women are known to have smaller body surface area with relatively smaller coronary arteries; a more advanced and diffuse stage of coronary artery disease (CAD)."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""According to the known risk stratification systems, such as the European System for Cardiac Operative Risk Evaluation and the Society of Thoracic Surgeons score, female sex is considered a risk factor for mortality after CABG."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Women referred for coronary artery bypass grafting (CABG) have been reported to have higher perioperative mortality and morbidity compared to men."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Women have smaller coronary arteries, which may make some diagnostic and therapeutic procedures less successful."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Women tend to experience myocardial infarction 10 years later than men."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Women have a greater incidence of diabetes when they experience myocardial infarction."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Early large angiographic studies determined that women with typical angina had less obstructive CAD compared to men."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Women are more likely to present with evidence of ischaemia and no obstructive coronary arteries compared to men, although they paradoxically have more chest pain."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Caption"": ""Table 3. 30-day and 12-month outcome."",
+  ""table"": {
+    ""population"": {
+      ""women_n"": 802,
+      ""men_n"": 2151
+    },
+    ""columns"": [
+      { ""key"": ""timepoint"", ""label"": """" },
+      { ""key"": ""outcome"", ""label"": """" },
+      { ""key"": ""women"", ""label"": ""Women (n = 802)"", ""sublabel"": ""n (%)"" },
+      { ""key"": ""men"", ""label"": ""Men (n = 2151)"", ""sublabel"": ""n (%)"" },
+      { ""key"": ""p_value"", ""label"": ""p value"" }
+    ],
+    ""rowGroups"": [
+      { ""key"": ""30_day"", ""label"": ""30-day"" },
+      { ""key"": ""12_month"", ""label"": ""12-month"" }
+    ],
+    ""rows"": [
+      {
+        ""group"": ""30_day"",
+        ""timepoint"": ""30-day"",
+        ""outcome"": ""Death"",
+        ""women"": ""38 (4.7)"",
+        ""men"": ""51 (2.4)"",
+        ""p_value"": ""0.001""
+      },
+      {
+        ""group"": ""30_day"",
+        ""timepoint"": ""30-day"",
+        ""outcome"": ""Myocardial infarction"",
+        ""women"": ""25 (3.1)"",
+        ""men"": ""49 (2.3)"",
+        ""p_value"": ""0.233""
+      },
+      {
+        ""group"": ""30_day"",
+        ""timepoint"": ""30-day"",
+        ""outcome"": ""Target vessel revascularization"",
+        ""women"": ""32 (4.0)"",
+        ""men"": ""54 (2.5)"",
+        ""p_value"": ""0.037""
+      },
+      {
+        ""group"": ""30_day"",
+        ""timepoint"": ""30-day"",
+        ""outcome"": ""Major adverse cardiac events"",
+        ""women"": ""81 (10.1)"",
+        ""men"": ""138 (6.4)"",
+        ""p_value"": ""0.001""
+      },
+      {
+        ""group"": ""12_month"",
+        ""timepoint"": ""12-month"",
+        ""outcome"": ""Death"",
+        ""women"": ""51 (6.4)"",
+        ""men"": ""103 (4.8)"",
+        ""p_value"": ""0.094""
+      },
+      {
+        ""group"": ""12_month"",
+        ""timepoint"": ""12-month"",
+        ""outcome"": ""Myocardial infarction"",
+        ""women"": ""44 (5.5)"",
+        ""men"": ""108 (5.0)"",
+        ""p_value"": ""0.640""
+      },
+      {
+        ""group"": ""12_month"",
+        ""timepoint"": ""12-month"",
+        ""outcome"": ""Target vessel revascularization"",
+        ""women"": ""63 (7.9)"",
+        ""men"": ""150 (7.0)"",
+        ""p_value"": ""0.424""
+      },
+      {
+        ""group"": ""12_month"",
+        ""timepoint"": ""12-month"",
+        ""outcome"": ""Major adverse cardiac events"",
+        ""women"": ""131 (16.3)"",
+        ""men"": ""302 (14)"",
+        ""p_value"": ""0.128""
+      }
+    ]
+  },
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Sampling Bias""
+}"
+"{
+  ""Caption"": ""Table 1. Baseline clinical and procedural characteristics of the study population."",
+  ""table"": {
+    ""columns"": [
+      { ""key"": ""variable"", ""label"": ""Variable"", ""sublabel"": """" },
+      { ""key"": ""women"", ""label"": ""Women (n = 802)"", ""sublabel"": ""n (%)"" },
+      { ""key"": ""men"", ""label"": ""Men (n = 2151)"", ""sublabel"": ""n (%)"" },
+      { ""key"": ""p_value"", ""label"": ""p value"", ""sublabel"": """" }
+    ],
+    ""rowGroups"": [
+      { ""key"": ""baseline"", ""label"": """" },
+      { ""key"": ""smoking_history_breakdown"", ""label"": ""Smoking history"" },
+      { ""key"": ""coronary_vessel_treated"", ""label"": ""Coronary vessel treated"" },
+      { ""key"": ""stent_type"", ""label"": ""Stent type"" }
+    ],
+    ""rows"": [
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Age (years)"",
+        ""cells"": {
+          ""women"": { ""display"": ""69.6 ± 11.6"" },
+          ""men"": { ""display"": ""62.17 ± 12.3"" },
+          ""p_value"": { ""display"": ""<0.001"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Unstable angina"",
+        ""cells"": {
+          ""women"": { ""display"": ""257 (32)"" },
+          ""men"": { ""display"": ""550 (25.6)"" },
+          ""p_value"": { ""display"": ""<0.001"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Non-ST-elevation myocardial infarct"",
+        ""cells"": {
+          ""women"": { ""display"": ""300 (37.4)"" },
+          ""men"": { ""display"": ""785 (36.5)"" },
+          ""p_value"": { ""display"": ""0.668"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""ST-elevation myocardial infarct"",
+        ""cells"": {
+          ""women"": { ""display"": ""245 (30.5)"" },
+          ""men"": { ""display"": ""816 (37.9)"" },
+          ""p_value"": { ""display"": ""<0.001"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Diabetes mellitus"",
+        ""cells"": {
+          ""women"": { ""display"": ""217 (27.1)"" },
+          ""men"": { ""display"": ""422 (19.6)"" },
+          ""p_value"": { ""display"": ""<0.001"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Hypertension"",
+        ""cells"": {
+          ""women"": { ""display"": ""564 (70.3)"" },
+          ""men"": { ""display"": ""1156 (53.9)"" },
+          ""p_value"": { ""display"": ""<0.001"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Dyslipidaemia"",
+        ""cells"": {
+          ""women"": { ""display"": ""544 (68.3)"" },
+          ""men"": { ""display"": ""1380 (64.7)"" },
+          ""p_value"": { ""display"": ""0.066"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Smoking history"",
+        ""cells"": {
+          ""women"": { ""display"": ""388 (49.1)"" },
+          ""men"": { ""display"": ""1513 (71.7)"" },
+          ""p_value"": { ""display"": ""<0.001"" }
+        }
+      },
+      {
+        ""group"": ""smoking_history_breakdown"",
+        ""label"": ""Current smoker"",
+        ""cells"": {
+          ""women"": { ""display"": ""163 (20.6)"" },
+          ""men"": { ""display"": ""634 (30)"" },
+          ""p_value"": { ""display"": ""<0.001"" }
+        }
+      },
+      {
+        ""group"": ""smoking_history_breakdown"",
+        ""label"": ""Ex-smoker"",
+        ""cells"": {
+          ""women"": { ""display"": ""225 (28.4)"" },
+          ""men"": { ""display"": ""879 (41.7)"" },
+          ""p_value"": { ""display"": ""<0.001"" }
+        }
+      },
+      {
+        ""group"": ""smoking_history_breakdown"",
+        ""label"": ""Never smoked"",
+        ""cells"": {
+          ""women"": { ""display"": ""403 (50.9)"" },
+          ""men"": { ""display"": ""597 (28.3)"" },
+          ""p_value"": { ""display"": ""<0.001"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Renal failure"",
+        ""cells"": {
+          ""women"": { ""display"": ""37 (4.6)"" },
+          ""men"": { ""display"": ""95 (4.4)"" },
+          ""p_value"": { ""display"": ""0.841"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Current congestive heart failure"",
+        ""cells"": {
+          ""women"": { ""display"": ""33 (4.1)"" },
+          ""men"": { ""display"": ""68 (3.2)"" },
+          ""p_value"": { ""display"": ""0.211"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Cardiogenic shock"",
+        ""cells"": {
+          ""women"": { ""display"": ""35 (4.4)"" },
+          ""men"": { ""display"": ""71 (3.3)"" },
+          ""p_value"": { ""display"": ""0.182"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Previous PCI"",
+        ""cells"": {
+          ""women"": { ""display"": ""145 (18.1)"" },
+          ""men"": { ""display"": ""384 (17.9)"" },
+          ""p_value"": { ""display"": ""0.914"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Previous CABG"",
+        ""cells"": {
+          ""women"": { ""display"": ""43 (5.4)"" },
+          ""men"": { ""display"": ""164 (7.6)"" },
+          ""p_value"": { ""display"": ""0.035"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Femoral artery access site"",
+        ""cells"": {
+          ""women"": { ""display"": ""776 (96.8)"" },
+          ""men"": { ""display"": ""2081 (96.7)"" },
+          ""p_value"": { ""display"": ""0.985"" }
+        }
+      },
+      {
+        ""group"": ""coronary_vessel_treated"",
+        ""label"": ""Left main"",
+        ""cells"": {
+          ""women"": { ""display"": ""6 (0.7)"" },
+          ""men"": { ""display"": ""15 (0.7)"" },
+          ""p_value"": { ""display"": ""0.811"" }
+        }
+      },
+      {
+        ""group"": ""coronary_vessel_treated"",
+        ""label"": ""Left anterior descending artery"",
+        ""cells"": {
+          ""women"": { ""display"": ""307 (38.3)"" },
+          ""men"": { ""display"": ""770 (35.8)"" },
+          ""p_value"": { ""display"": ""0.213"" }
+        }
+      },
+      {
+        ""group"": ""coronary_vessel_treated"",
+        ""label"": ""Left circumflex artery"",
+        ""cells"": {
+          ""women"": { ""display"": ""109 (13.6)"" },
+          ""men"": { ""display"": ""307 (14.3)"" },
+          ""p_value"": { ""display"": ""0.677"" }
+        }
+      },
+      {
+        ""group"": ""coronary_vessel_treated"",
+        ""label"": ""Right coronary artery"",
+        ""cells"": {
+          ""women"": { ""display"": ""282 (35.2)"" },
+          ""men"": { ""display"": ""699 (32.5)"" },
+          ""p_value"": { ""display"": ""0.174"" }
+        }
+      },
+      {
+        ""group"": ""coronary_vessel_treated"",
+        ""label"": ""Bypass graft"",
+        ""cells"": {
+          ""women"": { ""display"": ""15 (1.9)"" },
+          ""men"": { ""display"": ""65 (3.0)"" },
+          ""p_value"": { ""display"": ""0.097"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Type B2/C lesion"",
+        ""cells"": {
+          ""women"": { ""display"": ""420 (52.4)"" },
+          ""men"": { ""display"": ""1179 (54.8)"" },
+          ""p_value"": { ""display"": ""0.245"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Bifurcation lesion"",
+        ""cells"": {
+          ""women"": { ""display"": ""47 (5.9)"" },
+          ""men"": { ""display"": ""161 (7.5)"" },
+          ""p_value"": { ""display"": ""0.145"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Chronic total occlusion"",
+        ""cells"": {
+          ""women"": { ""display"": ""22 (2.7)"" },
+          ""men"": { ""display"": ""49 (2.3)"" },
+          ""p_value"": { ""display"": ""0.499"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Ostial lesion"",
+        ""cells"": {
+          ""women"": { ""display"": ""24 (3.0)"" },
+          ""men"": { ""display"": ""60 (2.8)"" },
+          ""p_value"": { ""display"": ""0.804"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Stent length (mm) ≥20"",
+        ""cells"": {
+          ""women"": { ""display"": ""244 (30.4)"" },
+          ""men"": { ""display"": ""722 (33.6)"" },
+          ""p_value"": { ""display"": ""0.112"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Stent diameter (mm) ≤2.5"",
+        ""cells"": {
+          ""women"": { ""display"": ""239 (29.8)"" },
+          ""men"": { ""display"": ""471 (21.9)"" },
+          ""p_value"": { ""display"": ""<0.001"" }
+        }
+      },
+      {
+        ""group"": ""stent_type"",
+        ""label"": ""Balloon only"",
+        ""cells"": {
+          ""women"": { ""display"": ""49 (6.1)"" },
+          ""men"": { ""display"": ""101 (4.7)"" },
+          ""p_value"": { ""display"": ""0.243"" }
+        }
+      },
+      {
+        ""group"": ""stent_type"",
+        ""label"": ""DES"",
+        ""cells"": {
+          ""women"": { ""display"": ""393 (49)"" },
+          ""men"": { ""display"": ""1042 (48.4)"" },
+          ""p_value"": { ""display"": ""0.253"" }
+        }
+      },
+      {
+        ""group"": ""stent_type"",
+        ""label"": ""BMS"",
+        ""cells"": {
+          ""women"": { ""display"": ""360 (44.9)"" },
+          ""men"": { ""display"": ""1008 (46.9)"" },
+          ""p_value"": { ""display"": ""0.726"" }
+        }
+      },
+      {
+        ""group"": ""baseline"",
+        ""label"": ""Glycoprotein IIb/IIIa inhibitor"",
+        ""cells"": {
+          ""women"": { ""display"": ""269 (22.7)"" },
+          ""men"": { ""display"": ""916 (42.6)"" },
+          ""p_value"": { ""display"": ""<0.001"" }
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Sampling Bias""
+}"
+"{
+  ""Caption"": ""Table 1. Characteristics of Participants (N = 1,311,116), Study of Patterns of Co-Occurrence of Chronic Diseases Among People Aged ≥75 in Tokyo, Japan, September 2013–August 2014"",
+  ""table"": {
+    ""population"": {
+      ""total_n"": 1311116
+    },
+    ""columns"": [
+      { ""key"": ""characteristic"", ""label"": ""Characteristic"", ""sublabel"": """" },
+      { ""key"": ""n_percent"", ""label"": ""N (%)"", ""sublabel"": """" }
+    ],
+    ""row_groups"": [
+      { ""key"": ""sex"", ""label"": ""Sex"" },
+      { ""key"": ""age"", ""label"": ""Age, y"" },
+      { ""key"": ""income"", ""label"": ""Income"" },
+      { ""key"": ""home_medical_care"", ""label"": ""Use of home medical care services"" },
+      { ""key"": ""outpatient_facilities"", ""label"": ""Number of outpatient facilities visited"" },
+      { ""key"": ""hospital_admissions"", ""label"": ""Number of hospital admissions"" },
+      { ""key"": ""chronic_diseases"", ""label"": ""Number of chronic diseases"" }
+    ],
+    ""rows"": [
+      {
+        ""group"": ""sex"",
+        ""label"": ""Men"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""505,057 (38.5)"", ""count"": 505057, ""percent"": 38.5 }
+        }
+      },
+      {
+        ""group"": ""sex"",
+        ""label"": ""Women"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""806,059 (61.5)"", ""count"": 806059, ""percent"": 61.5 }
+        }
+      },
+
+      {
+        ""group"": ""age"",
+        ""label"": ""75–79"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""597,696 (45.6)"", ""count"": 597696, ""percent"": 45.6 }
+        }
+      },
+      {
+        ""group"": ""age"",
+        ""label"": ""80–84"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""378,177 (28.8)"", ""count"": 378177, ""percent"": 28.8 }
+        }
+      },
+      {
+        ""group"": ""age"",
+        ""label"": ""85–89"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""218,274 (16.6)"", ""count"": 218274, ""percent"": 16.6 }
+        }
+      },
+      {
+        ""group"": ""age"",
+        ""label"": ""90–94"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""88,704 (6.8)"", ""count"": 88704, ""percent"": 6.8 }
+        }
+      },
+      {
+        ""group"": ""age"",
+        ""label"": ""95–99"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""24,172 (1.8)"", ""count"": 24172, ""percent"": 1.8 }
+        }
+      },
+      {
+        ""group"": ""age"",
+        ""label"": ""≥100"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""4,093 (0.3)"", ""count"": 4093, ""percent"": 0.3 }
+        }
+      },
+
+      {
+        ""group"": ""income"",
+        ""label"": ""Nonhigh income"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""1,122,641 (85.6)"", ""count"": 1122641, ""percent"": 85.6 }
+        }
+      },
+      {
+        ""group"": ""income"",
+        ""label"": ""High income"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""188,475 (14.4)"", ""count"": 188475, ""percent"": 14.4 }
+        }
+      },
+
+      {
+        ""group"": ""home_medical_care"",
+        ""label"": ""No"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""1,211,104 (92.4)"", ""count"": 1211104, ""percent"": 92.4 }
+        }
+      },
+      {
+        ""group"": ""home_medical_care"",
+        ""label"": ""Yes"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""100,012 (7.6)"", ""count"": 100012, ""percent"": 7.6 }
+        }
+      },
+
+      {
+        ""group"": ""outpatient_facilities"",
+        ""label"": ""1"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""265,955 (20.3)"", ""count"": 265955, ""percent"": 20.3 }
+        }
+      },
+      {
+        ""group"": ""outpatient_facilities"",
+        ""label"": ""2"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""317,017 (24.2)"", ""count"": 317017, ""percent"": 24.2 }
+        }
+      },
+      {
+        ""group"": ""outpatient_facilities"",
+        ""label"": ""3"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""273,019 (20.8)"", ""count"": 273019, ""percent"": 20.8 }
+        }
+      },
+      {
+        ""group"": ""outpatient_facilities"",
+        ""label"": ""4"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""193,577 (14.8)"", ""count"": 193577, ""percent"": 14.8 }
+        }
+      },
+      {
+        ""group"": ""outpatient_facilities"",
+        ""label"": ""≥5"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""261,548 (19.9)"", ""count"": 261548, ""percent"": 19.9 }
+        }
+      },
+
+      {
+        ""group"": ""hospital_admissions"",
+        ""label"": ""0"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""1,012,827 (77.2)"", ""count"": 1012827, ""percent"": 77.2 }
+        }
+      },
+      {
+        ""group"": ""hospital_admissions"",
+        ""label"": ""1"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""186,212 (14.2)"", ""count"": 186212, ""percent"": 14.2 }
+        }
+      },
+      {
+        ""group"": ""hospital_admissions"",
+        ""label"": ""2"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""66,339 (5.1)"", ""count"": 66339, ""percent"": 5.1 }
+        }
+      },
+      {
+        ""group"": ""hospital_admissions"",
+        ""label"": ""≥3"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""45,738 (3.5)"", ""count"": 45738, ""percent"": 3.5 }
+        }
+      },
+
+      {
+        ""group"": ""chronic_diseases"",
+        ""label"": ""0"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""99,981 (7.6)"", ""count"": 99981, ""percent"": 7.6 }
+        }
+      },
+      {
+        ""group"": ""chronic_diseases"",
+        ""label"": ""1"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""159,514 (12.2)"", ""count"": 159514, ""percent"": 12.2 }
+        }
+      },
+      {
+        ""group"": ""chronic_diseases"",
+        ""label"": ""2"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""204,317 (15.6)"", ""count"": 204317, ""percent"": 15.6 }
+        }
+      },
+      {
+        ""group"": ""chronic_diseases"",
+        ""label"": ""3"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""224,148 (17.1)"", ""count"": 224148, ""percent"": 17.1 }
+        }
+      },
+      {
+        ""group"": ""chronic_diseases"",
+        ""label"": ""4"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""209,506 (16.0)"", ""count"": 209506, ""percent"": 16.0 }
+        }
+      },
+      {
+        ""group"": ""chronic_diseases"",
+        ""label"": ""5"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""167,817 (12.8)"", ""count"": 167817, ""percent"": 12.8 }
+        }
+      },
+      {
+        ""group"": ""chronic_diseases"",
+        ""label"": ""6"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""116,581 (8.9)"", ""count"": 116581, ""percent"": 8.9 }
+        }
+      },
+      {
+        ""group"": ""chronic_diseases"",
+        ""label"": ""7"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""68,967 (5.3)"", ""count"": 68967, ""percent"": 5.3 }
+        }
+      },
+      {
+        ""group"": ""chronic_diseases"",
+        ""label"": ""≥8"",
+        ""cells"": {
+          ""n_percent"": { ""display"": ""60,285 (4.6)"", ""count"": 60285, ""percent"": 4.6 }
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""No Bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}
+"
+"{
+  ""Caption"": ""Table III. Use of diagnostic coronary angiography and severity of coronary artery disease among those treated for AMI at hospitals with cardiac catheterization laboratories"",
+  ""table"": {
+    ""population"": {
+      ""women_n"": 1019,
+      ""men_n"": 1139
+    },
+    ""columns"": [
+      { ""key"": ""characteristic"", ""label"": ""Characteristic"", ""sublabel"": """" },
+      { ""key"": ""women"", ""label"": ""Women"", ""sublabel"": ""N = 1,019; n (%)"" },
+      { ""key"": ""men"", ""label"": ""Men"", ""sublabel"": ""N = 1,139; n (%)"" },
+      { ""key"": ""p_value"", ""label"": ""P"", ""sublabel"": """" },
+      { ""key"": ""unadjusted_or"", ""label"": ""Unadjusted OR"", ""sublabel"": """" },
+      { ""key"": ""model1_or"", ""label"": ""Model 1 OR"", ""sublabel"": """" }
+    ],
+    ""row_groups"": [
+      { ""key"": ""angiography"", ""label"": ""Coronary angiography"" },
+      { ""key"": ""cad_severity"", ""label"": ""Severity of coronary artery disease"" }
+    ],
+    ""rows"": [
+      {
+        ""group"": ""angiography"",
+        ""label"": ""Coronary angiography performed"",
+        ""cells"": {
+          ""women"": { ""display"": ""599 (59)"", ""count"": 599, ""percent"": 59.0 },
+          ""men"": { ""display"": ""828 (73)"", ""count"": 828, ""percent"": 73.0 },
+          ""p_value"": ""<.01"",
+          ""unadjusted_or"": { ""display"": ""0.54 (0.45–0.64)"", ""or"": 0.54, ""ci_lower"": 0.45, ""ci_upper"": 0.64 },
+          ""model1_or"": { ""display"": ""0.73 (0.57–0.94)"", ""or"": 0.73, ""ci_lower"": 0.57, ""ci_upper"": 0.94 }
+        }
+      },
+
+      {
+        ""group"": ""cad_severity"",
+        ""label"": ""No significant stenosis"",
+        ""cells"": {
+          ""women"": { ""display"": ""99 (17)"", ""count"": 99, ""percent"": 17.0 },
+          ""men"": { ""display"": ""45 (5.4)"", ""count"": 45, ""percent"": 5.4 },
+          ""p_value"": ""<.01"",
+          ""unadjusted_or"": null,
+          ""model1_or"": null
+        }
+      },
+      {
+        ""group"": ""cad_severity"",
+        ""label"": ""Single vessel CAD"",
+        ""cells"": {
+          ""women"": { ""display"": ""229 (38)"", ""count"": 229, ""percent"": 38.0 },
+          ""men"": { ""display"": ""314 (38)"", ""count"": 314, ""percent"": 38.0 },
+          ""p_value"": "".91"",
+          ""unadjusted_or"": null,
+          ""model1_or"": null
+        }
+      },
+      {
+        ""group"": ""cad_severity"",
+        ""label"": ""Two vessel CAD"",
+        ""cells"": {
+          ""women"": { ""display"": ""140 (23)"", ""count"": 140, ""percent"": 23.0 },
+          ""men"": { ""display"": ""210 (25)"", ""count"": 210, ""percent"": 25.0 },
+          ""p_value"": "".39"",
+          ""unadjusted_or"": null,
+          ""model1_or"": null
+        }
+      },
+      {
+        ""group"": ""cad_severity"",
+        ""label"": ""Three vessel CAD"",
+        ""cells"": {
+          ""women"": { ""display"": ""90 (15)"", ""count"": 90, ""percent"": 15.0 },
+          ""men"": { ""display"": ""164 (20)"", ""count"": 164, ""percent"": 20.0 },
+          ""p_value"": "".02"",
+          ""unadjusted_or"": null,
+          ""model1_or"": null
+        }
+      },
+      {
+        ""group"": ""cad_severity"",
+        ""label"": ""LMCA disease"",
+        ""cells"": {
+          ""women"": { ""display"": ""41 (6.8)"", ""count"": 41, ""percent"": 6.8 },
+          ""men"": { ""display"": ""95 (11)"", ""count"": 95, ""percent"": 11.0 },
+          ""p_value"": ""<.01"",
+          ""unadjusted_or"": null,
+          ""model1_or"": null
+        }
+      },
+      {
+        ""group"": ""cad_severity"",
+        ""label"": ""Three vessel CAD or LMCA"",
+        ""cells"": {
+          ""women"": { ""display"": ""131 (22)"", ""count"": 131, ""percent"": 22.0 },
+          ""men"": { ""display"": ""259 (31)"", ""count"": 259, ""percent"": 31.0 },
+          ""p_value"": ""<.01"",
+          ""unadjusted_or"": null,
+          ""model1_or"": null
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}
+"
+"{
+  ""Caption"": ""Table V. Resuscitation status, stress testing, and planned angiography among subjects treated at hospitals with catheterization laboratories by angiography status and gender"",
+  ""table"": {
+    ""population"": {
+      ""angiogram_performed"": {
+        ""women_n"": 599,
+        ""men_n"": 828
+      },
+      ""angiogram_not_performed"": {
+        ""women_n"": 420,
+        ""men_n"": 311
+      }
+    },
+    ""columns"": [
+      { ""key"": ""characteristic"", ""label"": ""Characteristic"", ""sublabel"": """" },
+      { ""key"": ""ap_women"", ""label"": ""Women"", ""sublabel"": ""Angiogram performed; N = 599; n (%)"" },
+      { ""key"": ""ap_men"", ""label"": ""Men"", ""sublabel"": ""Angiogram performed; N = 828; n (%)"" },
+      { ""key"": ""ap_or"", ""label"": ""OR (95% CI)"", ""sublabel"": ""Angiogram performed"" },
+      { ""key"": ""anp_women"", ""label"": ""Women"", ""sublabel"": ""Angiogram not performed; N = 420; n (%)"" },
+      { ""key"": ""anp_men"", ""label"": ""Men"", ""sublabel"": ""Angiogram not performed; N = 311; n (%)"" },
+      { ""key"": ""anp_or"", ""label"": ""OR (95% CI)"", ""sublabel"": ""Angiogram not performed"" },
+      { ""key"": ""p_value"", ""label"": ""P"", ""sublabel"": """" }
+    ],
+    ""row_groups"": [
+      { ""key"": ""resuscitation_status"", ""label"": ""Resuscitation status"" },
+      { ""key"": ""stress_testing"", ""label"": ""Stress test performed"" },
+      { ""key"": ""future_study"", ""label"": ""Future study planned"" }
+    ],
+    ""rows"": [
+      {
+        ""group"": ""resuscitation_status"",
+        ""label"": ""DNI/DNR"",
+        ""cells"": {
+          ""ap_women"": { ""display"": ""56 (9.4)"", ""count"": 56, ""percent"": 9.4 },
+          ""ap_men"": { ""display"": ""48 (5.8)"", ""count"": 48, ""percent"": 5.8 },
+          ""ap_or"": { ""display"": ""1.68 (1.12–2.50)"", ""or"": 1.68, ""ci_lower"": 1.12, ""ci_upper"": 2.50 },
+          ""anp_women"": { ""display"": ""215 (51)"", ""count"": 215, ""percent"": 51.0 },
+          ""anp_men"": { ""display"": ""127 (41)"", ""count"": 127, ""percent"": 41.0 },
+          ""anp_or"": { ""display"": ""1.52 (1.13–2.04)"", ""or"": 1.52, ""ci_lower"": 1.13, ""ci_upper"": 2.04 },
+          ""p_value"": "".70""
+        }
+      },
+      {
+        ""group"": ""stress_testing"",
+        ""label"": ""Exercise"",
+        ""cells"": {
+          ""ap_women"": { ""display"": ""12 (2.0)"", ""count"": 12, ""percent"": 2.0 },
+          ""ap_men"": { ""display"": ""19 (2.3)"", ""count"": 19, ""percent"": 2.3 },
+          ""ap_or"": { ""display"": ""0.87 (0.42–1.81)"", ""or"": 0.87, ""ci_lower"": 0.42, ""ci_upper"": 1.81 },
+          ""anp_women"": { ""display"": ""3 (1.0)"", ""count"": 3, ""percent"": 1.0 },
+          ""anp_men"": { ""display"": ""4 (1.0)"", ""count"": 4, ""percent"": 1.0 },
+          ""anp_or"": { ""display"": ""0.99 (0.22–4.44)"", ""or"": 0.99, ""ci_lower"": 0.22, ""ci_upper"": 4.44 },
+          ""p_value"": "".88""
+        }
+      },
+      {
+        ""group"": ""stress_testing"",
+        ""label"": ""Pharmacologic"",
+        ""cells"": {
+          ""ap_women"": { ""display"": ""37 (6.2)"", ""count"": 37, ""percent"": 6.2 },
+          ""ap_men"": { ""display"": ""22 (2.7)"", ""count"": 22, ""percent"": 2.7 },
+          ""ap_or"": { ""display"": ""2.41 (1.41–4.13)"", ""or"": 2.41, ""ci_lower"": 1.41, ""ci_upper"": 4.13 },
+          ""anp_women"": { ""display"": ""44 (11)"", ""count"": 44, ""percent"": 11.0 },
+          ""anp_men"": { ""display"": ""37 (12)"", ""count"": 37, ""percent"": 12.0 },
+          ""anp_or"": { ""display"": ""0.87 (0.54–1.38)"", ""or"": 0.87, ""ci_lower"": 0.54, ""ci_upper"": 1.38 },
+          ""p_value"": ""<.01""
+        }
+      },
+      {
+        ""group"": ""stress_testing"",
+        ""label"": ""Any†"",
+        ""cells"": {
+          ""ap_women"": { ""display"": ""49 (8.2)"", ""count"": 49, ""percent"": 8.2 },
+          ""ap_men"": { ""display"": ""38 (4.6)"", ""count"": 38, ""percent"": 4.6 },
+          ""ap_or"": { ""display"": ""1.85 (1.20–2.87)"", ""or"": 1.85, ""ci_lower"": 1.20, ""ci_upper"": 2.87 },
+          ""anp_women"": { ""display"": ""46 (11)"", ""count"": 46, ""percent"": 11.0 },
+          ""anp_men"": { ""display"": ""39 (13)"", ""count"": 39, ""percent"": 13.0 },
+          ""anp_or"": { ""display"": ""0.86 (0.54–1.35)"", ""or"": 0.86, ""ci_lower"": 0.54, ""ci_upper"": 1.35 },
+          ""p_value"": "".02""
+        }
+      },
+      {
+        ""group"": ""future_study"",
+        ""label"": ""Angiography"",
+        ""cells"": {
+          ""ap_women"": { ""display"": ""8 (1.3)"", ""count"": 8, ""percent"": 1.3 },
+          ""ap_men"": { ""display"": ""6 (0.7)"", ""count"": 6, ""percent"": 0.7 },
+          ""ap_or"": { ""display"": ""1.85 (0.64–5.37)"", ""or"": 1.85, ""ci_lower"": 0.64, ""ci_upper"": 5.37 },
+          ""anp_women"": { ""display"": ""11 (2.6)"", ""count"": 11, ""percent"": 2.6 },
+          ""anp_men"": { ""display"": ""13 (4.2)"", ""count"": 13, ""percent"": 4.2 },
+          ""anp_or"": { ""display"": ""0.62 (0.27–1.40)"", ""or"": 0.62, ""ci_lower"": 0.27, ""ci_upper"": 1.40 },
+          ""p_value"": "".10""
+        }
+      },
+      {
+        ""group"": ""future_study"",
+        ""label"": ""Stress test"",
+        ""cells"": {
+          ""ap_women"": { ""display"": ""73 (12)"", ""count"": 73, ""percent"": 12.0 },
+          ""ap_men"": { ""display"": ""124 (15)"", ""count"": 124, ""percent"": 15.0 },
+          ""ap_or"": { ""display"": ""0.79 (0.58–1.07)"", ""or"": 0.79, ""ci_lower"": 0.58, ""ci_upper"": 1.07 },
+          ""anp_women"": { ""display"": ""19 (4.5)"", ""count"": 19, ""percent"": 4.5 },
+          ""anp_men"": { ""display"": ""16 (5.1)"", ""count"": 16, ""percent"": 5.1 },
+          ""anp_or"": { ""display"": ""0.87 (0.44–1.73)"", ""or"": 0.87, ""ci_lower"": 0.44, ""ci_upper"": 1.73 },
+          ""p_value"": "".79""
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}
+"
+"{
+  ""Caption"": ""Table 1. Challenges and Solutions for Women Undergoing Coronary Artery Bypass Grafting"",
+  ""table"": {
+    ""population"": {
+      ""comparison"": ""Women compared with men with coronary artery disease (CAD)""
+    },
+    ""columns"": [
+      { ""key"": ""characteristics"", ""label"": ""Characteristics in women compared with men with CAD"", ""sublabel"": """" },
+      { ""key"": ""challenges"", ""label"": ""Unique challenges in women with CAD"", ""sublabel"": """" },
+      { ""key"": ""solutions"", ""label"": ""Potential solutions to improve outcomes in women"", ""sublabel"": """" }
+    ],
+    ""row_groups"": [
+      { ""key"": ""demographics_risk"", ""label"": ""Demographics and risk profile"" },
+      { ""key"": ""presentation_diagnosis"", ""label"": ""Clinical presentation and diagnosis"" },
+      { ""key"": ""outcomes_perception"", ""label"": ""Outcomes and risk perception"" },
+      { ""key"": ""treatment_utilization"", ""label"": ""Treatment utilization and revascularization"" },
+      { ""key"": ""anatomy_trials"", ""label"": ""Anatomy and research representation"" },
+      { ""key"": ""care_access"", ""label"": ""Access to care and health system factors"" }
+    ],
+    ""rows"": [
+      {
+        ""group"": ""demographics_risk"",
+        ""label"": ""Age and comorbidity burden"",
+        ""cells"": {
+          ""characteristics"": [
+            ""Average several years older"",
+            ""Multiple risk factors/comorbidities""
+          ],
+          ""challenges"": [
+            ""Delayed CAD diagnosis, treatment conservatism, and referral bias""
+          ],
+          ""solutions"": [
+            ""Preoperative factors"",
+            ""Establish effective diagnostic tests in women""
+          ]
+        }
+      },
+      {
+        ""group"": ""presentation_diagnosis"",
+        ""label"": ""Atypical and silent presentation"",
+        ""cells"": {
+          ""characteristics"": [
+            ""More likely to have silent heart attack""
+          ],
+          ""challenges"": [
+            ""Lack of angiographically significant CAD""
+          ],
+          ""solutions"": [
+            ""Improve time to diagnosis"",
+            ""Reduce treatment conservatism and referral bias""
+          ]
+        }
+      },
+      {
+        ""group"": ""presentation_diagnosis"",
+        ""label"": ""Severe initial events"",
+        ""cells"": {
+          ""characteristics"": [
+            ""More likely to present with sudden death""
+          ],
+          ""challenges"": [
+            ""Diagnostic test inaccuracy""
+          ],
+          ""solutions"": [
+            ""Patient and physician education regarding perception of risk""
+          ]
+        }
+      },
+      {
+        ""group"": ""outcomes_perception"",
+        ""label"": ""Post–myocardial infarction outcomes"",
+        ""cells"": {
+          ""characteristics"": [
+            ""More likely to die within 1 year after MI""
+          ],
+          ""challenges"": [
+            ""Incorrect patient and physician perception of risk""
+          ],
+          ""solutions"": []
+        }
+      },
+      {
+        ""group"": ""treatment_utilization"",
+        ""label"": ""Severity and urgency of disease"",
+        ""cells"": {
+          ""characteristics"": [
+            ""More often with urgent or emergent presentation"",
+            ""More severe angina class"",
+            ""Diabetes more powerful risk factor""
+          ],
+          ""challenges"": [
+            ""Lower intraoperative utilization of guideline-directed surgical treatment: arterial grafts, complete revascularization""
+          ],
+          ""solutions"": [
+            ""Intraoperative factors"",
+            ""Use of arterial grafts"",
+            ""Complete revascularization""
+          ]
+        }
+      },
+      {
+        ""group"": ""anatomy_trials"",
+        ""label"": ""Disease pattern and research inclusion"",
+        ""cells"": {
+          ""characteristics"": [
+            ""Greater disabling symptoms despite less extensive coronary disease (small vessel disease)""
+          ],
+          ""challenges"": [
+            ""Smaller coronaries"",
+            ""Suboptimal involvement in clinical trials""
+          ],
+          ""solutions"": [
+            ""Other factors"",
+            ""Sex concordance (physician and patient)""
+          ]
+        }
+      },
+      {
+        ""group"": ""care_access"",
+        ""label"": ""Health system delays and undertreatment"",
+        ""cells"": {
+          ""characteristics"": [
+            ""Longer time to diagnosis"",
+            ""Less likely to undergo ECG, catheterization, receive antiplatelet and statin, and receive revascularization""
+          ],
+          ""challenges"": [],
+          ""solutions"": [
+            ""Centers of specialization for women's health""
+          ]
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}
+"
+"{
+  ""Caption"": ""Table 1. A summary of outcome disparities categorized according to cardiovascular disease state and proposed interventions for addressing bias in each"",
+  ""table"": {
+    ""population"": {
+      ""scope"": ""Cardiovascular disease entities; summary of sex/gender differences, sex/gender bias, and mitigation strategies""
+    },
+    ""columns"": [
+      { ""key"": ""cv_entity"", ""label"": ""Cardiovascular disease entity"", ""sublabel"": """" },
+      { ""key"": ""sex_gender_differences"", ""label"": ""Sex and gender differences"", ""sublabel"": """" },
+      { ""key"": ""sex_gender_bias"", ""label"": ""Sex and gender bias"", ""sublabel"": """" },
+      { ""key"": ""mitigating_bias"", ""label"": ""Mitigating potential bias"", ""sublabel"": """" }
+    ],
+    ""row_groups"": [
+      { ""key"": ""cad_ami"", ""label"": ""Coronary artery disease / acute myocardial infarction"" },
+      { ""key"": ""nonobstructive_cad"", ""label"": ""Nonobstructive coronary artery disease"" },
+      { ""key"": ""af"", ""label"": ""Atrial fibrillation"" },
+      { ""key"": ""hf"", ""label"": ""Heart failure"" },
+      { ""key"": ""pad"", ""label"": ""Peripheral arterial disease"" }
+    ],
+    ""rows"": [
+      {
+        ""group"": ""cad_ami"",
+        ""label"": ""Obstructive CAD/AMI"",
+        ""cells"": {
+          ""cv_entity"": ""Obstructive CAD/AMI"",
+          ""sex_gender_differences"": [
+            ""The definition of “typical, atypical, and noncardiac” chest pain was derived from cohorts that predominantly included men, and is less predictive of obstructive CAD in women, especially those younger than 65 years of age"",
+            ""Women continue to have higher in-hospital, short-term, and long-term mortality rates than men after an AMI""
+          ],
+          ""sex_gender_bias"": [
+            ""Women are less likely to have a discussion around risk factors"",
+            ""Women are less likely to be considered at risk for cardiovascular disease by themselves and by their providers"",
+            ""Women often have their presenting symptoms misattributed to non-AMI etiologies"",
+            ""Women are less likely to attend cardiac rehabilitation, possibly influenced by social barriers (eg, taking time off, transportation challenges, payment)""
+          ],
+          ""mitigating_bias"": [
+            ""Consider public health campaigns to raise awareness of the prevalence of women’s heart disease"",
+            ""Consider improved education and intensified intervention around sex-specific risk factors such as diabetes and psychosocial stress"",
+            ""More research to inform sex-specific practice guidelines"",
+            ""Consider improved education around female-specific obstetric risk and encouraging clinicians to obtain a complete obstetrical history (eg, gestational hypertension, eclampsia, gestational diabetes, preeclampsia, age of menopause) during index cardiovascular visits""
+          ]
+        }
+      },
+      {
+        ""group"": ""nonobstructive_cad"",
+        ""label"": ""Nonobstructive CAD"",
+        ""cells"": {
+          ""cv_entity"": ""Nonobstructive CAD"",
+          ""sex_gender_differences"": [
+            ""MINOCA accounts for 10.5% and 3.4% of AMI presentations for women and men respectively"",
+            ""Up to 40% of the time, plaque rupture or erosion (female-prevalent conditions) is missed on 2-dimensional angiography; intracoronary imaging (eg, optical coherence tomography or intravascular ultrasound) is needed to diagnose this etiology""
+          ],
+          ""sex_gender_bias"": [
+            ""Identifying the underlying etiology of MINOCA often involves additional testing (eg, optical coherence tomography, coronary reactivity testing, positron emission tomography, MRI) that is not always considered standard of care in centers or providers of imaging""
+          ],
+          ""mitigating_bias"": [
+            ""In women with an AMI but no obstructive CAD, consider investigating for MINOCA early when no traditional CAD is found and/or referring women to a centre of excellence (eg, a women’s heart centre)"",
+            ""Perform traditional and sex-specific risk factor screening"",
+            ""Provide lifestyle education and medical treatment in women with MINOCA"",
+            ""Increased use of and approval for diagnostic modalities optimized for the detection of nonobstructive CAD and MINOCA""
+          ]
+        }
+      },
+      {
+        ""group"": ""af"",
+        ""label"": ""AF"",
+        ""cells"": {
+          ""cv_entity"": ""AF"",
+          ""sex_gender_differences"": [
+            ""AF in women is associated with higher mortality than in men and greater stroke risk"",
+            ""Anticoagulated and non-anticoagulated women remain at higher risk of stroke, particularly elderly women and those receiving warfarin as opposed to the newer oral anticoagulants"",
+            ""Women with AF report more associated symptoms and describe their symptoms differently than do men""
+          ],
+          ""sex_gender_bias"": [
+            ""Women are less likely to seek investigations for symptoms and the time to diagnosis of AF is longer than for men"",
+            ""Women are less likely to be prescribed oral anticoagulation even when comorbidities are accounted for"",
+            ""Under-referral of women for ablation, despite higher symptom burden""
+          ],
+          ""mitigating_bias"": [
+            ""Consider more frequent and/or longer monitoring techniques in women with symptoms to detect AF earlier, particularly in those with less characteristic symptoms"",
+            ""Consider prescribing newer oral anticoagulants in women because of excess mortality and bleeding risk in women with AF who are receiving warfarin"",
+            ""Consider more research into why eligible women are under-referred for AF ablation""
+          ]
+        }
+      },
+      {
+        ""group"": ""hf"",
+        ""label"": ""HF"",
+        ""cells"": {
+          ""cv_entity"": ""HF"",
+          ""sex_gender_differences"": [
+            ""Women with HFrEF are less likely to receive target doses of guideline-directed medical therapy and device therapy"",
+            ""Women are more likely to have HFpEF and are more likely to have a higher number of comorbidities""
+          ],
+          ""sex_gender_bias"": [
+            ""Cardiologists may have implicit bias viewing men as stronger and more likely to take risks, which may result in women being approached less often about device therapy"",
+            ""No distinction of guideline therapies for HFpEF despite landmark trials showing sex differences regarding efficacy of therapies for HF populations that disproportionately affect female patients""
+          ],
+          ""mitigating_bias"": [
+            ""Consider closer monitoring of therapies to avoid adverse side effects and achieve optimal target dosing"",
+            ""Shared decision-making around therapies and interventions even if perceived as invasive by provider"",
+            ""More research into HFpEF therapies""
+          ]
+        }
+      },
+      {
+        ""group"": ""pad"",
+        ""label"": ""PAD"",
+        ""cells"": {
+          ""cv_entity"": ""PAD"",
+          ""sex_gender_differences"": [
+            ""PAD in women is diagnosed at a later stage with increased disease complexity, and is associated with increased perioperative complications""
+          ],
+          ""sex_gender_bias"": [
+            ""Lack of research into the factors contributing to sex and gender disparities"",
+            ""No guideline directions on how to screen women for AAA, resulting in a bias toward under-recognition and undertreatment of women with arterial aneurysmal disease""
+          ],
+          ""mitigating_bias"": [
+            ""In women with risk factors for atherosclerotic vascular disease, consider screening for PAD with an ankle-brachial index, especially if age is 50 years or older"",
+            ""Consider using body surface area–adjusted thresholds for intervention when risk-stratifying aneurysmal disease in women""
+          ]
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}
+"
+"{
+  ""Caption"": ""Table 4. 4-Year Incidence of CAD by Sex and Type of First Event"",
+  ""Table"": {
+    ""Columns"": [
+      { ""Key"": ""measure"", ""Label"": ""Measure"" },
+      { ""Key"": ""males"", ""Label"": ""Males"", ""SubLabel"": ""n = 322"" },
+      { ""Key"": ""females"", ""Label"": ""Females"", ""SubLabel"": ""n = 312"" }
+    ],
+    ""RowGroups"": [
+      { ""Key"": ""events"", ""Label"": ""No. of events"" },
+      { ""Key"": ""incidence"", ""Label"": ""Incidence"" }
+    ],
+    ""Rows"": [
+      {
+        ""Group"": ""events"",
+        ""Label"": ""Angina"",
+        ""Cells"": {
+          ""males"": ""7"",
+          ""females"": ""7""
+        }
+      },
+      {
+        ""Group"": ""events"",
+        ""Label"": ""Nonfatal MI"",
+        ""Cells"": {
+          ""males"": ""7"",
+          ""females"": ""5""
+        }
+      },
+      {
+        ""Group"": ""events"",
+        ""Label"": ""Fatal MI"",
+        ""Cells"": {
+          ""males"": ""2"",
+          ""females"": ""2""
+        }
+      },
+      {
+        ""Group"": ""events"",
+        ""Label"": ""Fatal CAD"",
+        ""Cells"": {
+          ""males"": ""3"",
+          ""females"": ""1""
+        }
+      },
+      {
+        ""Group"": ""events"",
+        ""Label"": ""Total"",
+        ""Cells"": {
+          ""males"": ""19"",
+          ""females"": ""15""
+        }
+      },
+      {
+        ""Group"": ""incidence"",
+        ""Label"": ""Crude annual incidence, %"",
+        ""Cells"": {
+          ""males"": ""1.5"",
+          ""females"": ""1.2""
+        }
+      },
+      {
+        ""Group"": ""incidence"",
+        ""Label"": ""Crude annual incidence of subjects aged 30+ y, %"",
+        ""Cells"": {
+          ""males"": ""5.5"",
+          ""females"": ""4.4""
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""No Bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}
+"
+"{
+  ""Caption"": ""Table 3. Clinical Event Rate and Hazard Ratio for Women Versus Men"",
+  ""Table"": {
+    ""Columns"": [
+      { ""Key"": ""clinical_event"", ""Label"": ""Clinical Event"" },
+
+      { ""Key"": ""women_events"", ""Label"": ""Women (n = 148)"", ""SubLabel"": ""No. of events (%)"" },
+      { ""Key"": ""women_km"", ""Label"": ""Women (n = 148)"", ""SubLabel"": ""10-y KM Rate (95% CI), %"" },
+      { ""Key"": ""women_rate"", ""Label"": ""Women (n = 148)"", ""SubLabel"": ""Event Rate per Person-Year"" },
+
+      { ""Key"": ""men_events"", ""Label"": ""Men (n = 1064)"", ""SubLabel"": ""No. of events (%)"" },
+      { ""Key"": ""men_km"", ""Label"": ""Men (n = 1064)"", ""SubLabel"": ""10-y KM Rate (95% CI), %"" },
+      { ""Key"": ""men_rate"", ""Label"": ""Men (n = 1064)"", ""SubLabel"": ""Event Rate per Person-Year"" },
+
+      { ""Key"": ""model"", ""Label"": ""Model"" },
+      { ""Key"": ""hazard_ratio"", ""Label"": ""Hazard Ratio (95% CI)"" },
+      { ""Key"": ""p_value"", ""Label"": ""P Value"" }
+    ],
+    ""RowGroups"": [
+      { ""Key"": ""mortality"", ""Label"": ""Mortality Outcomes"" },
+      { ""Key"": ""hospitalization"", ""Label"": ""Hospitalization Outcomes"" }
+    ],
+    ""Rows"": [
+      {
+        ""Group"": ""mortality"",
+        ""Label"": ""All-cause mortality (Unadjusted)"",
+        ""Cells"": {
+          ""women_events"": ""73 (49.3)"",
+          ""women_km"": ""49.0 (40.8–57.3)"",
+          ""women_rate"": ""0.073"",
+          ""men_events"": ""684 (64.3)"",
+          ""men_km"": ""65.8 (62.7–68.8)"",
+          ""men_rate"": ""0.105"",
+          ""model"": ""Unadjusted"",
+          ""hazard_ratio"": ""0.70 (0.55–0.89)"",
+          ""p_value"": ""0.003""
+        }
+      },
+      {
+        ""Group"": ""mortality"",
+        ""Label"": ""All-cause mortality (Adjusted)"",
+        ""Cells"": {
+          ""women_events"": ""73 (49.3)"",
+          ""women_km"": ""49.0 (40.8–57.3)"",
+          ""women_rate"": ""0.073"",
+          ""men_events"": ""684 (64.3)"",
+          ""men_km"": ""65.8 (62.7–68.8)"",
+          ""men_rate"": ""0.105"",
+          ""model"": ""Adjusted"",
+          ""hazard_ratio"": ""0.67 (0.52–0.86)"",
+          ""p_value"": ""0.002""
+        }
+      },
+      {
+        ""Group"": ""mortality"",
+        ""Label"": ""Cardiovascular mortality (Unadjusted)"",
+        ""Cells"": {
+          ""women_events"": ""48 (32.4)"",
+          ""women_km"": ""34.3 (26.3–42.3)"",
+          ""women_rate"": ""0.048"",
+          ""men_events"": ""496 (46.6)"",
+          ""men_km"": ""52.3 (48.9–55.8)"",
+          ""men_rate"": ""0.076"",
+          ""model"": ""Unadjusted"",
+          ""hazard_ratio"": ""0.64 (0.48–0.86)"",
+          ""p_value"": ""0.003""
+        }
+      },
+      {
+        ""Group"": ""mortality"",
+        ""Label"": ""Cardiovascular mortality (Adjusted)"",
+        ""Cells"": {
+          ""women_events"": ""48 (32.4)"",
+          ""women_km"": ""34.3 (26.3–42.3)"",
+          ""women_rate"": ""0.048"",
+          ""men_events"": ""496 (46.6)"",
+          ""men_km"": ""52.3 (48.9–55.8)"",
+          ""men_rate"": ""0.076"",
+          ""model"": ""Adjusted"",
+          ""hazard_ratio"": ""0.65 (0.48–0.89)"",
+          ""p_value"": ""0.006""
+        }
+      },
+      {
+        ""Group"": ""hospitalization"",
+        ""Label"": ""Mortality or cardiovascular hospitalization (Unadjusted)"",
+        ""Cells"": {
+          ""women_events"": ""112 (75.7)"",
+          ""women_km"": ""76.6 (68.5–84.6)"",
+          ""women_rate"": ""0.111"",
+          ""men_events"": ""879 (82.6)"",
+          ""men_km"": ""85.2 (82.2–88.2)"",
+          ""men_rate"": ""0.135"",
+          ""model"": ""Unadjusted"",
+          ""hazard_ratio"": ""0.87 (0.72–1.06)"",
+          ""p_value"": ""0.180""
+        }
+      },
+      {
+        ""Group"": ""hospitalization"",
+        ""Label"": ""Mortality or cardiovascular hospitalization (Adjusted)"",
+        ""Cells"": {
+          ""women_events"": ""112 (75.7)"",
+          ""women_km"": ""76.6 (68.5–84.6)"",
+          ""women_rate"": ""0.111"",
+          ""men_events"": ""879 (82.6)"",
+          ""men_km"": ""85.2 (82.2–88.2)"",
+          ""men_rate"": ""0.135"",
+          ""model"": ""Adjusted"",
+          ""hazard_ratio"": ""0.86 (0.70–1.05)"",
+          ""p_value"": ""0.144""
+        }
+      },
+      {
+        ""Group"": ""mortality"",
+        ""Label"": ""Sudden cardiac death (Unadjusted)"",
+        ""Cells"": {
+          ""women_events"": ""21 (14.2)"",
+          ""women_km"": ""17.6 (10.7–24.5)"",
+          ""women_rate"": ""0.021"",
+          ""men_events"": ""249 (23.4)"",
+          ""men_km"": ""30.2 (26.8–33.7)"",
+          ""men_rate"": ""0.038"",
+          ""model"": ""Unadjusted"",
+          ""hazard_ratio"": ""0.56 (0.36–0.87)"",
+          ""p_value"": ""0.011""
+        }
+      },
+      {
+        ""Group"": ""mortality"",
+        ""Label"": ""Sudden cardiac death (Adjusted)"",
+        ""Cells"": {
+          ""women_events"": ""21 (14.2)"",
+          ""women_km"": ""17.6 (10.7–24.5)"",
+          ""women_rate"": ""0.021"",
+          ""men_events"": ""249 (23.4)"",
+          ""men_km"": ""30.2 (26.8–33.7)"",
+          ""men_rate"": ""0.038"",
+          ""model"": ""Adjusted"",
+          ""hazard_ratio"": ""0.62 (0.39–0.97)"",
+          ""p_value"": ""0.038""
+        }
+      },
+      {
+        ""Group"": ""mortality"",
+        ""Label"": ""HF death (Unadjusted)"",
+        ""Cells"": {
+          ""women_events"": ""10 (6.8)"",
+          ""women_km"": ""7.5 (2.7–12.3)"",
+          ""women_rate"": ""0.010"",
+          ""men_events"": ""148 (13.9)"",
+          ""men_km"": ""21.9 (18.5–25.4)"",
+          ""men_rate"": ""0.023"",
+          ""model"": ""Unadjusted"",
+          ""hazard_ratio"": ""0.44 (0.23–0.83)"",
+          ""p_value"": ""0.012""
+        }
+      },
+      {
+        ""Group"": ""mortality"",
+        ""Label"": ""HF death (Adjusted)"",
+        ""Cells"": {
+          ""women_events"": ""10 (6.8)"",
+          ""women_km"": ""7.5 (2.7–12.3)"",
+          ""women_rate"": ""0.010"",
+          ""men_events"": ""148 (13.9)"",
+          ""men_km"": ""21.9 (18.5–25.4)"",
+          ""men_rate"": ""0.023"",
+          ""model"": ""Adjusted"",
+          ""hazard_ratio"": ""0.40 (0.21–0.77)"",
+          ""p_value"": ""0.007""
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Sampling Bias""
+}
+"
+"{
+  ""Caption"": ""Table 4. Sex-Specific Differences and Recommendations in Guidelines"",
+  ""Table"": {
+    ""Columns"": [
+      { ""Key"": ""document"", ""Label"": ""Clinical Practice Document"" },
+      { ""Key"": ""differences"", ""Label"": ""Noted Sex-Specific Differences"" },
+      { ""Key"": ""recommendations"", ""Label"": ""Noted Sex-Specific Recommendations"" },
+      { ""Key"": ""knowledge_gaps"", ""Label"": ""Knowledge Gaps"" }
+    ],
+    ""RowGroups"": [
+      { ""Key"": ""guidelines"", ""Label"": ""Clinical Guidelines"" }
+    ],
+    ""Rows"": [
+      {
+        ""Group"": ""guidelines"",
+        ""Label"": ""2013 ACC/AHA STEMI guideline"",
+        ""Cells"": {
+          ""document"": ""2013 ACC/AHA STEMI guideline"",
+          ""differences"": ""30% are women remain undertreated"",
+          ""recommendations"": ""None"",
+          ""knowledge_gaps"": ""Prehospital delay bleeding risks""
+        }
+      },
+      {
+        ""Group"": ""guidelines"",
+        ""Label"": ""2014 ACC/AHA NSTEMI-ACS"",
+        ""Cells"": {
+          ""document"": ""2014 ACC/AHA NSTEMI-ACS"",
+          ""differences"": ""Pregnancy: revascularization if life-threatening complications"",
+          ""recommendations"": ""Early invasive strategy for high risk features"",
+          ""knowledge_gaps"": ""Antithrombotic dosing; Myocardial infarction with nonobstructive coronary arteries""
+        }
+      },
+      {
+        ""Group"": ""guidelines"",
+        ""Label"": ""2012, 2014 update ACC/AHA stable ischemic heart disease"",
+        ""Cells"": {
+          ""document"": ""2012, 2014 update ACC/AHA stable ischemic heart disease"",
+          ""differences"": ""None for PCI, medications, CABG"",
+          ""recommendations"": ""Avoid estrogen replacement therapy in postmenopausal women"",
+          ""knowledge_gaps"": ""Nonobstructive disease diagnosis, treatment""
+        }
+      },
+      {
+        ""Group"": ""guidelines"",
+        ""Label"": ""2011 ACC/AHA PCI"",
+        ""Cells"": {
+          ""document"": ""2011 ACC/AHA PCI"",
+          ""differences"": ""Higher in-hospital mortality; Higher procedural complications"",
+          ""recommendations"": ""None"",
+          ""knowledge_gaps"": ""Vascular access and bleeding risks""
+        }
+      },
+      {
+        ""Group"": ""guidelines"",
+        ""Label"": ""2011 ACC/AHA CABG"",
+        ""Cells"": {
+          ""document"": ""2011 ACC/AHA CABG"",
+          ""differences"": ""Higher perioperative morbidity/mortality; Similar long-term outcomes"",
+          ""recommendations"": ""None; Most data extrapolated from men"",
+          ""knowledge_gaps"": ""Mitigating bleeding risks; Improving complete revascularization""
+        }
+      },
+      {
+        ""Group"": ""guidelines"",
+        ""Label"": ""2020 ESC ACS without STEMI"",
+        ""Cells"": {
+          ""document"": ""2020 ESC ACS without STEMI"",
+          ""differences"": ""None. Noted to follow same treatment"",
+          ""recommendations"": ""Careful antithrombotic dosing periprocedural"",
+          ""knowledge_gaps"": ""Nonobstructive disease""
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}
+"
+"{
+  ""Caption"": ""Table 2. Respondent Characteristics, People With Lifelong Disabilities and No Limitation, National Health Interview Survey, 2006–2012"",
+  ""table"": {
+    ""population"": {
+      ""lifelong_disability_n"": 2619,
+      ""no_limitation_n"": 122395
+    },
+    ""columns"": [
+      { ""key"": ""characteristic"", ""label"": ""Characteristic"", ""sublabel"": """" },
+      { ""key"": ""lifelong_disability"", ""label"": ""Lifelong Disability"", ""sublabel"": ""n = 2,619"" },
+      { ""key"": ""no_limitation"", ""label"": ""No Limitation"", ""sublabel"": ""n = 122,395"" }
+    ],
+    ""row_groups"": [
+      { ""key"": ""age"", ""label"": ""Age"" },
+      { ""key"": ""sex"", ""label"": ""Sex"" },
+      { ""key"": ""race_ethnicity"", ""label"": ""Race/ethnicity"" },
+      { ""key"": ""marital_status"", ""label"": ""Marital status"" },
+      { ""key"": ""work_status_past_year"", ""label"": ""Work status in past year"" },
+      { ""key"": ""chronic_condition"", ""label"": ""Chronic condition"" }
+    ],
+    ""rows"": [
+      {
+        ""group"": ""age"",
+        ""label"": ""Age, mean (SE)"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""43.2 (0.5)"", ""value"": 43.2, ""se"": 0.5, ""unit"": ""years"", ""statistic"": ""mean"" },
+          ""no_limitation"": { ""display"": ""41.4 (0.1)"", ""value"": 41.4, ""se"": 0.1, ""unit"": ""years"", ""statistic"": ""mean"" }
+        }
+      },
+
+      {
+        ""group"": ""sex"",
+        ""label"": ""Male"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""47.1 (1.2)"", ""value"": 47.1, ""se"": 1.2, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""51.8 (0.2)"", ""value"": 51.8, ""se"": 0.2, ""unit"": ""percent"" }
+        }
+      },
+      {
+        ""group"": ""sex"",
+        ""label"": ""Female"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""52.9 (1.2)"", ""value"": 52.9, ""se"": 1.2, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""48.2 (0.2)"", ""value"": 48.2, ""se"": 0.2, ""unit"": ""percent"" }
+        }
+      },
+
+      {
+        ""group"": ""race_ethnicity"",
+        ""label"": ""Non-Hispanic white"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""73.9 (1.6)"", ""value"": 73.9, ""se"": 1.6, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""65.2 (0.3)"", ""value"": 65.2, ""se"": 0.3, ""unit"": ""percent"" }
+        }
+      },
+      {
+        ""group"": ""race_ethnicity"",
+        ""label"": ""Black"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""10.2 (0.8)"", ""value"": 10.2, ""se"": 0.8, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""11.6 (0.2)"", ""value"": 11.6, ""se"": 0.2, ""unit"": ""percent"" }
+        }
+      },
+      {
+        ""group"": ""race_ethnicity"",
+        ""label"": ""Hispanic"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""9.9 (0.7)"", ""value"": 9.9, ""se"": 0.7, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""15.2 (0.2)"", ""value"": 15.2, ""se"": 0.2, ""unit"": ""percent"" }
+        }
+      },
+      {
+        ""group"": ""race_ethnicity"",
+        ""label"": ""Other"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""6.1 (0.5)"", ""value"": 6.1, ""se"": 0.5, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""7.9 (0.2)"", ""value"": 7.9, ""se"": 0.2, ""unit"": ""percent"" }
+        }
+      },
+
+      {
+        ""group"": ""marital_status"",
+        ""label"": ""Married"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""34.5 (1.2)"", ""value"": 34.5, ""se"": 1.2, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""55.1 (0.3)"", ""value"": 55.1, ""se"": 0.3, ""unit"": ""percent"" }
+        }
+      },
+      {
+        ""group"": ""marital_status"",
+        ""label"": ""Divorced"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""10.4 (0.6)"", ""value"": 10.4, ""se"": 0.6, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""7.6 (0.1)"", ""value"": 7.6, ""se"": 0.1, ""unit"": ""percent"" }
+        }
+      },
+      {
+        ""group"": ""marital_status"",
+        ""label"": ""Widow"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""5.1 (0.4)"", ""value"": 5.1, ""se"": 0.4, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""2.9 (0.1)"", ""value"": 2.9, ""se"": 0.1, ""unit"": ""percent"" }
+        }
+      },
+      {
+        ""group"": ""marital_status"",
+        ""label"": ""Separated"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""2.9 (0.4)"", ""value"": 2.9, ""se"": 0.4, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""1.9 (0.04)"", ""value"": 1.9, ""se"": 0.04, ""unit"": ""percent"" }
+        }
+      },
+      {
+        ""group"": ""marital_status"",
+        ""label"": ""Never married"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""39.8 (1.3)"", ""value"": 39.8, ""se"": 1.3, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""25.2 (0.3)"", ""value"": 25.2, ""se"": 0.3, ""unit"": ""percent"" }
+        }
+      },
+      {
+        ""group"": ""marital_status"",
+        ""label"": ""Part of unmarried couple"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""7.3 (0.7)"", ""value"": 7.3, ""se"": 0.7, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""7.4 (0.1)"", ""value"": 7.4, ""se"": 0.1, ""unit"": ""percent"" }
+        }
+      },
+
+      {
+        ""group"": ""work_status_past_year"",
+        ""label"": ""Not working"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""51.3 (1.3)"", ""value"": 51.3, ""se"": 1.3, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""20.2 (0.2)"", ""value"": 20.2, ""se"": 0.2, ""unit"": ""percent"" }
+        }
+      },
+      {
+        ""group"": ""work_status_past_year"",
+        ""label"": ""Working"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""48.7 (1.3)"", ""value"": 48.7, ""se"": 1.3, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""79.8 (0.2)"", ""value"": 79.8, ""se"": 0.2, ""unit"": ""percent"" }
+        }
+      },
+
+      {
+        ""group"": ""chronic_condition"",
+        ""label"": ""Coronary heart disease"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""5.4 (0.5)"", ""value"": 5.4, ""se"": 0.5, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""1.8 (0.1)"", ""value"": 1.8, ""se"": 0.1, ""unit"": ""percent"" }
+        }
+      },
+      {
+        ""group"": ""chronic_condition"",
+        ""label"": ""Cancer"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""8.8 (0.6)"", ""value"": 8.8, ""se"": 0.6, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""4.8 (0.1)"", ""value"": 4.8, ""se"": 0.1, ""unit"": ""percent"" }
+        }
+      },
+      {
+        ""group"": ""chronic_condition"",
+        ""label"": ""Diabetes"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""10.5 (0.9)"", ""value"": 10.5, ""se"": 0.9, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""4.4 (0.1)"", ""value"": 4.4, ""se"": 0.1, ""unit"": ""percent"" }
+        }
+      },
+      {
+        ""group"": ""chronic_condition"",
+        ""label"": ""Obesity"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""34.2 (1.1)"", ""value"": 34.2, ""se"": 1.1, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""24.7 (0.2)"", ""value"": 24.7, ""se"": 0.2, ""unit"": ""percent"" }
+        }
+      },
+      {
+        ""group"": ""chronic_condition"",
+        ""label"": ""Hypertension"",
+        ""cells"": {
+          ""lifelong_disability"": { ""display"": ""33.1 (1.1)"", ""value"": 33.1, ""se"": 1.1, ""unit"": ""percent"" },
+          ""no_limitation"": { ""display"": ""19.1 (0.2)"", ""value"": 19.1, ""se"": 0.2, ""unit"": ""percent"" }
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}
+"
+"{
+  ""Caption"": ""Table 2. Awareness of selected leading health issues, warning signs of a heart attack and responses to signs of a heart attack, according to gender, education and SES"",
+  ""Table"": {
+    ""Columns"": [
+      { ""Key"": ""characteristic"", ""Label"": ""Characteristic"" },
+      { ""Key"": ""male"", ""Label"": ""Male"", ""SubLabel"": ""N (%)"" },
+      { ""Key"": ""female"", ""Label"": ""Female"", ""SubLabel"": ""N (%)"" },
+      { ""Key"": ""high_edu_male"", ""Label"": ""Male"", ""SubLabel"": ""High education N (%)"" },
+      { ""Key"": ""high_edu_female"", ""Label"": ""Female"", ""SubLabel"": ""High education N (%)"" },
+      { ""Key"": ""low_edu_male"", ""Label"": ""Male"", ""SubLabel"": ""Low education N (%)"" },
+      { ""Key"": ""low_edu_female"", ""Label"": ""Female"", ""SubLabel"": ""Low education N (%)"" },
+      { ""Key"": ""high_ses_male"", ""Label"": ""Male"", ""SubLabel"": ""High SES N (%)"" },
+      { ""Key"": ""high_ses_female"", ""Label"": ""Female"", ""SubLabel"": ""High SES N (%)"" },
+      { ""Key"": ""low_ses_male"", ""Label"": ""Male"", ""SubLabel"": ""Low SES N (%)"" },
+      { ""Key"": ""low_ses_female"", ""Label"": ""Female"", ""SubLabel"": ""Low SES N (%)"" }
+    ],
+    ""RowGroups"": [
+      { ""Key"": ""leading_health_issue"", ""Label"": ""Leading health issue (affecting your gender)"" },
+      { ""Key"": ""leading_cause_death"", ""Label"": ""Leading cause of death (affecting your gender)"" },
+      { ""Key"": ""warning_signs"", ""Label"": ""What are the warning signs that you associate with having a heart attack?"" },
+      { ""Key"": ""response"", ""Label"": ""If you thought you were experiencing a heart attack, what is the first thing you would do?"" }
+    ],
+    ""Rows"": [
+      {
+        ""Group"": ""leading_health_issue"",
+        ""Label"": ""Cancer in general"",
+        ""Cells"": {
+          ""male"": ""250 (22.8)"",
+          ""female"": ""235 (19.9)"",
+          ""high_edu_male"": ""119 (26.4)"",
+          ""high_edu_female"": ""76 (18.2)"",
+          ""low_edu_male"": ""131 (20.3)"",
+          ""low_edu_female"": ""159 (21.0)"",
+          ""high_ses_male"": ""116 (22.3)"",
+          ""high_ses_female"": ""71 (16.4)"",
+          ""low_ses_male"": ""133 (21.7)"",
+          ""low_ses_female"": ""151 (20.1)""
+        }
+      },
+      {
+        ""Group"": ""leading_health_issue"",
+        ""Label"": ""Lung cancer"",
+        ""Cells"": {
+          ""male"": ""19 (1.8)"",
+          ""female"": ""1 (0.1)"",
+          ""high_edu_male"": ""7 (1.6)"",
+          ""high_edu_female"": ""1 (0.1)"",
+          ""low_edu_male"": ""12 (2.0)"",
+          ""low_edu_female"": ""0 (0.1)"",
+          ""high_ses_male"": ""8 (1.7)"",
+          ""high_ses_female"": ""0 (0.0)"",
+          ""low_ses_male"": ""11 (1.9)"",
+          ""low_ses_female"": ""1 (0.1)""
+        }
+      },
+      {
+        ""Group"": ""leading_health_issue"",
+        ""Label"": ""Breast cancer"",
+        ""Cells"": {
+          ""female"": ""266 (22.5)"",
+          ""high_edu_female"": ""92 (22.2)"",
+          ""low_edu_female"": ""174 (22.9)"",
+          ""high_ses_female"": ""74 (17.2)"",
+          ""low_ses_female"": ""192 (25.7)""
+        }
+      },
+      {
+        ""Group"": ""leading_health_issue"",
+        ""Label"": ""Diabetes"",
+        ""Cells"": {
+          ""male"": ""30 (2.8)"",
+          ""female"": ""28 (2.4)"",
+          ""high_edu_male"": ""12 (2.8)"",
+          ""high_edu_female"": ""12 (2.9)"",
+          ""low_edu_male"": ""18 (2.8)"",
+          ""low_edu_female"": ""16 (2.2)"",
+          ""high_ses_male"": ""14 (2.7)"",
+          ""high_ses_female"": ""13 (2.9)"",
+          ""low_ses_male"": ""16 (2.8)"",
+          ""low_ses_female"": ""15 (2.1)""
+        }
+      },
+      {
+        ""Group"": ""leading_health_issue"",
+        ""Label"": ""Heart disease/Heart attack"",
+        ""Cells"": {
+          ""male"": ""210 (19.2)"",
+          ""female"": ""50 (4.2)"",
+          ""high_edu_male"": ""88 (19.7)"",
+          ""high_edu_female"": ""25 (5.9)"",
+          ""low_edu_male"": ""122 (19.2)"",
+          ""low_edu_female"": ""25 (3.4)"",
+          ""high_ses_male"": ""118 (22.7)"",
+          ""high_ses_female"": ""28 (6.7)"",
+          ""low_ses_male"": ""87 (14.2)"",
+          ""low_ses_female"": ""22 (3.0)""
+        }
+      },
+      {
+        ""Group"": ""leading_health_issue"",
+        ""Label"": ""Obesity"",
+        ""Cells"": {
+          ""male"": ""109 (10.0)"",
+          ""female"": ""69 (5.8)"",
+          ""high_edu_male"": ""54 (12.0)"",
+          ""high_edu_female"": ""31 (6.8)"",
+          ""low_edu_male"": ""55 (8.8)"",
+          ""low_edu_female"": ""38 (4.7)"",
+          ""high_ses_male"": ""57 (11.2)"",
+          ""high_ses_female"": ""39 (9.0)"",
+          ""low_ses_male"": ""52 (8.5)"",
+          ""low_ses_female"": ""26 (3.4)""
+        }
+      },
+      {
+        ""Group"": ""leading_health_issue"",
+        ""Label"": ""Don’t know/No answer"",
+        ""Cells"": {
+          ""male"": ""157 (12.5)"",
+          ""female"": ""174 (12.8)"",
+          ""high_edu_male"": ""65 (12.8)"",
+          ""high_edu_female"": ""53 (11.3)"",
+          ""low_edu_male"": ""86 (11.9)"",
+          ""low_edu_female"": ""115 (13.4)"",
+          ""high_ses_male"": ""54 (10.3)"",
+          ""high_ses_female"": ""37 (8.4)"",
+          ""low_ses_male"": ""86 (14.0)"",
+          ""low_ses_female"": ""100 (13.3)""
+        }
+      },
+      {
+        ""Group"": ""warning_signs"",
+        ""Label"": ""Chest pain (discomfort and sharp pain)"",
+        ""Cells"": {
+          ""male"": ""759 (60.6)"",
+          ""female"": ""779 (57.4)"",
+          ""high_edu_male"": ""334 (65.6)"",
+          ""high_edu_female"": ""305 (64.4)"",
+          ""low_edu_male"": ""418 (57.6)"",
+          ""low_edu_female"": ""467 (54.3)"",
+          ""high_ses_male"": ""340 (65.3)"",
+          ""high_ses_female"": ""288 (66.3)"",
+          ""low_ses_male"": ""345 (56.2)"",
+          ""low_ses_female"": ""399 (63.0)""
+        }
+      },
+      {
+        ""Group"": ""warning_signs"",
+        ""Label"": ""Radiation of pain"",
+        ""Cells"": {
+          ""male"": ""532 (42.5)"",
+          ""female"": ""659 (48.6)"",
+          ""high_edu_male"": ""221 (43.5)"",
+          ""high_edu_female"": ""246 (52.0)"",
+          ""low_edu_male"": ""303 (41.8)"",
+          ""low_edu_female"": ""405 (47.1)"",
+          ""high_ses_male"": ""237 (45.4)"",
+          ""high_ses_female"": ""241 (55.4)"",
+          ""low_ses_male"": ""234 (38.1)"",
+          ""low_ses_female"": ""338 (45.0)""
+        }
+      },
+      {
+        ""Group"": ""response"",
+        ""Label"": ""Call emergency medical services (112)"",
+        ""Cells"": {
+          ""male"": ""681 (54.4)"",
+          ""female"": ""781 (57.6)"",
+          ""high_edu_male"": ""298 (58.6)"",
+          ""high_edu_female"": ""317 (67.1)"",
+          ""low_edu_male"": ""376 (51.8)"",
+          ""low_edu_female"": ""458 (53.3)"",
+          ""high_ses_male"": ""286 (54.8)"",
+          ""high_ses_female"": ""281 (64.7)"",
+          ""low_ses_male"": ""327 (53.3)"",
+          ""low_ses_female"": ""390 (51.9)""
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Caption"": ""Table 4. Univariate Logistic Regression Analyses for Predictors of Early Mortality Stratified by Sex"",
+  ""Table"": {
+    ""Columns"": [
+      { ""Key"": ""variable"", ""Label"": ""Variable"" },
+      { ""Key"": ""women_or"", ""Label"": ""Women"", ""SubLabel"": ""OR (95% CI)"" },
+      { ""Key"": ""women_p"", ""Label"": ""Women"", ""SubLabel"": ""P value"" },
+      { ""Key"": ""men_or"", ""Label"": ""Men"", ""SubLabel"": ""OR (95% CI)"" },
+      { ""Key"": ""men_p"", ""Label"": ""Men"", ""SubLabel"": ""P value"" }
+    ],
+    ""RowGroups"": [
+      { ""Key"": ""demographics"", ""Label"": ""Demographics"" },
+      { ""Key"": ""comorbidities"", ""Label"": ""Comorbidities"" },
+      { ""Key"": ""cardiac_function"", ""Label"": ""Cardiac function and history"" },
+      { ""Key"": ""laboratory"", ""Label"": ""Laboratory measures"" },
+      { ""Key"": ""anthropometrics"", ""Label"": ""Anthropometrics"" },
+      { ""Key"": ""procedural"", ""Label"": ""Procedural factors"" }
+    ],
+    ""Rows"": [
+      {
+        ""Group"": ""demographics"",
+        ""Label"": ""Age, y"",
+        ""Cells"": {
+          ""women_or"": ""1.03 (1.01–1.05)"",
+          ""women_p"": ""<0.0001"",
+          ""men_or"": ""1.03 (1.01–1.04)"",
+          ""men_p"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""comorbidities"",
+        ""Label"": ""Hypertension"",
+        ""Cells"": {
+          ""women_or"": ""1.07 (0.70–1.57)"",
+          ""women_p"": ""0.719"",
+          ""men_or"": ""0.78 (0.52–1.13)"",
+          ""men_p"": ""0.061""
+        }
+      },
+      {
+        ""Group"": ""comorbidities"",
+        ""Label"": ""COPD"",
+        ""Cells"": {
+          ""women_or"": ""1.22 (0.99–2.54)"",
+          ""women_p"": ""0.11"",
+          ""men_or"": ""2.36 (1.59–2.91)"",
+          ""men_p"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""comorbidities"",
+        ""Label"": ""Diabetes"",
+        ""Cells"": {
+          ""women_or"": ""1.62 (1.09–2.31)"",
+          ""women_p"": ""0.017"",
+          ""men_or"": ""1.30 (0.97–1.74)"",
+          ""men_p"": ""0.072""
+        }
+      },
+      {
+        ""Group"": ""cardiac_function"",
+        ""Label"": ""LVEF ≤35%"",
+        ""Cells"": {
+          ""women_or"": ""5.12 (2.84–9.21)"",
+          ""women_p"": ""<0.0001"",
+          ""men_or"": ""6.09 (4.23–8.44)"",
+          ""men_p"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""comorbidities"",
+        ""Label"": ""PVD"",
+        ""Cells"": {
+          ""women_or"": ""1.98 (0.62–3.09)"",
+          ""women_p"": ""0.74"",
+          ""men_or"": ""2.75 (1.65–2.96)"",
+          ""men_p"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""comorbidities"",
+        ""Label"": ""CVA"",
+        ""Cells"": {
+          ""women_or"": ""2.18 (1.17–4.59)"",
+          ""women_p"": ""0.022"",
+          ""men_or"": ""2.02 (1.28–3.18)"",
+          ""men_p"": ""0.002""
+        }
+      },
+      {
+        ""Group"": ""cardiac_function"",
+        ""Label"": ""Prior cardiac surgery"",
+        ""Cells"": {
+          ""women_or"": ""4.71 (2.43–7.58)"",
+          ""women_p"": ""<0.0001"",
+          ""men_or"": ""5.39 (3.94–7.26)"",
+          ""men_p"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""laboratory"",
+        ""Label"": ""Preoperative hemoglobin, mmol/L"",
+        ""Cells"": {
+          ""women_or"": ""0.55 (0.46–0.71)"",
+          ""women_p"": ""<0.0001"",
+          ""men_or"": ""0.59 (0.53–0.68)"",
+          ""men_p"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""laboratory"",
+        ""Label"": ""Serum creatinine, μmol/L"",
+        ""Cells"": {
+          ""women_or"": ""1.004 (1.002–1.006)"",
+          ""women_p"": ""<0.0001"",
+          ""men_or"": ""1.005 (1.004–1.006)"",
+          ""men_p"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""anthropometrics"",
+        ""Label"": ""Underweight"",
+        ""Cells"": {
+          ""women_or"": ""1.73 (0.74–4.06)"",
+          ""women_p"": ""0.202"",
+          ""men_or"": ""3.59 (1.86–6.89)"",
+          ""men_p"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""anthropometrics"",
+        ""Label"": ""Obesity"",
+        ""Cells"": {
+          ""women_or"": ""1.21 (0.62–2.35)"",
+          ""women_p"": ""0.563"",
+          ""men_or"": ""0.86 (0.42–1.34)"",
+          ""men_p"": ""0.673""
+        }
+      },
+      {
+        ""Group"": ""comorbidities"",
+        ""Label"": ""Preoperative AF"",
+        ""Cells"": {
+          ""women_or"": ""1.90 (0.84–4.21)"",
+          ""women_p"": ""0.135"",
+          ""men_or"": ""3.59 (1.43–3.88)"",
+          ""men_p"": ""0.001""
+        }
+      },
+      {
+        ""Group"": ""procedural"",
+        ""Label"": ""Cross-clamp time, min"",
+        ""Cells"": {
+          ""women_or"": ""1.006 (1.000–1.012)"",
+          ""women_p"": ""0.069"",
+          ""men_or"": ""1.005 (1.000–1.010)"",
+          ""men_p"": ""0.049""
+        }
+      },
+      {
+        ""Group"": ""procedural"",
+        ""Label"": ""Number of grafts"",
+        ""Cells"": {
+          ""women_or"": ""1.016 (0.85–1.21)"",
+          ""women_p"": ""0.857"",
+          ""men_or"": ""0.90 (0.81–0.96)"",
+          ""men_p"": ""0.003""
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""No Bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}
+"
+"{
+  ""Caption"": ""Table 1. Demographic characteristics of respondents to the CAD awareness survey, according to gender"",
+  ""Table"": {
+    ""Columns"": [
+      { ""Key"": ""characteristic"", ""Label"": ""Characteristic"" },
+      { ""Key"": ""male_n"", ""Label"": ""Male"", ""SubLabel"": ""N"" },
+      { ""Key"": ""male_pct"", ""Label"": ""Male"", ""SubLabel"": ""%"" },
+      { ""Key"": ""female_n"", ""Label"": ""Female"", ""SubLabel"": ""N"" },
+      { ""Key"": ""female_pct"", ""Label"": ""Female"", ""SubLabel"": ""%"" },
+      { ""Key"": ""overall_n"", ""Label"": ""Overall"", ""SubLabel"": ""N"" },
+      { ""Key"": ""overall_pct"", ""Label"": ""Overall"", ""SubLabel"": ""%"" }
+    ],
+    ""RowGroups"": [
+      { ""Key"": ""gender"", ""Label"": ""Gender"" },
+      { ""Key"": ""age"", ""Label"": ""Age"" },
+      { ""Key"": ""health_status"", ""Label"": ""Health status"" },
+      { ""Key"": ""marital_status"", ""Label"": ""Marital status"" },
+      { ""Key"": ""education"", ""Label"": ""Education"" },
+      { ""Key"": ""ses"", ""Label"": ""Relative socioeconomic status"" },
+      { ""Key"": ""insurance"", ""Label"": ""Health insurance"" },
+      { ""Key"": ""medical_history"", ""Label"": ""Medical history"" },
+      { ""Key"": ""screening"", ""Label"": ""Screening behavior"" }
+    ],
+    ""Rows"": [
+      {
+        ""Group"": ""gender"",
+        ""Label"": ""Gender"",
+        ""Cells"": {
+          ""male_n"": ""1252"",
+          ""male_pct"": ""47.8"",
+          ""female_n"": ""1357"",
+          ""female_pct"": ""52.2"",
+          ""overall_n"": ""2609"",
+          ""overall_pct"": ""100""
+        }
+      },
+
+      {
+        ""Group"": ""age"",
+        ""Label"": ""25–44 years"",
+        ""Cells"": {
+          ""male_n"": ""425"",
+          ""male_pct"": ""34.0"",
+          ""female_n"": ""469"",
+          ""female_pct"": ""34.6"",
+          ""overall_n"": ""895"",
+          ""overall_pct"": ""34.3""
+        }
+      },
+      {
+        ""Group"": ""age"",
+        ""Label"": ""45–64 years"",
+        ""Cells"": {
+          ""male_n"": ""514"",
+          ""male_pct"": ""41.0"",
+          ""female_n"": ""513"",
+          ""female_pct"": ""37.8"",
+          ""overall_n"": ""1027"",
+          ""overall_pct"": ""39.4""
+        }
+      },
+      {
+        ""Group"": ""age"",
+        ""Label"": ""65 and over"",
+        ""Cells"": {
+          ""male_n"": ""313"",
+          ""male_pct"": ""25.0"",
+          ""female_n"": ""374"",
+          ""female_pct"": ""27.6"",
+          ""overall_n"": ""687"",
+          ""overall_pct"": ""26.3""
+        }
+      },
+
+      {
+        ""Group"": ""health_status"",
+        ""Label"": ""Very good"",
+        ""Cells"": {
+          ""male_n"": ""261"",
+          ""male_pct"": ""20.8"",
+          ""female_n"": ""280"",
+          ""female_pct"": ""20.6"",
+          ""overall_n"": ""541"",
+          ""overall_pct"": ""20.7""
+        }
+      },
+      {
+        ""Group"": ""health_status"",
+        ""Label"": ""Good"",
+        ""Cells"": {
+          ""male_n"": ""637"",
+          ""male_pct"": ""50.9"",
+          ""female_n"": ""686"",
+          ""female_pct"": ""50.5"",
+          ""overall_n"": ""1323"",
+          ""overall_pct"": ""50.7""
+        }
+      },
+      {
+        ""Group"": ""health_status"",
+        ""Label"": ""Fair"",
+        ""Cells"": {
+          ""male_n"": ""272"",
+          ""male_pct"": ""21.8"",
+          ""female_n"": ""325"",
+          ""female_pct"": ""23.9"",
+          ""overall_n"": ""597"",
+          ""overall_pct"": ""22.9""
+        }
+      },
+      {
+        ""Group"": ""health_status"",
+        ""Label"": ""Bad"",
+        ""Cells"": {
+          ""male_n"": ""65"",
+          ""male_pct"": ""5.2"",
+          ""female_n"": ""52"",
+          ""female_pct"": ""3.8"",
+          ""overall_n"": ""117"",
+          ""overall_pct"": ""4.5""
+        }
+      },
+      {
+        ""Group"": ""health_status"",
+        ""Label"": ""Very bad"",
+        ""Cells"": {
+          ""male_n"": ""17"",
+          ""male_pct"": ""1.3"",
+          ""female_n"": ""14"",
+          ""female_pct"": ""1.0"",
+          ""overall_n"": ""31"",
+          ""overall_pct"": ""1.2""
+        }
+      },
+
+      {
+        ""Group"": ""marital_status"",
+        ""Label"": ""Single"",
+        ""Cells"": {
+          ""male_n"": ""252"",
+          ""male_pct"": ""20.2"",
+          ""female_n"": ""170"",
+          ""female_pct"": ""12.6"",
+          ""overall_n"": ""422"",
+          ""overall_pct"": ""16.2""
+        }
+      },
+      {
+        ""Group"": ""marital_status"",
+        ""Label"": ""Married/living together"",
+        ""Cells"": {
+          ""male_n"": ""860"",
+          ""male_pct"": ""69.1"",
+          ""female_n"": ""894"",
+          ""female_pct"": ""66.1"",
+          ""overall_n"": ""1754"",
+          ""overall_pct"": ""67.5""
+        }
+      },
+      {
+        ""Group"": ""marital_status"",
+        ""Label"": ""Divorced/separated"",
+        ""Cells"": {
+          ""male_n"": ""70"",
+          ""male_pct"": ""5.6"",
+          ""female_n"": ""132"",
+          ""female_pct"": ""9.8"",
+          ""overall_n"": ""203"",
+          ""overall_pct"": ""7.8""
+        }
+      },
+      {
+        ""Group"": ""marital_status"",
+        ""Label"": ""Widow"",
+        ""Cells"": {
+          ""male_n"": ""63"",
+          ""male_pct"": ""5.1"",
+          ""female_n"": ""157"",
+          ""female_pct"": ""11.6"",
+          ""overall_n"": ""220"",
+          ""overall_pct"": ""8.5""
+        }
+      },
+
+      {
+        ""Group"": ""education"",
+        ""Label"": ""Compulsory or less"",
+        ""Cells"": {
+          ""male_n"": ""725"",
+          ""male_pct"": ""58.8"",
+          ""female_n"": ""860"",
+          ""female_pct"": ""64.5"",
+          ""overall_n"": ""1584"",
+          ""overall_pct"": ""61.7""
+        }
+      },
+      {
+        ""Group"": ""education"",
+        ""Label"": ""Higher education"",
+        ""Cells"": {
+          ""male_n"": ""509"",
+          ""male_pct"": ""41.2"",
+          ""female_n"": ""473"",
+          ""female_pct"": ""35.5"",
+          ""overall_n"": ""982"",
+          ""overall_pct"": ""38.3""
+        }
+      },
+
+      {
+        ""Group"": ""ses"",
+        ""Label"": ""High"",
+        ""Cells"": {
+          ""male_n"": ""521"",
+          ""male_pct"": ""45.9"",
+          ""female_n"": ""435"",
+          ""female_pct"": ""36.6"",
+          ""overall_n"": ""956"",
+          ""overall_pct"": ""41.1""
+        }
+      },
+      {
+        ""Group"": ""ses"",
+        ""Label"": ""Low"",
+        ""Cells"": {
+          ""male_n"": ""614"",
+          ""male_pct"": ""54.1"",
+          ""female_n"": ""752"",
+          ""female_pct"": ""63.4"",
+          ""overall_n"": ""1366"",
+          ""overall_pct"": ""58.9""
+        }
+      },
+
+      {
+        ""Group"": ""insurance"",
+        ""Label"": ""Has health coverage"",
+        ""Cells"": {
+          ""male_n"": ""1219"",
+          ""male_pct"": ""97.4"",
+          ""female_n"": ""1337"",
+          ""female_pct"": ""98.5"",
+          ""overall_n"": ""2556"",
+          ""overall_pct"": ""98.0""
+        }
+      },
+
+      {
+        ""Group"": ""medical_history"",
+        ""Label"": ""Has suffered from a heart attack"",
+        ""Cells"": {
+          ""male_n"": ""83"",
+          ""male_pct"": ""6.7"",
+          ""female_n"": ""54"",
+          ""female_pct"": ""4.0"",
+          ""overall_n"": ""137"",
+          ""overall_pct"": ""5.3""
+        }
+      },
+      {
+        ""Group"": ""medical_history"",
+        ""Label"": ""Has been diagnosed with cardiovascular disease (other than heart attack)"",
+        ""Cells"": {
+          ""male_n"": ""148"",
+          ""male_pct"": ""12.0"",
+          ""female_n"": ""120"",
+          ""female_pct"": ""8.9"",
+          ""overall_n"": ""268"",
+          ""overall_pct"": ""10.3""
+        }
+      },
+      {
+        ""Group"": ""screening"",
+        ""Label"": ""Has ever taken a screening test for cardiovascular risk"",
+        ""Cells"": {
+          ""male_n"": ""645"",
+          ""male_pct"": ""52.0"",
+          ""female_n"": ""472"",
+          ""female_pct"": ""35.2"",
+          ""overall_n"": ""1134"",
+          ""overall_pct"": ""43.2""
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""No Bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}
+"
+"{
+  ""Caption"": ""Table 2. Changes of CAC related to hyperuricemia"",
+  ""Table"": {
+    ""Columns"": [
+      { ""Key"": ""characteristic"", ""Label"": ""Characteristic"" },
+      { ""Key"": ""no_hyperuricemia"", ""Label"": ""No hyperuricemia"", ""SubLabel"": ""Median (IQR) or n (%)"" },
+      { ""Key"": ""hyperuricemia"", ""Label"": ""Hyperuricemia"", ""SubLabel"": ""Median (IQR) or n (%)"" },
+      { ""Key"": ""p_value"", ""Label"": ""P value"" }
+    ],
+    ""RowGroups"": [
+      { ""Key"": ""overall"", ""Label"": ""Overall"" },
+      { ""Key"": ""male"", ""Label"": ""Male"" },
+      { ""Key"": ""female"", ""Label"": ""Female"" }
+    ],
+    ""Rows"": [
+      {
+        ""Group"": ""overall"",
+        ""Label"": ""ΔV transformed CACS"",
+        ""Cells"": {
+          ""no_hyperuricemia"": ""0.0 (0.0–3.2)"",
+          ""hyperuricemia"": ""0.9 (0.0–4.7)"",
+          ""p_value"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""overall"",
+        ""Label"": ""Annual changes in ΔV transformed CACS"",
+        ""Cells"": {
+          ""no_hyperuricemia"": ""0.0 (0.0–1.1)"",
+          ""hyperuricemia"": ""0.3 (0.0–1.3)"",
+          ""p_value"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""overall"",
+        ""Label"": ""CAC progression, n (%)"",
+        ""Cells"": {
+          ""no_hyperuricemia"": ""3015 (29.3)"",
+          ""hyperuricemia"": ""752 (37.0)"",
+          ""p_value"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""male"",
+        ""Label"": ""ΔV transformed CACS"",
+        ""Cells"": {
+          ""no_hyperuricemia"": ""0.2 (0.0–3.7)"",
+          ""hyperuricemia"": ""1.0 (0.0–4.8)"",
+          ""p_value"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""male"",
+        ""Label"": ""Annual changes in ΔV transformed CACS"",
+        ""Cells"": {
+          ""no_hyperuricemia"": ""0.1 (0.0–1.2)"",
+          ""hyperuricemia"": ""0.3 (0.0–1.4)"",
+          ""p_value"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""male"",
+        ""Label"": ""CAC progression, n (%)"",
+        ""Cells"": {
+          ""no_hyperuricemia"": ""2724 (32.3)"",
+          ""hyperuricemia"": ""732 (37.9)"",
+          ""p_value"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""female"",
+        ""Label"": ""ΔV transformed CACS"",
+        ""Cells"": {
+          ""no_hyperuricemia"": ""0.0 (0.0–0.7)"",
+          ""hyperuricemia"": ""0.0 (0.0–0.9)"",
+          ""p_value"": ""0.980""
+        }
+      },
+      {
+        ""Group"": ""female"",
+        ""Label"": ""Annual changes in ΔV transformed CACS"",
+        ""Cells"": {
+          ""no_hyperuricemia"": ""0.0 (0.0–0.3)"",
+          ""hyperuricemia"": ""0.0 (0.0–0.2)"",
+          ""p_value"": ""0.998""
+        }
+      },
+      {
+        ""Group"": ""female"",
+        ""Label"": ""CAC progression, n (%)"",
+        ""Cells"": {
+          ""no_hyperuricemia"": ""291 (15.8)"",
+          ""hyperuricemia"": ""20 (20.2)"",
+          ""p_value"": ""0.243""
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""No Bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}
+"
+"{
+  ""Caption"": ""Table 3. Individual clinical factors and the risk of CAC progression"",
+  ""Table"": {
+    ""Columns"": [
+      { ""Key"": ""factor"", ""Label"": ""Clinical factor"" },
+      { ""Key"": ""overall_or"", ""Label"": ""Overall"", ""SubLabel"": ""OR (95% CI)"" },
+      { ""Key"": ""overall_p"", ""Label"": ""Overall"", ""SubLabel"": ""P value"" },
+      { ""Key"": ""male_or"", ""Label"": ""Male"", ""SubLabel"": ""OR (95% CI)"" },
+      { ""Key"": ""male_p"", ""Label"": ""Male"", ""SubLabel"": ""P value"" },
+      { ""Key"": ""female_or"", ""Label"": ""Female"", ""SubLabel"": ""OR (95% CI)"" },
+      { ""Key"": ""female_p"", ""Label"": ""Female"", ""SubLabel"": ""P value"" }
+    ],
+    ""RowGroups"": [
+      { ""Key"": ""risk_factors"", ""Label"": ""Risk factors for CAC progression"" }
+    ],
+    ""Rows"": [
+      {
+        ""Group"": ""risk_factors"",
+        ""Label"": ""Age (per 1-year increase)"",
+        ""Cells"": {
+          ""overall_or"": ""1.07 (1.07–1.08)"",
+          ""overall_p"": ""<0.001"",
+          ""male_or"": ""1.07 (1.06–1.08)"",
+          ""male_p"": ""<0.001"",
+          ""female_or"": ""1.12 (1.10–1.13)"",
+          ""female_p"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""risk_factors"",
+        ""Label"": ""Hypertension"",
+        ""Cells"": {
+          ""overall_or"": ""2.11 (1.95–2.29)"",
+          ""overall_p"": ""<0.001"",
+          ""male_or"": ""1.97 (1.81–2.14)"",
+          ""male_p"": ""<0.001"",
+          ""female_or"": ""3.33 (2.58–4.31)"",
+          ""female_p"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""risk_factors"",
+        ""Label"": ""Diabetes"",
+        ""Cells"": {
+          ""overall_or"": ""2.28 (2.05–2.53)"",
+          ""overall_p"": ""<0.001"",
+          ""male_or"": ""2.11 (1.89–2.36)"",
+          ""male_p"": ""<0.001"",
+          ""female_or"": ""3.33 (2.40–4.63)"",
+          ""female_p"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""risk_factors"",
+        ""Label"": ""Dyslipidaemia"",
+        ""Cells"": {
+          ""overall_or"": ""1.83 (1.68–2.00)"",
+          ""overall_p"": ""<0.001"",
+          ""male_or"": ""1.59 (1.45–1.75)"",
+          ""male_p"": ""<0.001"",
+          ""female_or"": ""2.65 (2.03–3.45)"",
+          ""female_p"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""risk_factors"",
+        ""Label"": ""Obesity"",
+        ""Cells"": {
+          ""overall_or"": ""1.53 (1.41–1.65)"",
+          ""overall_p"": ""<0.001"",
+          ""male_or"": ""1.34 (1.23–1.45)"",
+          ""male_p"": ""<0.001"",
+          ""female_or"": ""2.20 (1.70–2.86)"",
+          ""female_p"": ""<0.001""
+        }
+      },
+      {
+        ""Group"": ""risk_factors"",
+        ""Label"": ""Current smoking"",
+        ""Cells"": {
+          ""overall_or"": ""1.09 (1.00–1.19)"",
+          ""overall_p"": ""0.057"",
+          ""male_or"": ""1.20 (1.13–1.26)"",
+          ""male_p"": ""<0.001"",
+          ""female_or"": ""0.95 (0.74–1.22)"",
+          ""female_p"": ""0.682""
+        }
+      },
+      {
+        ""Group"": ""risk_factors"",
+        ""Label"": ""Hyperuricemia"",
+        ""Cells"": {
+          ""overall_or"": ""1.42 (1.28–1.57)"",
+          ""overall_p"": ""<0.001"",
+          ""male_or"": ""1.28 (1.15–1.42)"",
+          ""male_p"": ""<0.001"",
+          ""female_or"": ""1.35 (0.81–2.24)"",
+          ""female_p"": ""0.244""
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""No Bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}
+"
+"{
+  ""Caption"": ""Table 2. Characteristics of the studies comparing the prognostic value of low coronary flow reserve (CFR) in women versus men"",
+  ""Table"": {
+    ""Columns"": [
+      { ""Key"": ""study"", ""Label"": ""Study"" },
+      { ""Key"": ""method_sample"", ""Label"": ""Method and number of women vs men"" },
+      { ""Key"": ""cfr_cutoff"", ""Label"": ""CFR cut-off"" },
+      { ""Key"": ""endpoints"", ""Label"": ""Endpoints"" },
+      { ""Key"": ""event_percent"", ""Label"": ""Event percent in women and men with CFR <2 vs ≥2"" },
+      { ""Key"": ""hazard_ratio"", ""Label"": ""Estimated multivariate hazard ratio (95% CI)"" },
+      { ""Key"": ""p_values"", ""Label"": ""P-values for hazard ratios and interaction"" }
+    ],
+    ""RowGroups"": [
+      { ""Key"": ""studies"", ""Label"": ""Included studies"" }
+    ],
+    ""Rows"": [
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Cortigiani et al."",
+        ""Cells"": {
+          ""study"": ""Cortigiani et al."",
+          ""method_sample"": ""Stress TTE; 171 women vs 147 men"",
+          ""cfr_cutoff"": ""2.0"",
+          ""endpoints"": ""MACE (death, MI, and revascularization)"",
+          ""event_percent"": ""Women: 27% vs 2%; Men: 43% vs 9%"",
+          ""hazard_ratio"": ""Women: 16.44 (7.17–37.81); Men: 6.75 (3.42–11.95)"",
+          ""p_values"": ""P < 0.0001 for both genders""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Murthy et al."",
+        ""Cells"": {
+          ""study"": ""Murthy et al."",
+          ""method_sample"": ""PET; 813 women vs 403 men"",
+          ""cfr_cutoff"": ""2.0"",
+          ""endpoints"": ""MACE (CV death, hospitalization for HF, MI, and late revascularization)"",
+          ""event_percent"": ""Women: 5.0% vs 1.6%; Men: 6.9% vs 1.7%"",
+          ""hazard_ratio"": ""NA"",
+          ""p_values"": ""Women: P < 0.0008; Men: P = 0.047; Interaction for gender P = 0.42""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Taqueti et al."",
+        ""Cells"": {
+          ""study"": ""Taqueti et al."",
+          ""method_sample"": ""Stress TTE; 300 women vs 277 men"",
+          ""cfr_cutoff"": ""2.0"",
+          ""endpoints"": ""MACE (death, hospitalization for UAP, MI, HF, and ischemic stroke)"",
+          ""event_percent"": ""Women: 8.5% vs 3%; Men: 16% vs 5%"",
+          ""hazard_ratio"": ""Women: 1.79 (1.12–2.84); Men: 1.79 (1.05–3.05)"",
+          ""p_values"": ""P < 0.05 for both genders; Interaction for gender P = 0.99""
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""No Bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}
+"
+"{
+  ""Caption"": ""Table. Ischemia-related time intervals by gender reported across studies"",
+  ""Table"": {
+    ""Columns"": [
+      { ""Key"": ""study"", ""Label"": ""Study"" },
+      { ""Key"": ""gender"", ""Label"": ""Gender"" },
+      { ""Key"": ""symptom_onset_time"", ""Label"": ""Symptom onset time"", ""SubLabel"": ""minutes"" },
+      { ""Key"": ""door_to_balloon_time"", ""Label"": ""Door-to-balloon time"", ""SubLabel"": ""minutes"" },
+      { ""Key"": ""reperfusion_time"", ""Label"": ""Reperfusion time"", ""SubLabel"": ""minutes"" }
+    ],
+    ""RowGroups"": [
+      { ""Key"": ""studies"", ""Label"": ""Included studies"" }
+    ],
+    ""Rows"": [
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Cheng et al., 2004"",
+        ""Cells"": {
+          ""study"": ""Cheng et al., 2004"",
+          ""gender"": ""M/W"",
+          ""symptom_onset_time"": ""186 ± 155 / 205 ± 148"",
+          ""door_to_balloon_time"": ""NS"",
+          ""reperfusion_time"": ""284 ± 172 / 317 ± 175""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Zimmermann et al., 2009"",
+        ""Cells"": {
+          ""study"": ""Zimmermann et al., 2009"",
+          ""gender"": ""M/W"",
+          ""symptom_onset_time"": ""236 ± 263 / 262 ± 235"",
+          ""door_to_balloon_time"": ""63 ± 58 / 57 ± 45"",
+          ""reperfusion_time"": ""NS""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Bufe et al., 2010"",
+        ""Cells"": {
+          ""study"": ""Bufe et al., 2010"",
+          ""gender"": ""M/W"",
+          ""symptom_onset_time"": ""NS"",
+          ""door_to_balloon_time"": ""NS"",
+          ""reperfusion_time"": ""230 ± 157 / 254 ± 168""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Ferrante et al., 2011"",
+        ""Cells"": {
+          ""study"": ""Ferrante et al., 2011"",
+          ""gender"": ""M/W"",
+          ""symptom_onset_time"": ""140–395 / 165–485"",
+          ""door_to_balloon_time"": ""52–117 / 57–148"",
+          ""reperfusion_time"": ""NS""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Ferrante et al., 2012"",
+        ""Cells"": {
+          ""study"": ""Ferrante et al., 2012"",
+          ""gender"": ""M/W"",
+          ""symptom_onset_time"": ""145–315 / 150–320"",
+          ""door_to_balloon_time"": ""70–138 / 74–164"",
+          ""reperfusion_time"": ""NS""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Pu et al., 2011"",
+        ""Cells"": {
+          ""study"": ""Pu et al., 2011"",
+          ""gender"": ""M/W"",
+          ""symptom_onset_time"": ""NS"",
+          ""door_to_balloon_time"": ""NS"",
+          ""reperfusion_time"": ""246 ± 174 / 294 ± 174""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Dziewierz et al., 2013"",
+        ""Cells"": {
+          ""study"": ""Dziewierz et al., 2013"",
+          ""gender"": ""M/W"",
+          ""symptom_onset_time"": ""NS"",
+          ""door_to_balloon_time"": ""NS"",
+          ""reperfusion_time"": ""140–340 / 145–359""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Wijnbergen et al., 2013"",
+        ""Cells"": {
+          ""study"": ""Wijnbergen et al., 2013"",
+          ""gender"": ""M/W"",
+          ""symptom_onset_time"": ""176 ± 119 / 204 ± 135"",
+          ""door_to_balloon_time"": ""16 ± 7 / 16 ± 6"",
+          ""reperfusion_time"": ""193 ± 119 / 220 ± 135""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Otten et al., 2013"",
+        ""Cells"": {
+          ""study"": ""Otten et al., 2013"",
+          ""gender"": ""M/W"",
+          ""symptom_onset_time"": ""NS"",
+          ""door_to_balloon_time"": ""70–73 / 30–73"",
+          ""reperfusion_time"": ""NS""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Zhang et al., 2010"",
+        ""Cells"": {
+          ""study"": ""Zhang et al., 2010"",
+          ""gender"": ""M/W"",
+          ""symptom_onset_time"": ""NS"",
+          ""door_to_balloon_time"": ""NS"",
+          ""reperfusion_time"": ""351 ± 176 / 362 ± 168""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Meller et al., 2013"",
+        ""Cells"": {
+          ""study"": ""Meller et al., 2013"",
+          ""gender"": ""M/W"",
+          ""symptom_onset_time"": ""NS"",
+          ""door_to_balloon_time"": ""NS"",
+          ""reperfusion_time"": ""229.8 / 295.8""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Velders et al., 2013"",
+        ""Cells"": {
+          ""study"": ""Velders et al., 2013"",
+          ""gender"": ""M/W"",
+          ""symptom_onset_time"": ""128–279 / 141–286"",
+          ""door_to_balloon_time"": ""33–67 / 33–68"",
+          ""reperfusion_time"": ""NS""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Perl et al., 2015"",
+        ""Cells"": {
+          ""study"": ""Perl et al., 2015"",
+          ""gender"": ""M/W"",
+          ""symptom_onset_time"": ""596 ± 367 / 815 ± 460"",
+          ""door_to_balloon_time"": ""44 ± 40 / 45 ± 17"",
+          ""reperfusion_time"": ""NS""
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""No Bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}
+"
+"{
+  ""Caption"": ""Table 4. Unadjusted and inverse probability weighting results for long-term outcomes, female versus male"",
+  ""Table"": {
+    ""Columns"": [
+      { ""Key"": ""analysis"", ""Label"": ""Analysis"" },
+      { ""Key"": ""outcome"", ""Label"": ""Outcome"" },
+      { ""Key"": ""hr"", ""Label"": ""HR"" },
+      { ""Key"": ""ci"", ""Label"": ""95% CI"" },
+      { ""Key"": ""p_value"", ""Label"": ""P-value"" }
+    ],
+    ""RowGroups"": [
+      { ""Key"": ""unadjusted"", ""Label"": ""Unadjusted"" },
+      { ""Key"": ""ipw"", ""Label"": ""Inverse probability weighting (IPW)"" }
+    ],
+    ""Rows"": [
+      {
+        ""Group"": ""unadjusted"",
+        ""Label"": ""Mortality"",
+        ""Cells"": {
+          ""analysis"": ""Unadjusted"",
+          ""outcome"": ""Mortality"",
+          ""hr"": ""1.28"",
+          ""ci"": ""1.05–1.56"",
+          ""p_value"": ""0.013""
+        }
+      },
+      {
+        ""Group"": ""unadjusted"",
+        ""Label"": ""MACCEs"",
+        ""Cells"": {
+          ""analysis"": ""Unadjusted"",
+          ""outcome"": ""MACCEs"",
+          ""hr"": ""1.35"",
+          ""ci"": ""1.19–1.51"",
+          ""p_value"": ""<0.0001""
+        }
+      },
+      {
+        ""Group"": ""ipw"",
+        ""Label"": ""Mortality"",
+        ""Cells"": {
+          ""analysis"": ""IPW"",
+          ""outcome"": ""Mortality"",
+          ""hr"": ""1.23"",
+          ""ci"": ""0.98–1.53"",
+          ""p_value"": ""0.072""
+        }
+      },
+      {
+        ""Group"": ""ipw"",
+        ""Label"": ""MACCEs"",
+        ""Cells"": {
+          ""analysis"": ""IPW"",
+          ""outcome"": ""MACCEs"",
+          ""hr"": ""1.33"",
+          ""ci"": ""1.16–1.51"",
+          ""p_value"": ""<0.0001""
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""No Bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}
+"
+"{
+  ""Caption"": ""Table 1. Demographic features and PCSK9 levels in the observational studies comparing circulating PCSK9 levels between women and men"",
+  ""Table"": {
+    ""Columns"": [
+      { ""Key"": ""author_year"", ""Label"": ""Author, year"" },
+      { ""Key"": ""study_design"", ""Label"": ""Study design"" },
+      { ""Key"": ""participants"", ""Label"": ""Number of participants (women vs men)"" },
+      { ""Key"": ""location"", ""Label"": ""Location"" },
+      { ""Key"": ""age"", ""Label"": ""Age (y)"" },
+      { ""Key"": ""pcsk9_levels"", ""Label"": ""PCSK9 levels (women vs men)"" },
+      { ""Key"": ""p_value"", ""Label"": ""P (95% CI)"" }
+    ],
+    ""RowGroups"": [
+      { ""Key"": ""studies"", ""Label"": ""Included observational studies"" }
+    ],
+    ""Rows"": [
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Kerr et al., 2020"",
+        ""Cells"": {
+          ""author_year"": ""Kerr et al., 2020"",
+          ""study_design"": ""Prospective"",
+          ""participants"": ""1929 vs 1774"",
+          ""location"": ""Five European countries: Finland, Sweden, the Netherlands, France, and Italy"",
+          ""age"": ""54 to 79"",
+          ""pcsk9_levels"": ""331 ± 105 vs 290 ± 109 ng/ml"",
+          ""p_value"": ""P < 0.0001""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Shi et al., 2020"",
+        ""Cells"": {
+          ""author_year"": ""Shi et al., 2020"",
+          ""study_design"": ""Prospective"",
+          ""participants"": ""2817 vs 1388"",
+          ""location"": ""China"",
+          ""age"": ""56.1 ± 7.5"",
+          ""pcsk9_levels"": ""289.62 ± 90.80 ng/ml vs 277.50 ± 97.87 ng/ml"",
+          ""p_value"": ""P < 0.001""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Zhang et al., 2019"",
+        ""Cells"": {
+          ""author_year"": ""Zhang et al., 2019"",
+          ""study_design"": ""Prospective"",
+          ""participants"": ""61 vs 220"",
+          ""location"": ""China"",
+          ""age"": ""Males: 58.53 ± 12.83; Females: 60.64 ± 8.97"",
+          ""pcsk9_levels"": ""325.1 (247.5–445.3) vs 273.6 (215.6–366.8) ng/ml"",
+          ""p_value"": ""P = 0.0136""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Levenson et al., 2012"",
+        ""Cells"": {
+          ""author_year"": ""Levenson et al., 2012"",
+          ""study_design"": ""Cross-sectional analysis"",
+          ""participants"": ""167 vs 119"",
+          ""location"": ""United States"",
+          ""age"": ""18 to 26"",
+          ""pcsk9_levels"": ""—"",
+          ""p_value"": ""P = 0.08""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Simeone et al., 2021"",
+        ""Cells"": {
+          ""author_year"": ""Simeone et al., 2021"",
+          ""study_design"": ""Observational"",
+          ""participants"": ""67 vs 99"",
+          ""location"": ""Italy"",
+          ""age"": ""68"",
+          ""pcsk9_levels"": ""308 (251–394) vs 267 (231–360) ng/ml"",
+          ""p_value"": ""P = 0.005""
+        }
+      },
+      {
+        ""Group"": ""studies"",
+        ""Label"": ""Jeenduang et al., 2019"",
+        ""Cells"": {
+          ""author_year"": ""Jeenduang et al., 2019"",
+          ""study_design"": ""Cross-sectional analysis"",
+          ""participants"": ""284 vs 152"",
+          ""location"": ""Thailand"",
+          ""age"": ""52.50 ± 13.56"",
+          ""pcsk9_levels"": ""87.38 ± 26.49 vs 79.15 ± 25.51 ng/ml"",
+          ""p_value"": ""P = 0.002""
+        }
+      }
+    ]
+  },
+  ""Assigned Label"": ""No Bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}
+"
+"{
+  ""Caption"": ""Figure 2. Unadjusted cumulative total survival in women versus men undergoing an initial strategy of CABG or PTCA"",
+  ""Figure"": {
+    ""FigureType"": ""kaplan_meier_survival_curve"",
+    ""Axes"": {
+      ""X"": {
+        ""Label"": ""Years After Randomization"",
+        ""Range"": ""0–6 years""
+      },
+      ""Y"": {
+        ""Label"": ""Cumulative Survival (%)"",
+        ""Range"": ""0–100%""
+      }
+    },
+    ""Groups"": [
+      {
+        ""Group"": ""Men"",
+        ""LineStyle"": ""Solid"",
+        ""SampleSizeOverTime"": {
+          ""Year0"": 1340,
+          ""Year1"": 1283,
+          ""Year2"": 1270,
+          ""Year3"": 1244,
+          ""Year4"": 1169,
+          ""Year5"": 777,
+          ""Year6"": 361
+        },
+        ""Trend"": ""Gradual decline in cumulative survival over time""
+      },
+      {
+        ""Group"": ""Women"",
+        ""LineStyle"": ""Dashed"",
+        ""SampleSizeOverTime"": {
+          ""Year0"": 489,
+          ""Year1"": 473,
+          ""Year2"": 463,
+          ""Year3"": 453,
+          ""Year4"": 428,
+          ""Year5"": 302,
+          ""Year6"": 149
+        },
+        ""Trend"": ""Gradual decline in cumulative survival over time, closely paralleling men""
+      }
+    ],
+    ""ComparativeObservations"": {
+      ""OverallPattern"": ""Survival curves for women and men remain closely aligned throughout follow-up with minimal visual separation"",
+      ""RelativeSurvival"": ""Men show slightly higher cumulative survival than women at most time points, though differences appear small""
+    },
+    ""BiasContext"": {
+      ""UnequalBaselineSampling"": ""Substantially fewer women than men were enrolled at baseline"",
+      ""AttritionOverTime"": ""Disproportionate reduction in sample size among women over follow-up"",
+      ""InterpretiveImplication"": ""Unadjusted survival comparisons may be influenced by sampling imbalance and differential statistical power rather than true sex-based survival differences""
+    },
+    ""ClinicalContext"": {
+      ""Interventions"": [
+        ""CABG (coronary artery bypass grafting)"",
+        ""PTCA (percutaneous transluminal coronary angioplasty)""
+      ],
+      ""AnalysisType"": ""Unadjusted survival analysis""
+    }
+  },  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Sampling Bias""
+}
+"
+"{
+  ""Caption"": ""Fig. 2. Challenges and disparities in treating coronary artery disease in women. ASA aspirin, CV cardiovascular, CAD coronary artery disease, HRT hormone replacement therapy, SCAD spontaneous coronary artery dissection, STEMI ST-segment elevation myocardial infarction."",
+  ""Figure"": {
+    ""FigureType"": ""conceptual_flow_diagram"",
+    ""CentralNode"": {
+      ""ID"": ""central_theme"",
+      ""Text"": ""Challenges and disparities in treating coronary artery disease in women""
+    },
+    ""Nodes"": [
+      {
+        ""ID"": ""baseline_characteristics"",
+        ""Text"": ""Women are older and have a higher burden of comorbidities at the time of CAD diagnosis compared to men""
+      },
+      {
+        ""ID"": ""ischemia_mechanisms"",
+        ""Text"": ""Higher prevalence of atypical mechanisms of ischemia in women (e.g. microvascular dysfunction, coronary vasospasm, and SCAD) for which therapeutics are lacking""
+      },
+      {
+        ""ID"": ""rehabilitation"",
+        ""Text"": ""Women may actually enjoy a greater benefit from cardiac rehabilitation than men but are less likely to be referred and less likely to attend or complete programs""
+      },
+      {
+        ""ID"": ""hormone_therapy"",
+        ""Text"": ""Despite the potentially protective effects of estrogen in pre-menopausal women, HRT has not resulted in a reduction of CV events in menopausal women and is not currently recommended by guidelines for primary or secondary prevention""
+      },
+      {
+        ""ID"": ""diagnostic_access"",
+        ""Text"": ""Women with suspected and known CAD are less likely than men to undergo coronary angiography""
+      },
+      {
+        ""ID"": ""stemi_care"",
+        ""Text"": ""Women presenting with STEMI are less likely than men to be treated with a reperfusion strategy and experience longer door-to-balloon times""
+      },
+      {
+        ""ID"": ""guideline_therapy"",
+        ""Text"": ""Women are less likely than men to receive guideline-directed medical therapy for CAD""
+      },
+      {
+        ""ID"": ""aspirin"",
+        ""Text"": ""Aspirin: While the efficacy of secondary prevention ASA does not differ between sexes, the role of primary prevention ASA remains controversial, especially in women""
+      },
+      {
+        ""ID"": ""statins"",
+        ""Text"": ""Statins: Some data suggest that statin therapy results in a greater degree of atheroma regression in women as compared to men. Clinical data and guidelines recommend equal treatment of men and women who warrant statin therapy. However, statins remain under-utilized in women as compared to men. Premenopausal women should be aware that statins are contraindicated during pregnancy""
+      }
+    ],
+    ""Connections"": [
+      {
+        ""From"": ""central_theme"",
+        ""To"": ""baseline_characteristics"",
+        ""Relationship"": ""contributes_to""
+      },
+      {
+        ""From"": ""central_theme"",
+        ""To"": ""ischemia_mechanisms"",
+        ""Relationship"": ""contributes_to""
+      },
+      {
+        ""From"": ""central_theme"",
+        ""To"": ""rehabilitation"",
+        ""Relationship"": ""contributes_to""
+      },
+      {
+        ""From"": ""central_theme"",
+        ""To"": ""hormone_therapy"",
+        ""Relationship"": ""contributes_to""
+      },
+      {
+        ""From"": ""central_theme"",
+        ""To"": ""diagnostic_access"",
+        ""Relationship"": ""contributes_to""
+      },
+      {
+        ""From"": ""diagnostic_access"",
+        ""To"": ""stemi_care"",
+        ""Relationship"": ""leads_to""
+      },
+      {
+        ""From"": ""central_theme"",
+        ""To"": ""guideline_therapy"",
+        ""Relationship"": ""contributes_to""
+      },
+      {
+        ""From"": ""guideline_therapy"",
+        ""To"": ""aspirin"",
+        ""Relationship"": ""includes""
+      },
+      {
+        ""From"": ""guideline_therapy"",
+        ""To"": ""statins"",
+        ""Relationship"": ""includes""
+      }
+    ],
+    ""BiasInterpretation"": {
+      ""Type"": ""Diagnostic Uncertainty / Bias"",
+      ""Rationale"": ""The figure explicitly documents disparities in diagnostic evaluation, access to invasive testing, acute STEMI management, and delivery of guideline-directed medical therapy in women. These disparities interact with atypical ischemic mechanisms and evidence gaps, creating diagnostic uncertainty and systematic bias rather than differences driven solely by biology.""
+    }
+  },   ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Caption"": ""Fig. 3. Kaplan–Meier survival analysis of the total male and female population stratified by age (cutoff point = 70 years)."",
+  ""Figure"": {
+    ""FigureType"": ""kaplan_meier_survival_curve"",
+    ""TitleText"": ""Kaplan-Meier survival analysis of the total male and female population stratified by age"",
+    ""Axes"": {
+      ""x_axis"": {
+        ""label"": ""Follow up (years)"",
+        ""range_display"": ""0–20 years""
+      },
+      ""y_axis"": {
+        ""label"": ""Percent survival"",
+        ""range_display"": ""0–100%""
+      }
+    },
+    ""Legend"": {
+      ""Groups"": [
+        { ""key"": ""male_under_70"", ""label"": ""Male < 70"", ""color_display"": ""light blue"" },
+        { ""key"": ""female_under_70"", ""label"": ""Female < 70"", ""color_display"": ""light pink"" },
+        { ""key"": ""female_70_and_over"", ""label"": ""Female ≥ 70"", ""color_display"": ""dark pink"" },
+        { ""key"": ""male_70_and_over"", ""label"": ""Male ≥ 70"", ""color_display"": ""dark blue"" }
+      ]
+    },
+    ""StatisticalAnnotations"": [
+      {
+        ""comparison"": ""Male < 70 vs Female < 70"",
+        ""test"": ""Log-rank test"",
+        ""p_value_display"": ""Log-Rank P < 0.001""
+      },
+      {
+        ""comparison"": ""Male ≥ 70 vs Female ≥ 70"",
+        ""test"": ""Log-rank test"",
+        ""p_value_display"": ""Log-Rank P = 0.003""
+      }
+    ],
+    ""PatientsAtRiskTable"": {
+      ""time_points_years"": [0, 2.5, 5, 7.5, 10, 12.5, 15, 17.5, 20],
+      ""groups"": {
+        ""male_under_70"": [9380, 8569, 7319, 5872, 4398, 3027, 1719, 611],
+        ""male_70_and_over"": [4184, 3442, 2642, 1794, 1009, 513, 194, 49],
+        ""female_under_70"": [1997, 1823, 1576, 1278, 949, 665, 381, 126],
+        ""female_70_and_over"": [1922, 1622, 1331, 936, 578, 303, 101, 29]
+      }
+    },
+    ""ObservedPatterns"": {
+      ""age_effect"": ""Patients ≥ 70 years show substantially lower survival over time compared with those < 70 years."",
+      ""sex_effect_under_70"": ""Male and female survival curves < 70 years are separated, with statistically significant differences."",
+      ""sex_effect_70_and_over"": ""Male and female survival curves ≥ 70 years are separated, with statistically significant differences."",
+      ""overall_trend"": ""Survival decreases progressively with longer follow-up in all age–sex strata.""
+    },
+    ""BiasContext"": {
+      ""sampling_imbalance"": ""Marked differences in sample size between men and women, particularly in the <70 age group."",
+      ""attrition_over_time"": ""Substantial reduction in patients at risk over long-term follow-up, especially among older groups."",
+      ""interpretive_note"": ""Observed survival differences may be influenced by unequal group sizes and differential loss to follow-up across age and sex strata.""
+    }
+  },   ""Assigned Label"": ""Bias"",
+  ""Category"": ""Sampling Bias""
+}"
+"{
+  ""Caption"": ""Figure 2. Pooled crude and adjusted odds ratios of symptoms experienced by women relative to men. OR indicates odds ratio."",
+  ""Figure"": {
+    ""FigureType"": ""forest_plot"",
+    ""OverallDescription"": ""This figure presents pooled crude and adjusted odds ratios (ORs) with 95% confidence intervals for a range of symptoms, comparing their occurrence in women relative to men. Odds ratios greater than 1 indicate symptoms more commonly reported by women, whereas odds ratios less than 1 indicate symptoms more commonly reported by men. Results are shown on a logarithmic scale and are based on varying numbers of contributing studies."",
+    ""Axes"": {
+      ""x_axis"": {
+        ""label"": ""Odds ratio (log scale)"",
+        ""reference_line"": ""OR = 1 (no difference between women and men)"",
+        ""directionality"": {
+          ""left"": ""More common in men"",
+          ""right"": ""More common in women""
+        }
+      }
+    },
+    ""Legend"": {
+      ""Symbols"": {
+        ""Square"": ""Point estimate of odds ratio"",
+        ""Horizontal line"": ""95% confidence interval""
+      }
+    },
+    ""Panels"": [
+      {
+        ""PanelID"": ""crude_estimates"",
+        ""Title"": ""Crude odds ratios"",
+        ""Symptoms"": [
+          {
+            ""Symptom"": ""Pain between shoulder blades"",
+            ""Number_of_studies"": 15,
+            ""OR_95_CI"": ""2.15 [1.95, 2.37]""
+          },
+          {
+            ""Symptom"": ""Neck pain"",
+            ""Number_of_studies"": 7,
+            ""OR_95_CI"": ""1.83 [1.60, 2.10]""
+          },
+          {
+            ""Symptom"": ""Palpitations"",
+            ""Number_of_studies"": 10,
+            ""OR_95_CI"": ""1.80 [1.44, 2.26]""
+          },
+          {
+            ""Symptom"": ""Jaw pain"",
+            ""Number_of_studies"": 11,
+            ""OR_95_CI"": ""1.75 [1.42, 2.17]""
+          },
+          {
+            ""Symptom"": ""Nausea or vomiting"",
+            ""Number_of_studies"": 19,
+            ""OR_95_CI"": ""1.64 [1.48, 1.82]""
+          },
+          {
+            ""Symptom"": ""Fatigue"",
+            ""Number_of_studies"": 11,
+            ""OR_95_CI"": ""1.36 [1.22, 1.52]""
+          },
+          {
+            ""Symptom"": ""Shortness of breath"",
+            ""Number_of_studies"": 22,
+            ""OR_95_CI"": ""1.34 [1.21, 1.48]""
+          },
+          {
+            ""Symptom"": ""Indigestion"",
+            ""Number_of_studies"": 5,
+            ""OR_95_CI"": ""1.31 [0.95, 1.81]""
+          },
+          {
+            ""Symptom"": ""Dizziness or lightheadedness"",
+            ""Number_of_studies"": 9,
+            ""OR_95_CI"": ""1.28 [1.15, 1.44]""
+          },
+          {
+            ""Symptom"": ""Syncope"",
+            ""Number_of_studies"": 11,
+            ""OR_95_CI"": ""1.24 [1.09, 1.42]""
+          },
+          {
+            ""Symptom"": ""Stomach or epigastric pain"",
+            ""Number_of_studies"": 11,
+            ""OR_95_CI"": ""1.20 [0.94, 1.53]""
+          },
+          {
+            ""Symptom"": ""Right arm or shoulder pain"",
+            ""Number_of_studies"": 8,
+            ""OR_95_CI"": ""1.09 [0.88, 1.35]""
+          },
+          {
+            ""Symptom"": ""Left arm or shoulder pain"",
+            ""Number_of_studies"": 12,
+            ""OR_95_CI"": ""1.06 [0.88, 1.27]""
+          },
+          {
+            ""Symptom"": ""Diaphoresis"",
+            ""Number_of_studies"": 19,
+            ""OR_95_CI"": ""0.84 [0.76, 0.94]""
+          },
+          {
+            ""Symptom"": ""Chest pain"",
+            ""Number_of_studies"": 26,
+            ""OR_95_CI"": ""0.70 [0.63, 0.78]""
+          }
+        ]
+      },
+      {
+        ""PanelID"": ""adjusted_estimates"",
+        ""Title"": ""Adjusted odds ratios"",
+        ""Symptoms"": [
+          {
+            ""Symptom"": ""Pain between shoulder blades"",
+            ""Number_of_studies"": 9,
+            ""OR_95_CI"": ""1.89 [1.27, 2.82]""
+          },
+          {
+            ""Symptom"": ""Neck pain"",
+            ""Number_of_studies"": 4,
+            ""OR_95_CI"": ""1.71 [1.00, 2.93]""
+          },
+          {
+            ""Symptom"": ""Palpitations"",
+            ""Number_of_studies"": 3,
+            ""OR_95_CI"": ""1.91 [0.91, 4.00]""
+          },
+          {
+            ""Symptom"": ""Jaw pain"",
+            ""Number_of_studies"": 4,
+            ""OR_95_CI"": ""1.67 [1.01, 2.78]""
+          },
+          {
+            ""Symptom"": ""Nausea or vomiting"",
+            ""Number_of_studies"": 10,
+            ""OR_95_CI"": ""1.63 [1.21, 2.19]""
+          },
+          {
+            ""Symptom"": ""Fatigue"",
+            ""Number_of_studies"": 6,
+            ""OR_95_CI"": ""1.34 [0.94, 1.90]""
+          },
+          {
+            ""Symptom"": ""Shortness of breath"",
+            ""Number_of_studies"": 11,
+            ""OR_95_CI"": ""1.22 [1.01, 1.48]""
+          },
+          {
+            ""Symptom"": ""Indigestion"",
+            ""Number_of_studies"": 2,
+            ""OR_95_CI"": ""1.55 [0.63, 3.83]""
+          },
+          {
+            ""Symptom"": ""Dizziness or lightheadedness"",
+            ""Number_of_studies"": 5,
+            ""OR_95_CI"": ""1.41 [0.96, 2.07]""
+          },
+          {
+            ""Symptom"": ""Syncope"",
+            ""Number_of_studies"": 5,
+            ""OR_95_CI"": ""1.08 [0.75, 1.56]""
+          },
+          {
+            ""Symptom"": ""Stomach or epigastric pain"",
+            ""Number_of_studies"": 6,
+            ""OR_95_CI"": ""0.96 [0.75, 1.23]""
+          },
+          {
+            ""Symptom"": ""Right arm or shoulder pain"",
+            ""Number_of_studies"": 6,
+            ""OR_95_CI"": ""1.03 [0.77, 1.38]""
+          },
+          {
+            ""Symptom"": ""Left arm or shoulder pain"",
+            ""Number_of_studies"": 8,
+            ""OR_95_CI"": ""1.13 [0.93, 1.38]""
+          },
+          {
+            ""Symptom"": ""Diaphoresis"",
+            ""Number_of_studies"": 8,
+            ""OR_95_CI"": ""0.75 [0.72, 0.78]""
+          },
+          {
+            ""Symptom"": ""Chest pain"",
+            ""Number_of_studies"": 8,
+            ""OR_95_CI"": ""0.67 [0.62, 0.73]""
+          }
+        ]
+      }
+    ]
+  },   ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}
+"
+"{
+  ""Caption"": ""Figure 4. Results of the meta-analysis of the pooled prevalence and corresponding 95% CI for all symptoms for ACS in women and men. ACS indicates acute coronary syndromes."",
+  ""Figure"": {
+    ""FigureType"": ""grouped_bar_chart_with_confidence_intervals"",
+    ""OverallDescription"": ""This figure displays the pooled prevalence of presenting symptoms among men and women with acute coronary syndromes (ACS), derived from meta-analysis. For each symptom, separate bars represent men and women, with vertical error bars indicating the corresponding 95% confidence intervals. The figure allows direct comparison of symptom prevalence by sex."",
+    ""Axes"": {
+      ""y_axis"": {
+        ""label"": ""Prevalence (%)"",
+        ""range"": ""0% to 100%""
+      },
+      ""x_axis"": {
+        ""label"": ""Symptom"",
+        ""categories"": [
+          ""Chest pain"",
+          ""Shortness of breath"",
+          ""Diaphoresis"",
+          ""Nausea or vomiting"",
+          ""Left arm or left shoulder pain"",
+          ""Fatigue"",
+          ""Pain between the shoulder blades"",
+          ""Dizziness or lightheadedness"",
+          ""Neck pain"",
+          ""Palpitations"",
+          ""Right arm or right shoulder pain"",
+          ""Jaw pain"",
+          ""Indigestion"",
+          ""Stomach or epigastric pain"",
+          ""Syncope""
+        ]
+      }
+    },
+    ""Legend"": {
+      ""Groups"": {
+        ""Men"": ""Darker bars"",
+        ""Women"": ""Lighter bars""
+      },
+      ""ConfidenceIntervals"": ""Vertical error bars indicate 95% CI""
+    },
+    ""DataBySymptom"": [
+      {
+        ""Symptom"": ""Chest pain"",
+        ""Men"": { ""Prevalence"": ""higher"", ""CI"": ""shown"" },
+        ""Women"": { ""Prevalence"": ""lower"", ""CI"": ""shown"" }
+      },
+      {
+        ""Symptom"": ""Shortness of breath"",
+        ""Men"": { ""Prevalence"": ""lower"", ""CI"": ""shown"" },
+        ""Women"": { ""Prevalence"": ""higher"", ""CI"": ""shown"" }
+      },
+      {
+        ""Symptom"": ""Diaphoresis"",
+        ""Men"": { ""Prevalence"": ""higher"", ""CI"": ""shown"" },
+        ""Women"": { ""Prevalence"": ""lower"", ""CI"": ""shown"" }
+      },
+      {
+        ""Symptom"": ""Nausea or vomiting"",
+        ""Men"": { ""Prevalence"": ""lower"", ""CI"": ""shown"" },
+        ""Women"": { ""Prevalence"": ""higher"", ""CI"": ""shown"" }
+      },
+      {
+        ""Symptom"": ""Left arm or left shoulder pain"",
+        ""Men"": { ""Prevalence"": ""slightly higher"", ""CI"": ""shown"" },
+        ""Women"": { ""Prevalence"": ""slightly lower"", ""CI"": ""shown"" }
+      },
+      {
+        ""Symptom"": ""Fatigue"",
+        ""Men"": { ""Prevalence"": ""lower"", ""CI"": ""shown"" },
+        ""Women"": { ""Prevalence"": ""higher"", ""CI"": ""shown"" }
+      },
+      {
+        ""Symptom"": ""Pain between the shoulder blades"",
+        ""Men"": { ""Prevalence"": ""lower"", ""CI"": ""shown"" },
+        ""Women"": { ""Prevalence"": ""higher"", ""CI"": ""shown"" }
+      },
+      {
+        ""Symptom"": ""Dizziness or lightheadedness"",
+        ""Men"": { ""Prevalence"": ""lower"", ""CI"": ""shown"" },
+        ""Women"": { ""Prevalence"": ""higher"", ""CI"": ""shown"" }
+      },
+      {
+        ""Symptom"": ""Neck pain"",
+        ""Men"": { ""Prevalence"": ""lower"", ""CI"": ""shown"" },
+        ""Women"": { ""Prevalence"": ""higher"", ""CI"": ""shown"" }
+      },
+      {
+        ""Symptom"": ""Palpitations"",
+        ""Men"": { ""Prevalence"": ""lower"", ""CI"": ""shown"" },
+        ""Women"": { ""Prevalence"": ""higher"", ""CI"": ""shown"" }
+      },
+      {
+        ""Symptom"": ""Right arm or right shoulder pain"",
+        ""Men"": { ""Prevalence"": ""slightly higher"", ""CI"": ""shown"" },
+        ""Women"": { ""Prevalence"": ""slightly lower"", ""CI"": ""shown"" }
+      },
+      {
+        ""Symptom"": ""Jaw pain"",
+        ""Men"": { ""Prevalence"": ""lower"", ""CI"": ""shown"" },
+        ""Women"": { ""Prevalence"": ""higher"", ""CI"": ""shown"" }
+      },
+      {
+        ""Symptom"": ""Indigestion"",
+        ""Men"": { ""Prevalence"": ""lower"", ""CI"": ""shown"" },
+        ""Women"": { ""Prevalence"": ""higher"", ""CI"": ""shown"" }
+      },
+      {
+        ""Symptom"": ""Stomach or epigastric pain"",
+        ""Men"": { ""Prevalence"": ""lower"", ""CI"": ""shown"" },
+        ""Women"": { ""Prevalence"": ""higher"", ""CI"": ""shown"" }
+      },
+      {
+        ""Symptom"": ""Syncope"",
+        ""Men"": { ""Prevalence"": ""slightly higher"", ""CI"": ""shown"" },
+        ""Women"": { ""Prevalence"": ""slightly lower"", ""CI"": ""shown"" }
+      }
+    ]
+  },   ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Caption"": ""Fig. 17.4. Degree of coronary artery disease (CAD) by sex and year of invasive coronary angiography examination. From: Sex Differences in the Coronary System."",
+  ""Figure"": {
+    ""FigureType"": ""stacked_bar_chart"",
+    ""OverallDescription"": ""Two stacked bar charts display the temporal change in the degree of coronary artery disease (CAD) separately for men and women over a ten-year period (2000–2009), based on invasive coronary angiography findings."",
+    ""Panels"": [
+      {
+        ""PanelID"": ""men"",
+        ""Title"": ""Degree of CAD – change over time – Men"",
+        ""Axes"": {
+          ""x_axis"": {
+            ""label"": ""Year"",
+            ""values"": [""2000"", ""2001"", ""2002"", ""2003"", ""2004"", ""2005"", ""2006"", ""2007"", ""2008"", ""2009""]
+          },
+          ""y_axis"": {
+            ""label"": ""Percent"",
+            ""range_display"": ""0–100%""
+          }
+        },
+        ""Legend"": {
+          ""Categories"": [
+            { ""key"": ""no_obstructive_cad"", ""label"": ""No obstructive CAD"", ""color_display"": ""dark blue"" },
+            { ""key"": ""obstructive_cad"", ""label"": ""Obstructive CAD"", ""color_display"": ""yellow"" }
+          ]
+        },
+        ""ObservedValuesApproximate"": {
+          ""2000"": { ""no_obstructive_cad_percent"": 20, ""obstructive_cad_percent"": 80 },
+          ""2001"": { ""no_obstructive_cad_percent"": 25, ""obstructive_cad_percent"": 75 },
+          ""2002"": { ""no_obstructive_cad_percent"": 30, ""obstructive_cad_percent"": 70 },
+          ""2003"": { ""no_obstructive_cad_percent"": 28, ""obstructive_cad_percent"": 72 },
+          ""2004"": { ""no_obstructive_cad_percent"": 31, ""obstructive_cad_percent"": 69 },
+          ""2005"": { ""no_obstructive_cad_percent"": 33, ""obstructive_cad_percent"": 67 },
+          ""2006"": { ""no_obstructive_cad_percent"": 35, ""obstructive_cad_percent"": 65 },
+          ""2007"": { ""no_obstructive_cad_percent"": 40, ""obstructive_cad_percent"": 60 },
+          ""2008"": { ""no_obstructive_cad_percent"": 41, ""obstructive_cad_percent"": 59 },
+          ""2009"": { ""no_obstructive_cad_percent"": 42, ""obstructive_cad_percent"": 58 }
+        }
+      },
+      {
+        ""PanelID"": ""women"",
+        ""Title"": ""Degree of CAD – change over time – Women"",
+        ""Axes"": {
+          ""x_axis"": {
+            ""label"": ""Year"",
+            ""values"": [""2000"", ""2001"", ""2002"", ""2003"", ""2004"", ""2005"", ""2006"", ""2007"", ""2008"", ""2009""]
+          },
+          ""y_axis"": {
+            ""label"": ""Percent"",
+            ""range_display"": ""0–100%""
+          }
+        },
+        ""Legend"": {
+          ""Categories"": [
+            { ""key"": ""no_obstructive_cad"", ""label"": ""No obstructive CAD"", ""color_display"": ""dark blue"" },
+            { ""key"": ""obstructive_cad"", ""label"": ""Obstructive CAD"", ""color_display"": ""yellow"" }
+          ]
+        },
+        ""ObservedValuesApproximate"": {
+          ""2000"": { ""no_obstructive_cad_percent"": 55, ""obstructive_cad_percent"": 45 },
+          ""2001"": { ""no_obstructive_cad_percent"": 58, ""obstructive_cad_percent"": 42 },
+          ""2002"": { ""no_obstructive_cad_percent"": 60, ""obstructive_cad_percent"": 40 },
+          ""2003"": { ""no_obstructive_cad_percent"": 63, ""obstructive_cad_percent"": 37 },
+          ""2004"": { ""no_obstructive_cad_percent"": 62, ""obstructive_cad_percent"": 38 },
+          ""2005"": { ""no_obstructive_cad_percent"": 66, ""obstructive_cad_percent"": 34 },
+          ""2006"": { ""no_obstructive_cad_percent"": 67, ""obstructive_cad_percent"": 33 },
+          ""2007"": { ""no_obstructive_cad_percent"": 71, ""obstructive_cad_percent"": 29 },
+          ""2008"": { ""no_obstructive_cad_percent"": 73, ""obstructive_cad_percent"": 27 },
+          ""2009"": { ""no_obstructive_cad_percent"": 73, ""obstructive_cad_percent"": 27 }
+        }
+      }
+    ],
+    ""ComparativeInterpretation"": {
+      ""sex_difference"": ""Across all years, women demonstrate a higher proportion of no obstructive CAD compared with men."",
+      ""temporal_trend"": ""Both men and women show an increasing proportion of no obstructive CAD over time and a corresponding decrease in obstructive CAD."",
+      ""clinical_context"": ""Findings reflect observed angiographic patterns over time without adjustment or inference regarding causality or care disparities.""
+    },
+    ""Notes"": [
+      ""Percentages are based on invasive coronary angiography findings."",
+      ""Data reproduced with permission as indicated in the source."",
+      ""CAD = coronary artery disease.""
+    ]
+  },   ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}
+"
+"{
+  ""Caption"": ""Fig. 17.5. Survivor functions for men and women: age adjusted to 60 years. Major adverse cardiovascular event (MACE)–free survival by sex and vessel disease (VD) involvement on invasive coronary angiography. Reproduced with permission."",
+  ""Figure"": {
+    ""FigureType"": ""kaplan_meier_survival_curves"",
+    ""OverallDescription"": ""Two Kaplan–Meier survival plots display age-adjusted (to 60 years) MACE-free survival over time for men and women, stratified by angiographic extent of coronary artery disease, ranging from asymptomatic status to three-vessel disease."",
+    ""Panels"": [
+      {
+        ""PanelID"": ""men"",
+        ""Title"": ""Survivor functions for men: age adjusted to 60 years"",
+        ""Axes"": {
+          ""x_axis"": {
+            ""label"": ""Time (years)"",
+            ""range_display"": ""0–8""
+          },
+          ""y_axis"": {
+            ""label"": ""MACE-free survival"",
+            ""range_display"": ""0.75–1.00""
+          }
+        },
+        ""Strata"": [
+          { ""Label"": ""Asymptomatic"", ""RelativeSurvival"": ""highest"" },
+          { ""Label"": ""Normal coronary arteries"", ""RelativeSurvival"": ""lower than asymptomatic"" },
+          { ""Label"": ""Diffuse non-obstructive CAD"", ""RelativeSurvival"": ""intermediate"" },
+          { ""Label"": ""1VD"", ""RelativeSurvival"": ""intermediate to low"" },
+          { ""Label"": ""2VD"", ""RelativeSurvival"": ""low"" },
+          { ""Label"": ""3VD"", ""RelativeSurvival"": ""lowest"" }
+        ],
+        ""NumbersAtRisk"": {
+          ""time_0_years"": {
+            ""Asymptomatic"": 2359,
+            ""Normal_coronary_arteries"": 1214,
+            ""Diffuse_non_obstructive_CAD"": 869,
+            ""1VD"": 1475,
+            ""2VD"": 1105,
+            ""3VD"": 1783
+          },
+          ""time_2_years"": {
+            ""Asymptomatic"": 2231,
+            ""Normal_coronary_arteries"": 854,
+            ""Diffuse_non_obstructive_CAD"": 557,
+            ""1VD"": 1072,
+            ""2VD"": 806,
+            ""3VD"": 1312
+          },
+          ""time_4_years"": {
+            ""Asymptomatic"": 2101,
+            ""Normal_coronary_arteries"": 597,
+            ""Diffuse_non_obstructive_CAD"": 362,
+            ""1VD"": 783,
+            ""2VD"": 583,
+            ""3VD"": 984
+          },
+          ""time_6_years"": {
+            ""Asymptomatic"": 1738,
+            ""Normal_coronary_arteries"": 367,
+            ""Diffuse_non_obstructive_CAD"": 174,
+            ""1VD"": 474,
+            ""2VD"": 342,
+            ""3VD"": 632
+          }
+        }
+      },
+      {
+        ""PanelID"": ""women"",
+        ""Title"": ""Survivor functions for women: age adjusted to 60 years"",
+        ""Axes"": {
+          ""x_axis"": {
+            ""label"": ""Time (years)"",
+            ""range_display"": ""0–8""
+          },
+          ""y_axis"": {
+            ""label"": ""MACE-free survival"",
+            ""range_display"": ""0.75–1.00""
+          }
+        },
+        ""Strata"": [
+          { ""Label"": ""Asymptomatic"", ""RelativeSurvival"": ""highest"" },
+          { ""Label"": ""Normal coronary arteries"", ""RelativeSurvival"": ""lower than asymptomatic"" },
+          { ""Label"": ""Diffuse non-obstructive CAD"", ""RelativeSurvival"": ""intermediate"" },
+          { ""Label"": ""1VD"", ""RelativeSurvival"": ""intermediate to low"" },
+          { ""Label"": ""2VD"", ""RelativeSurvival"": ""low"" },
+          { ""Label"": ""3VD"", ""RelativeSurvival"": ""lowest"" }
+        ],
+        ""NumbersAtRisk"": {
+          ""time_0_years"": {
+            ""Asymptomatic"": 3346,
+            ""Normal_coronary_arteries"": 2237,
+            ""Diffuse_non_obstructive_CAD"": 809,
+            ""1VD"": 777,
+            ""2VD"": 377,
+            ""3VD"": 471
+          },
+          ""time_2_years"": {
+            ""Asymptomatic"": 3213,
+            ""Normal_coronary_arteries"": 1597,
+            ""Diffuse_non_obstructive_CAD"": 527,
+            ""1VD"": 567,
+            ""2VD"": 274,
+            ""3VD"": 333
+          },
+          ""time_4_years"": {
+            ""Asymptomatic"": 3044,
+            ""Normal_coronary_arteries"": 1155,
+            ""Diffuse_non_obstructive_CAD"": 336,
+            ""1VD"": 411,
+            ""2VD"": 209,
+            ""3VD"": 256
+          },
+          ""time_6_years"": {
+            ""Asymptomatic"": 2600,
+            ""Normal_coronary_arteries"": 721,
+            ""Diffuse_non_obstructive_CAD"": 187,
+            ""1VD"": 252,
+            ""2VD"": 143,
+            ""3VD"": 161
+          }
+        }
+      }
+    ],
+    ""ComparativeInterpretation"": {
+      ""disease_severity_gradient"": ""In both men and women, increasing vessel disease involvement (from asymptomatic to 3VD) is associated with progressively lower MACE-free survival."",
+      ""sex_specific_pattern"": ""The ordering of survival curves by disease severity is similar between sexes, indicating consistent prognostic stratification."",
+      ""analytic_context"": ""Survival functions are age-adjusted to 60 years and reflect observed outcomes following invasive coronary angiography, without attribution to treatment bias.""
+    },
+    ""Legend"": {
+      ""Abbreviations"": {
+        ""CAD"": ""coronary artery disease"",
+        ""VD"": ""vessel disease"",
+        ""1VD"": ""one-vessel disease"",
+        ""2VD"": ""two-vessel disease"",
+        ""3VD"": ""three-vessel disease"",
+        ""MACE"": ""major adverse cardiovascular event""
+      }
+    },
+    ""Notes"": [
+      ""Survival curves represent MACE-free survival."",
+      ""Age adjustment performed at 60 years."",
+      ""Numbers at risk are shown below each panel at selected time points.""
+    ]
+  },   ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Caption"": ""Fig. 2. Clot lysability in men (N = 47) and women (N = 31) with ΔAgatston score > 0 U at follow-up. Variables are compared using the unpaired Student’s t test. Mean and SD are indicated in bars"",
+  ""Figure"": {
+    ""FigureType"": ""grouped_dot_plot_with_mean_sd"",
+    ""TitleText"": ""Clot lysability (%)"",
+    ""StatisticalAnnotation"": {
+      ""p_value_display"": ""p = 0.002"",
+      ""test_display"": ""unpaired Student’s t test""
+    },
+    ""Population"": {
+      ""men_N"": 47,
+      ""women_N"": 31,
+      ""inclusion_criteria_display"": ""ΔAgatston score > 0 U at follow-up""
+    },
+    ""Axes"": {
+      ""x_axis"": {
+        ""label"": """",
+        ""groups"": [
+          { ""key"": ""men"", ""label"": ""Men"" },
+          { ""key"": ""women"", ""label"": ""Women"" }
+        ]
+      },
+      ""y_axis"": {
+        ""label"": ""Clot lysability (%)"",
+        ""scale"": {
+          ""type"": ""linear"",
+          ""min_display"": ""0"",
+          ""max_display"": ""100"",
+          ""tick_labels_display"": [""0"", ""20"", ""40"", ""60"", ""80"", ""100""]
+        }
+      }
+    },
+    ""DataEncoding"": {
+      ""points"": {
+        ""mark"": ""open_circle"",
+        ""meaning"": ""individual observations""
+      },
+      ""summary_bars"": {
+        ""meaning"": ""Mean and SD are indicated in bars"",
+        ""components"": [
+          { ""component"": ""mean"", ""mark"": ""horizontal_bar"" },
+          { ""component"": ""sd"", ""mark"": ""vertical_error_bar"" }
+        ]
+      }
+    },
+    ""Groups"": [
+      {
+        ""GroupKey"": ""men"",
+        ""GroupLabel"": ""Men"",
+        ""N"": 47
+      },
+      {
+        ""GroupKey"": ""women"",
+        ""GroupLabel"": ""Women"",
+        ""N"": 31
+      }
+    ],
+    ""ObservedOutcome"": {
+      ""ComparisonType"": ""between_group_difference"",
+      ""GroupsCompared"": [""Men"", ""Women""],
+      ""OutcomeMeasure"": ""Clot lysability (%)"",
+      ""DirectionFromVisual"": {
+        ""men_vs_women"": ""Men values appear higher overall than Women values (as shown by the plotted distributions and mean bars)"",
+        ""note"": ""Exact group means/SDs are not printed numerically in the figure; mean and SD are shown graphically.""
+      }
+    }
+  },   
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""There is also underutilization in women of cardiac devices, including implantable cardiac defibrillators and cardiac resynchronization therapy (CRT.)"",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""The previous assumption that heart disease in women is the same as that in men, only occurring about a decade later, represents an oversimplification and underscores the importance of sex-specific research in cardiovascular care."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Sampling Bias""
+}"
+"{
+  ""Text"": ""Females manifest non-obstructive CAD more frequently than males. They usually present atypical symptoms, including back pain, palpitations, etc., which lead to delayed diagnosis of the disease and consequently increase the risk of morbidity and mortality."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Clinical presentation is one of the factors that can influence how quickly a patient with an acute coronary syndrome is treated, particularly when this presentation is atypical."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Symptom Misinterpretation,""
+}"
+"{
+  ""Text"": ""The latter is more inclusive of disorders, such as microvascular and endothelial dysfunction, more commonly found in women, and the broader definition may improve the undertreatment and ultimately morbidity and mortality in women."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""CR also imparts gendered influence on social support and psychological recovery after CABG, enhancing patient engagement and adherence with exercise and medication prescriptions. Although the benefits of CR are well established, most of these data (>85% of articles) come from studies in male patients."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Sampling Bias""
+}"
+"{
+  ""Text"": ""There are clearly gender-based differences documented, with fewer referrals to CR for women."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Roughly half of the patients were referred for CR, and only a third entered a CR program. Of those referred, 51 men (32%) and 9 women (23%) entered the 12-week CR program."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""Conclusive evidence is limited from randomized controlled trials because the enrollment rate of women is <15%."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Sampling bias""
+}"
+"{
+  ""Text"": ""Gender differences have previously been described with CVD, with women 36% less likely to be enrolled in CR compared with men."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""A 2007 study of Medicare patients found that 22% of men compared with 14% of women received referral for CR."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""A decade later, another look at Medicare beneficiaries undergoing CABG found an increase in CR enrollment rates and yet persistent gender differences, with lower enrollment and retention in women compared with men."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic Uncertainty / Bias""
+}"
+"{
+  ""Text"": ""We noted some variation in benefits of CR in men and women. For example, men experienced increases in METs (38%, P = 0.014), grip strength (11%, P < 0.0001), and sense of physical well-being (40.9%, P < 0.0001) (Table V). Women experienced predominantly increases in aerobic exercise duration 
+(15.5%, P = 0.02) and a trend for improvement in sense for physical well-being (93.3%, P = 0.06) (Table V). It is possible that the inability to find gains in more domains for women is also a function of the small numbers of women completing the program in CR."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Sampling bias""
+}"
+"{
+  ""Text"": ""The inability to find gains in more domains for women is also a function of the small numbers of women completing the program in CR."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Sampling bias""
+}"
+"{
+  ""Text"": ""Importantly, in both trials women were a minority (CANTOS: 25.7% and COLCOT: ∼19%). To date, the data have not been split by sex."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Sampling bias""
+}"
+"{
+  ""Text"": ""Clinical studies investigating specific therapeutic interventions that target these steps in the inflammatory cascade have not been performed in single-sex groups."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Sampling Bias""
+}"
+"{
+  ""Text"": ""The hormonal status in the women was unknown, but no significant differences in clot lysability between the two age cohorts in women at both baseline and follow-up were observed."",
+  ""Assigned Label"": ""No Bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""Implicit gender bias does not explain all gender differences in CAD testing."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Factual / Neutral Observed Outcome""
+}"
+"{
+  ""Text"": ""The most notable finding was that the magnitude of the association of the locus on 10q11.21 with CAD was greater (P=0.015 for interaction) in women (OR=1.29 [1.15 to 1.45], P=1.86×10−5) compared with men (OR=1.03 [0.96 to 1.11], P=0.387)."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Women are less prone to CAD than men, which could partly be attributable to differences in gene–environment interactions. Interestingly, the locus on chromosome 10q11.21 showed a stronger association in women than in men. The nature of the locus with CXCL12 as the most proximate gene (Table 3) 
+does not suggest an immediate mechanism that could explain a gender interaction and whether this finding, which was of borderline statistical significance and would not have been significant if we had adjusted for the multiple interaction analyses carried out, represents a true sex difference in effect requires further investigation."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""The 4 loci act independently with a combined OR of 1.15 (1.12 to 1.18) per additional risk allele. Because of the sex-specific effect of the locus on 10q11.21, the OR per additional risk allele was higher in women (1.21 [1.15 to 1.27]) compared with men (1.12 [1.08 to 1.16]). 
+There was no significant interaction with age (P=0.30)."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""However, at all ages, the prevalence of CAD in women is lower than in men, and the gender difference in plasma lipoprotein-lipid levels as well as in the prevalence of type II diabetes are believed to be responsible, at least in part, for the higher CAD risk observed in men."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Indeed, men are characterized by an overall less favorable plasma lipid profile, which includes high fasting triglyceride (TG) and low HDL-cholesterol concentrations compared with women."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""An increased visceral adipose tissue (AT) accumulation has been reported in men compared with women and this factor could also contribute to the gender difference in the CAD risk profile."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Indeed, men were characterized by an increased abdominal AT accumulation as expressed by higher waist circumference and waist-to-hip ratio values compared with women. Furthermore, men displayed a greater amount of visceral AT than women. In contrast, significantly 
+higher levels of abdominal subcutaneous AT were noted in women compared with men."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Gender differences in fasting plasma lipoprotein-lipid concentrations have already been reported."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Men are known to present a preferential accumulation of AT in the abdominal visceral depot, whereas women are characterized by a more peripheral AT distribution."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""As women have less visceral AT than men, we tested the hypothesis that their preferential accumulation of subcutaneous AT would be associated with a more favorable postprandial TRL metabolism."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""The well known gender difference in visceral adipose tissue accumulation is an important contributing factor involved in the exaggerated postprandial triglyceride-rich lipoprotein response noted in men compared with women."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Men show a greater postprandial triglyceridemic response to a meal than women."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""As women have less visceral AT than men, 39 we tested the hypothesis that their preferential accumulation of subcutaneous AT would be associated with a more favorable postprandial TRL metabolism."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Alterations in plasma lipoprotein-lipid concentrations are known to increase the risk of coronary artery disease (CAD) in both men and women."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Visceral adipose tissue was significantly associated with the postprandial triglyceride response in both genders."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""When men and women were matched for visceral adipose tissue accumulation, the gender difference in postprandial plasma triglyceride response was eliminated."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Gender per se did not contribute to the variation in postprandial triglyceride levels after control for visceral AT accumulation and related fasting metabolic variables."",
+  ""Assigned Label"": ""No bias"",
+  ""Category"": ""Biological / Physiological Differences""
+}"
+"{
+  ""Text"": ""Women have more angina but less obstructive coronary artery disease, which affects delays in presentation and diagnosis and testing accuracy."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Diagnostic / Uncertainty Bias""
+}"
+"{
+  ""Text"": ""A lack of recognition of sex differences in presentation of IHD may in part explain outcome disparities in women compared to men."",
+  ""Assigned Label"": ""Bias"",
+  ""Category"": ""Symptom Misinterpretation""
+}"
