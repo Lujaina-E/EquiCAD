@@ -17,7 +17,7 @@ from flask import send_from_directory
 app = Flask(__name__)
 CORS(
     app,
-    resources={r"/*": {"origins": [
+    resources={r"/api/*": {"origins": [
         "https://netlify-equicad-frontend.netlify.app",
         "http://localhost:3000"
     ]}},
@@ -25,17 +25,6 @@ CORS(
     allow_headers="*",
     methods=["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"]
 )
-
-# Handle preflight OPTIONS explicitly
-@app.before_request
-def handle_options():
-    if request.method == "OPTIONS":
-        response = make_response()
-        response.headers.add("Access-Control-Allow-Origin", "https://netlify-equicad-frontend.netlify.app")
-        response.headers.add("Access-Control-Allow-Credentials", "true")
-        response.headers.add("Access-Control-Allow-Headers", "*")
-        response.headers.add("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,OPTIONS,PATCH")
-        return response
 
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
