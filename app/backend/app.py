@@ -13,6 +13,23 @@ import PyPDF2
 from datetime import datetime, timezone
 import uuid
 from flask import send_from_directory
+from fastapi.middleware.cors import CORSMiddleware
+
+
+origins = [
+    "http://localhost:3000",  # dev on host
+    "http://127.0.0.1:3000",
+    "http://frontend:3000",   # if frontend runs in Docker
+    "https://your-production-url.com",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 app = Flask(__name__)
 CORS(
