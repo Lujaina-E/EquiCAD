@@ -235,56 +235,59 @@ def split_text_by_granularity(text, granularity):
         return [s.strip() for s in sentences if s.strip()]
     
     elif granularity == 'paragraph':
-        # Multiple splitting strategies to handle various PDF formats
-        
-        # Strategy 1: Split on double newlines (clear paragraph breaks)
         paragraphs = re.split(r'\n\s*\n+', text)
-        
-        # Strategy 2: If we get very few paragraphs, try single newlines
-        # (common in PDFs where paragraphs are on separate lines)
+        # fallback for PDFs with weird formatting
         if len(paragraphs) <= 2 and len(text) > 500:
-            # Split on single newlines, but keep sentences together
             lines = text.split('\n')
             paragraphs = []
             current_para = []
-            
             for line in lines:
                 line = line.strip()
                 if not line:
-                    # Empty line = paragraph break
                     if current_para:
                         paragraphs.append(' '.join(current_para))
                         current_para = []
-                elif len(line) < 80 and not line.endswith(('.', '!', '?', ',')):
-                    # Short line without sentence-ending punctuation = likely a heading
-                    if current_para:
-                        paragraphs.append(' '.join(current_para))
-                        current_para = []
-                    paragraphs.append(line)
                 else:
                     current_para.append(line)
-            
-            # Add the last paragraph
             if current_para:
                 paragraphs.append(' '.join(current_para))
-        
-        # Filter out very short paragraphs and clean up
-        result = []
-        for p in paragraphs:
-            p = p.strip()
-            # Keep paragraphs with at least 40 chars or that look like headings
-            if len(p) >= 40 or (len(p) >= 10 and ':' in p):
-                result.append(p)
-        
-        return result if result else [text]
+        return [p.strip() for p in paragraphs if p.strip()]
     
     elif granularity == 'sectional':
-        # Split by headers or major section breaks
-        sections = re.split(r'\n(?=[A-Z][A-Za-z\s]{3,}:|\d+\.)', text)
-        return [s.strip() for s in sections if len(s.strip()) > 50]
+        # --- Split based on bolded headers ---
+        lines = text.splitlines()
+        sections = []
+        current_section = []
+
+        for line in lines:
+            line_strip = line.strip()
+            if not line_strip:
+                continue
+
+            # Heuristic for bold headers:
+            # 1. All caps OR 2. Ends with ":" OR 3. Short line (< 80 chars) before a long block
+            is_bold_header = (
+                line_strip.isupper() or
+                line_strip.endswith(":") or
+                (len(line_strip) < 80 and re.match(r'^\S', line_strip))
+            )
+
+            if is_bold_header and current_section:
+                sections.append('\n'.join(current_section).strip())
+                current_section = [line_strip]
+            else:
+                current_section.append(line_strip)
+
+        if current_section:
+            sections.append('\n'.join(current_section).strip())
+
+        # Filter out very short sections
+        sections = [s for s in sections if len(s) > 50]
+        return sections if sections else [text]
     
     else:
         return [text]
+
 
 
 def normalize_file_content(file_data, granularity='sectional'):
@@ -631,6 +634,41 @@ def select_content_type():
             
     except Exception as e:
         return jsonify({"success": False, "error": str(e)}), 500
+    
+    
+def aggregate_bias_for_chunk(chunk_text):
+    """
+    Given a section/paragraph (chunk_text), analyze each sentence
+    and return Label + Category list according to your requirements:
+    - If ANY sentence has bias, Label = Bias
+    - Category = list of unique bias categories found in sentences
+    """
+    from itertools import chain
+
+    sentences = re.split(r'(?<=[.!?])\s+', chunk_text)
+    bias_categories = []
+
+    for s in sentences:
+        result = detect_bias_with_model(s, output_format="label_category")
+        try:
+            label, category = extract_label_category(result)
+            if label == "Bias":
+                bias_categories.append(category)
+        except Exception:
+            continue  # skip sentences with parsing issues
+
+    if bias_categories:
+        # Remove duplicates
+        bias_categories = list(set(bias_categories))
+        if len(bias_categories) == 1:
+            category_str = bias_categories[0]
+        else:
+            category_str = bias_categories  # can be list if multiple
+        return f"Label: Bias\nCategory: {category_str}"
+    else:
+        # No Bias in any sentence
+        return f"Label: No Bias\nCategory: Factual / Neutral Observed Outcome"
+
 
 
 @app.route('/api/chat/select-granularity', methods=['POST'])
@@ -792,7 +830,10 @@ def analyze_batch():
         chunk_type = chunk_obj["type"]
         content_for_model = chunk_obj["content"]
         
-        result_text = detect_bias_with_model(content_for_model, output_format)
+        if state.get('granularity') in ['paragraph', 'sectional']:
+            result_text = aggregate_bias_for_chunk(content_for_model)
+        else:
+            result_text = detect_bias_with_model(content_for_model, output_format)
 
         # Extract label and category for logging
         try:
@@ -994,5 +1035,6 @@ def health_check():
     })
 
 
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
