@@ -954,10 +954,6 @@ def handle_continue():
     except Exception as e:
         return jsonify({"success": False, "error": str(e)}), 500
 
-
-
-@app.route("/", defaults={"path": ""})
-@app.route("/<path:path>")
 def serve_react(path):
     if path != "" and os.path.exists("static/" + path):
         return send_from_directory("static", path)
