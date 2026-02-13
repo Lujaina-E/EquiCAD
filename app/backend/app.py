@@ -394,7 +394,7 @@ def extract_label_category(text: str):
     )
 
     if not label_match:
-        raise ValueError(f"Cannot extract label from: {text}")
+        raise ValueError(f"Cannot extract label from this section. Try again later.")
     if not category_match:
         raise ValueError(f"Cannot extract category from: {text}")
 
