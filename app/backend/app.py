@@ -215,19 +215,32 @@ def perform_ocr_on_image(image_bytes):
 
 def split_sentences(text):
     """Split text into sentences using NLTK."""
-    try:
-        nltk.data.find('tokenizers/punkt')
-    except LookupError:
-        nltk.download('punkt')
     sentences = sent_tokenize(text)
     return [s.strip() for s in sentences if s.strip()]
 
 def split_paragraphs(text):
-    """Split text into paragraphs."""
-    paragraphs = re.split(r'\n\s*\n+', text)
-    if len(paragraphs) < 2:
-        paragraphs = text.split('\n')
-    return [p.strip() for p in paragraphs if p.strip()]
+    lines = [l.strip() for l in text.replace('\r\n', '\n').split('\n') if l.strip()]
+    paragraphs = []
+    current_para = []
+
+    for i, line in enumerate(lines):
+        current_para.append(line)
+
+        # Lookahead to next line
+        if i + 1 < len(lines):
+            next_line = lines[i + 1].strip()
+
+            # Heuristic: next line starts with capital letter, current line ends with punctuation
+            if (line.endswith(('.', '!', '?')) and next_line and next_line[0].isupper()) or len(line) < 40 and next_line[0].isupper():
+                paragraphs.append(' '.join(current_para))
+                current_para = []
+
+    # Add last paragraph
+    if current_para:
+        paragraphs.append(' '.join(current_para))
+
+    return [p for p in paragraphs if p]
+
 
 def split_sections(text):
     """Split text into sections based on headers."""
@@ -263,15 +276,22 @@ def split_text_by_granularity(text, granularity='sectional'):
         return []
 
     if granularity == 'sentence':
-        return split_sentences(text)
+        # split each paragraph into sentences
+        paragraphs = split_paragraphs(text)
+        sentences = []
+        for para in paragraphs:
+            sentences.extend(sent_tokenize(para))
+        return sentences
+
     elif granularity == 'paragraph':
+        # split by paragraphs (sections already preserved by previous step)
         return split_paragraphs(text)
+
     elif granularity == 'sectional':
         return split_sections(text)
+
     else:
         return [text]
-
-
 
 def normalize_file_content(file_data, granularity='sectional'):
     """
