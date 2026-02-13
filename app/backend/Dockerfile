@@ -14,11 +14,6 @@ COPY . .
 ENV PORT=5000
 
 # Use shell-form CMD so $PORT expands at runtime
-CMD ["gunicorn", "app:app", \
-     "--workers", "2", \
-     "--threads", "4", \
-     "--timeout", "300", \
-     "--preload", \
-     "--bind", "0.0.0.0:$PORT", \
-     "--access-logfile", "-", \
-     "--error-logfile", "-"]
+CMD exec gunicorn app:app \
+    --workers 2 \
+    --bind 0.0.0.0:$PORT
