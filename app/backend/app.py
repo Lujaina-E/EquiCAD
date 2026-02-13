@@ -13,6 +13,8 @@ import PyPDF2
 from datetime import datetime, timezone
 import uuid
 from flask import send_from_directory
+import nltk
+from nltk.tokenize import sent_tokenize
 
 app = Flask(__name__)
 
@@ -211,64 +213,64 @@ def perform_ocr_on_image(image_bytes):
     return "<OCR not implemented>"
 
 
+def split_sentences(text):
+    """Split text into sentences using NLTK."""
+    try:
+        nltk.data.find('tokenizers/punkt')
+    except LookupError:
+        nltk.download('punkt')
+    sentences = sent_tokenize(text)
+    return [s.strip() for s in sentences if s.strip()]
 
-def split_text_by_granularity(text, granularity):
-    """Split text into chunks based on granularity"""
+def split_paragraphs(text):
+    """Split text into paragraphs."""
+    paragraphs = re.split(r'\n\s*\n+', text)
+    if len(paragraphs) < 2:
+        paragraphs = text.split('\n')
+    return [p.strip() for p in paragraphs if p.strip()]
+
+def split_sections(text):
+    """Split text into sections based on headers."""
+    lines = text.split('\n')
+    sections = []
+    current_section = []
+
+    for line in lines:
+        stripped = line.strip()
+        if not stripped:
+            continue
+
+        is_all_caps = stripped.isupper() and len(stripped.split()) > 1
+        is_numbered = bool(re.match(r'^\d+(\.\d+)*\s', stripped))
+        ends_with_colon = stripped.endswith(':')
+
+        if is_all_caps or is_numbered or ends_with_colon:
+            if current_section:
+                sections.append('\n'.join(current_section).strip())
+                current_section = []
+
+        current_section.append(stripped)
+
+    if current_section:
+        sections.append('\n'.join(current_section).strip())
+
+    return sections if sections else [text]
+
+def split_text_by_granularity(text, granularity='sectional'):
+    """Split text into chunks based on granularity."""
+    text = text.strip()
+    if not text:
+        return []
+
     if granularity == 'sentence':
-        sentences = re.split(r'(?<=[.!?])\s+', text)
-        return [s.strip() for s in sentences if s.strip()]
-    
+        return split_sentences(text)
     elif granularity == 'paragraph':
-        # Multiple splitting strategies to handle various PDF formats
-        
-        # Strategy 1: Split on double newlines (clear paragraph breaks)
-        paragraphs = re.split(r'\n\s*\n+', text)
-        
-        # Strategy 2: If we get very few paragraphs, try single newlines
-        # (common in PDFs where paragraphs are on separate lines)
-        if len(paragraphs) <= 2 and len(text) > 500:
-            # Split on single newlines, but keep sentences together
-            lines = text.split('\n')
-            paragraphs = []
-            current_para = []
-            
-            for line in lines:
-                line = line.strip()
-                if not line:
-                    # Empty line = paragraph break
-                    if current_para:
-                        paragraphs.append(' '.join(current_para))
-                        current_para = []
-                elif len(line) < 80 and not line.endswith(('.', '!', '?', ',')):
-                    # Short line without sentence-ending punctuation = likely a heading
-                    if current_para:
-                        paragraphs.append(' '.join(current_para))
-                        current_para = []
-                    paragraphs.append(line)
-                else:
-                    current_para.append(line)
-            
-            # Add the last paragraph
-            if current_para:
-                paragraphs.append(' '.join(current_para))
-        
-        # Filter out very short paragraphs and clean up
-        result = []
-        for p in paragraphs:
-            p = p.strip()
-            # Keep paragraphs with at least 40 chars or that look like headings
-            if len(p) >= 40 or (len(p) >= 10 and ':' in p):
-                result.append(p)
-        
-        return result if result else [text]
-    
+        return split_paragraphs(text)
     elif granularity == 'sectional':
-        # Split by headers or major section breaks
-        sections = re.split(r'\n(?=[A-Z][A-Za-z\s]{3,}:|\d+\.)', text)
-        return [s.strip() for s in sections if len(s.strip()) > 50]
-    
+        return split_sections(text)
     else:
         return [text]
+
 
 
 def normalize_file_content(file_data, granularity='sectional'):
