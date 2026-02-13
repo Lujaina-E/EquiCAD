@@ -14,6 +14,4 @@ COPY . .
 ENV PORT=5000
 
 # Use shell-form CMD so $PORT expands at runtime
-CMD exec gunicorn app:app \
-    --workers 2 \
-    --bind 0.0.0.0:$PORT
+CMD ["gunicorn", "app:app", "--workers", "2", "--bind", "0.0.0.0:${PORT}"]
