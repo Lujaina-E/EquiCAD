@@ -680,11 +680,20 @@ def select_output_format():
             return jsonify({"error": "Invalid session"}), 400
         
         state['output_format'] = output_format
+        save_session(session_id, state)
         
         # Check if single text analysis
         if state.get('state') == 'awaiting_output_format_single':
+            state['state'] = 'awaiting_detection_choice_single'
             save_session(session_id, state)
-            return analyze_single_text_internal(session_id, output_format)
+            return jsonify({
+                "success": True,
+                "message": "Would you like to view only Detection, or Detection and Diagnostics?",
+                "options": [
+                    {"id": "detection_only", "text": "Detection Only"},
+                    {"id": "detection_and_diagnostics", "text": "Detection + Diagnostics"}
+                ]
+            })
         
         # For file uploads, prepare content_to_analyze
         file_id = state.get('file_id')
@@ -862,45 +871,87 @@ def analyze_batch():
 
 @app.route('/api/chat/single-text', methods=['POST'])
 def handle_single_text():
-    """Handle single text input"""
-    try:
-        data = request.get_json()
-        session_id = data.get('session_id')
-        state = get_session(session_id)
+    data = request.get_json()
+    session_id = data.get('session_id')
+    state = get_session(session_id)
+    text = data.get('text', '').strip()
 
-        text = data.get('text', '').strip()
-        
-        if not state:
-            return jsonify({
-                "success": False,
-                "error": "Session expired or invalid. Please start a new analysis."
-            }), 400
-        
-        if not text:
-            return jsonify({"success": False, "error": "No text provided"}), 400
-        
-        word_count = len(text.split())
-        if word_count > MAX_TEXT_WORDS:
-            return jsonify({
-                "success": False,
-                "error": f"Input exceeds {MAX_TEXT_WORDS} words. Please enter 200 words or fewer."
-            }), 400
-        
-        state['single_text'] = text
-        state['state'] = 'awaiting_output_format_single'
-        save_session(session_id, state)
-        
+    if not state:
+        return jsonify({"success": False, "error": "Session expired or invalid."}), 400
+    if not text:
+        return jsonify({"success": False, "error": "No text provided"}), 400
+
+    if len(text.split()) > MAX_TEXT_WORDS:
+        return jsonify({
+            "success": False,
+            "error": f"Input exceeds {MAX_TEXT_WORDS} words. Please enter 200 words or fewer."
+        }), 400
+
+    state['single_text'] = text
+    state['state'] = 'awaiting_output_format_single'
+    save_session(session_id, state)
+
+    return jsonify({
+        "success": True,
+        "message": "Text received. How would you like the results displayed?",
+        "options": [
+            {"id": "label", "text": "Label Only"},
+            {"id": "label_category", "text": "Label + Category"}
+        ]
+    })
+
+
+@app.route('/api/chat/single-text-output-type', methods=['POST'])
+def select_output_format_single():
+    data = request.get_json()
+    session_id = data.get('session_id')
+    output_format = data.get('output_format')
+
+    state = get_session(session_id)
+    if not state:
+        return jsonify({"success": False, "error": "Session expired or invalid."}), 400
+
+    state['output_format'] = output_format
+    state['state'] = 'awaiting_detection_choice_single'
+    save_session(session_id)
+
+    return jsonify({
+        "success": True,
+        "message": "Would you like to view only Detection, or Detection and Diagnostics?",
+        "options": [
+            {"id": "detection_only", "text": "Detection Only"},
+            {"id": "detection_and_diagnostics", "text": "Detection + Diagnostics"}
+        ]
+    })
+
+
+@app.route('/api/chat/single-text-detection-scope', methods=['POST'])
+def select_detection_scope_single():
+    data = request.get_json()
+    session_id = data.get('session_id')
+    choice = data.get('choice')
+
+    state = get_session(session_id)
+    if not state:
+        return jsonify({"success": False, "error": "Session expired or invalid."}), 400
+
+    if choice == 'detection_only':
+        # Proceed with normal analysis
+        return analyze_single_text_internal(session_id, state.get('output_format', 'label_category'))
+    elif choice == 'detection_and_diagnostics':
+        # Ask diagnostics scope next
+        state['state'] = 'awaiting_diagnostics_scope_single'
+        save_session(session_id)
         return jsonify({
             "success": True,
-            "message": "Text received. How would you like the results displayed?",
+            "message": "Would you like diagnostics for 'bias only' or 'everything'?",
             "options": [
-                {"id": "label", "text": "Label Only"},
-                {"id": "label_category", "text": "Label + Category"}
+                {"id": "diagnostics_bias_only", "text": "Diagnostics: Bias Only"},
+                {"id": "diagnostics_everything", "text": "Diagnostics: Everything"}
             ]
         })
-        
-    except Exception as e:
-        return jsonify({"success": False, "error": str(e)}), 500
+    else:
+        return jsonify({"success": False, "error": "Invalid choice"}), 400
 
 
 def analyze_single_text_internal(session_id, output_format="label_category"):
