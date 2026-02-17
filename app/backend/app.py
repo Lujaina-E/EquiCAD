@@ -50,6 +50,8 @@ def get_openai_client():
 FINE_TUNED_MODEL_ID = os.getenv('FINE_TUNED_MODEL_ID')
 OCR_MODEL_ID = os.getenv('OCR_MODEL_ID', 'gpt-4o')
 MAX_FILE_SIZE = 10 * 1024 * 1024  # 10MB
+MAX_TEXT_WORDS = 200
+
 
 REDIS_URL = os.environ.get("REDIS_URL")
 
@@ -418,7 +420,7 @@ def detect_bias_with_model(input_obj, output_format="label_category"):
         assistant_text = response.choices[0].message.content.strip()
         
         if assistant_text.lower().startswith("no label assigned!"):
-            return "No label assigned! Your input is not related to Coronary Artery Disease."
+            return "\nNo label assigned! Your input is not related to Coronary Artery Disease."
 
         label, category = extract_label_category(assistant_text)
 
@@ -427,9 +429,9 @@ def detect_bias_with_model(input_obj, output_format="label_category"):
         raise
 
     if output_format == "label":
-        return f"Label: {label}"
+        return f"\nLabel: {label}"
     else:
-        return f"Label: {label}\nCategory: {category}"
+        return f"\nLabel: {label}\nCategory: {category}"
 
 @app.route('/api/chat/start', methods=['POST'])
 def start_conversation():
@@ -876,6 +878,13 @@ def handle_single_text():
         
         if not text:
             return jsonify({"success": False, "error": "No text provided"}), 400
+        
+        word_count = len(text.split())
+        if word_count > MAX_TEXT_WORDS:
+            return jsonify({
+                "success": False,
+                "error": f"Input exceeds {MAX_TEXT_WORDS} words. Please enter 200 words or fewer."
+            }), 400
         
         state['single_text'] = text
         state['state'] = 'awaiting_output_format_single'

@@ -33,6 +33,8 @@ const App: React.FC = () => {
   const conversationStartedRef = useRef(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const [textError, setTextError] = useState<string | null>(null);
+  const MAX_WORDS = 200;
 
   const API_BASE_URL = import.meta.env.VITE_API_URL;
 
@@ -60,6 +62,8 @@ const App: React.FC = () => {
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
+
+
 
   const startConversation = async () => {
     setLoading(true);
@@ -197,10 +201,20 @@ const App: React.FC = () => {
         const data = await response.json();
         
         if (data.success) {
-          // Check if this is a single text result (has 'result' field)
+          // Check if this is a single text  (has 'result' field)
           if (data.result) {
             // Single text analysis result
-            addBotMessage(`${data.message}\n\n Result: ${data.result}`, data.options);
+              addBotMessage(
+              data.message, 
+              data.options, 
+              data.preview || '', // optional preview
+              {
+                type: data.result.includes('Label: Bias') ? 'bias' 
+                      : data.result.includes('No label assigned') ? 'neutral'
+                      : 'success',
+                content: data.result
+              }
+            );
           } else if (data.ready_for_batch) {
             // File batch processing
             addBotMessage(data.message);
@@ -370,10 +384,18 @@ const App: React.FC = () => {
   };
 
   const handleTextSubmit = async () => {
-      if (!sessionId) {
+    if (!sessionId) {
       addBotMessage('Session not ready yet. Please wait a moment.');
       return;
     }
+
+    const wordCount = textInput.trim().split(/\s+/).filter(Boolean).length;
+
+    if (wordCount > MAX_WORDS) {
+      setTextError(`Maximum ${MAX_WORDS} words allowed.`);
+      return;
+    }
+
 
     if (!textInput.trim()) return;
 
@@ -477,6 +499,30 @@ const App: React.FC = () => {
                     : 'bg-white text-gray-900 shadow-md'
               }`}>
                 <p className="whitespace-pre-wrap">{msg.text}</p>
+
+                {msg.result && (
+                  <div className={`mt-3 p-3 rounded border text-sm flex items-start ${
+                    msg.result.type === 'bias'
+                      ? darkMode
+                        ? 'bg-yellow-900/20 border-yellow-600'
+                        : 'bg-yellow-50 border-yellow-400'
+                      : msg.result.type === 'neutral'
+                        ? darkMode
+                          ? 'bg-slate-800 border-slate-600'
+                          : 'bg-gray-50 border-gray-200'
+                        : darkMode
+                          ? 'bg-blue-900/20 border-blue-600'
+                          : 'bg-blue-50 border-blue-400'
+                  }`}>
+                    {msg.result.type === 'bias' && <AlertCircle className={`w-5 h-5 mr-2 ${darkMode ? 'text-yellow-400' : 'text-yellow-600'}`} />}
+                    {msg.result.type === 'neutral' && <CheckCircle className={`w-5 h-5 mr-2 ${darkMode ? 'text-slate-400' : 'text-gray-500'}`} />}
+                    {msg.result.type === 'success' && <CheckCircle className={`w-5 h-5 mr-2 ${darkMode ? 'text-blue-400' : 'text-blue-600'}`} />}
+                    
+                    <div className="flex-1">
+                      <p className="text-sm font-medium">{msg.result.content}</p>
+                    </div>
+                  </div>
+                )}
                 
                 {msg.preview && (
                   <div className={`mt-3 p-3 rounded border text-sm ${
@@ -617,40 +663,74 @@ const App: React.FC = () => {
           darkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-gray-200'
         }`}>
           {textInputEnabled && (
-            <div className="flex gap-2">
-              <input
-                type="text"
-                value={textInput}
-                onChange={(e) => setTextInput(e.target.value)}
-                onKeyDown={(e) => e.key === 'Enter' && handleTextSubmit()}
-                placeholder="Type your text here..."
-                disabled={loading}
-                className={`flex-1 px-4 py-3 rounded-lg transition-colors duration-300 focus:outline-none focus:ring-2 ${
-                  darkMode
-                    ? 'bg-slate-700 border-slate-600 text-slate-100 placeholder-slate-400 focus:ring-blue-500'
-                    : 'bg-gray-50 border-gray-300 text-gray-900 placeholder-gray-500 focus:ring-blue-400'
-                } border`}
-                tabIndex={0}
-              />
-              <button type="button"
-                onClick={handleTextSubmit}
-                onKeyDown={(e) => handleKeyPress(e, handleTextSubmit)}
-                disabled={!textInput.trim() || loading}
-                className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 flex items-center focus:outline-none focus:ring-2 ${
-                  textInput.trim() && !loading
-                    ? darkMode
-                      ? 'bg-blue-700 hover:bg-blue-600 text-white focus:ring-blue-500'
-                      : 'bg-blue-600 hover:bg-blue-700 text-white focus:ring-blue-400'
-                    : darkMode
-                      ? 'bg-slate-600 text-slate-400 cursor-not-allowed'
+            <div>
+              <div className="flex gap-2">
+                <textarea
+                  rows={4}
+                  value={textInput}
+                  onChange={(e) => {
+                    const value = e.target.value;
+                    const wordCount = value.trim().split(/\s+/).filter(Boolean).length;
+
+                    if (wordCount > MAX_WORDS) {
+                      setTextError(`Maximum ${MAX_WORDS} words allowed. Currently: ${wordCount}`);
+                    } else {
+                      setTextError(null);
+                    }
+
+                    setTextInput(value);
+                  }}
+                  onKeyDown={(e) => e.key === 'Enter' && handleTextSubmit()}
+                  placeholder="Type your text here..."
+                  disabled={loading}
+                  className={`resize-none flex-1 px-4 py-3 rounded-lg transition-colors duration-300 
+                    focus:outline-none focus:ring-2 border
+                    ${
+                      textError
+                        ? 'border-2 border-red-500 focus:ring-red-500'
+                        : darkMode
+                          ? 'bg-slate-700 border-slate-600 text-slate-100 placeholder-slate-400 focus:ring-blue-500'
+                          : 'bg-gray-50 border-gray-300 text-gray-900 placeholder-gray-500 focus:ring-blue-400'
+                    }
+                  `}
+                />
+
+                <button
+                  type="button"
+                  onClick={handleTextSubmit}
+                  disabled={!textInput.trim() || loading || textError !== null}
+                  className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 flex items-center ${
+                    textInput.trim() && !loading && !textError
+                      ? darkMode
+                        ? 'bg-blue-700 hover:bg-blue-600 text-white'
+                        : 'bg-blue-600 hover:bg-blue-700 text-white'
                       : 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                  }`}
+                >
+                  <Send className="w-5 h-5" />
+                </button>
+              </div>
+
+              {/* Word Counter */}
+              <p
+                className={`text-xs mt-2 ${
+                  textInput.trim().split(/\s+/).filter(Boolean).length > MAX_WORDS
+                    ? 'text-red-500'
+                    : 'text-gray-500'
                 }`}
-                tabIndex={0}
               >
-                <Send className="w-5 h-5" />
-              </button>
+                {textInput.trim().split(/\s+/).filter(Boolean).length} / {MAX_WORDS} words
+              </p>
+
+              {/* Error Message */}
+              {textError && (
+                <p className="text-red-500 text-sm mt-1">
+                  {textError}
+                </p>
+              )}
             </div>
           )}
+
 
           {fileUploadEnabled && (
             <div className="text-center">
