@@ -341,6 +341,7 @@ Your task:
 - Analyze the input.
 - ONLY assign a label and category IF the input meaningfully relates to sex-based bias or analysis in Coronary Artery Disease (CAD).
 - Do NOT force a label or category if the input is unrelated to CAD.
+- Flag Sampling Bias if women are completely are completely excluded from the study. 
 
 If the input IS related to CAD, respond in EXACTLY this format (no extra text):
 
@@ -366,6 +367,13 @@ CRITICAL RULES:
 3. Do NOT explain your reasoning
 """
 
+CATEGORY_DEFINITIONS = {
+    "Sampling Bias": "Findings are largely based on men, exclude women, or may not fully generalize to women.",
+    "Diagnostic Uncertainty / Bias": "Outcome depends on uncertain, ambiguous, or unequal treatment against women.",
+    "Symptom Misinterpretation": "Observed symptoms may be misinterpreted, causing bias against women.",
+    "Biological / Physiological Differences": "Sex outcome differences are mainly explained by biological / physiological factors.",
+    "Factual / Neutral Observed Outcome": "Empirically observed results show no explicit sex bias against women."
+}
 
 def wrap_input_for_model(content_obj):
     """Wrap content into model prompt"""
@@ -425,13 +433,14 @@ def detect_bias_with_model(input_obj, output_format="label_category"):
         label, category = extract_label_category(assistant_text)
 
     except Exception as e:
-        print("🔥 MODEL FAILURE:", str(e))
+        print(" MODEL FAILURE:", str(e))
         raise
 
     if output_format == "label":
         return f"\nLabel: {label}"
     else:
-        return f"\nLabel: {label}\nCategory: {category}"
+        description = CATEGORY_DEFINITIONS.get(category, "No description available.")
+        return f"\nLabel: {label}\nCategory: {category}\nDescription: {description}"
 
 @app.route('/api/chat/start', methods=['POST'])
 def start_conversation():
