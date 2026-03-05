@@ -1,8 +1,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import { Upload, Sun, Moon, Send, Loader2, FileCheck, AlertCircle, CheckCircle } from 'lucide-react';
-import EquiCADIcon from '../public/bita.png';
-
+import { Upload, Sun, Moon, Send, Loader2, AlertCircle, CheckCircle } from 'lucide-react';
+import EquiCADIcon from './assets/bita.png';
 interface ChatMessage {
   id: string;
   type: 'bot' | 'user';
