@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { Upload, Sun, Moon, Send, Loader2, FileCheck, AlertCircle, CheckCircle } from 'lucide-react';
+import EquiCADIcon from '../public/bita.png';
 
 interface ChatMessage {
   id: string;
@@ -473,7 +474,7 @@ const App: React.FC = () => {
             : 'bg-gradient-to-r from-slate-700 via-blue-800 to-slate-700'
         }`}>
           <h1 className="text-2xl font-bold flex items-center">
-            <FileCheck className="w-7 h-7 mr-3" />
+            <img src={EquiCADIcon} alt="EquiCAD logo" className="w-7 h-7 mr-3" />
             EquiCAD: CAD Sex Bias Detection Assistant
           </h1>
           <p className={`text-sm mt-1 transition-colors duration-300 ${
