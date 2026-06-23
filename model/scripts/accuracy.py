@@ -649,7 +649,7 @@ y_pred_label = [l.title() for l in y_pred_label]
 accuracy = accuracy_score(y_true_label, y_pred_label)
 precision = precision_score(y_true_label, y_pred_label, pos_label="Bias", zero_division=0)
 recall = recall_score(y_true_label, y_pred_label, pos_label="Bias", zero_division=0)
-f1 = f1_score(y_true_label, y_pred_label, pos_label="Bias", zero_division=0)
+f1 = f1_score(y_true_label, y_pred_label, pos_label="Bias", zero_division=0) #formula for f1 score: 2(precision × recall) / (precision + recall), where label f1 score uses "Bias" as the positive class and multiclass classification for category f1 score 
 tn, fp, fn, tp = confusion_matrix(y_true_label, y_pred_label, labels=["No Bias", "Bias"]).ravel()
  
 print("\n--- LABEL METRICS ---")
