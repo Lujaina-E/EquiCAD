@@ -109,16 +109,24 @@ a) create a .env file in the directory /app/frontend/ and place this line:
 
 2. Backend Environment Variables 
    
-a) create a .env file in the directory /app/backend/ and place these variables one by one, ensuring no additional spaces. Remember to replace the OPEN_AI_KEY variable 
+a) create a .env file in the directory /app/backend/ and place these variables one by one, ensuring no additional spaces. Remember to replace the OPENAI_API_KEY, TEST_JSONL_PATH, and ID_MAPPING_PATH variables:
 
 ```
 OPENAI_API_KEY=paste_key_here
 FINE_TUNED_MODEL_ID=ft:gpt-4o-mini-2024-07-18:seall:equicad:D23JMHeE
+MODEL_ID=gpt-4o-mini
 REDIS_URL=redis://redis:6379/0
 REDIS_HOST=redis
 REDIS_PORT=6379
 OCR_MODEL_ID=gpt-4o
+TEST_JSONL_PATH=paste_path_to_local_testing_jsonl_file_here
+ID_MAPPING_PATH=paste_path_to_local_testing_jsonl_file_with_ids_here
+
 ```
+
+where the results were acquired with variables:
+**TEST_JSONL_PATH** ==> testing.jsonl
+**ID_MAPPING_PATH** ==> testing_with_ids.jsonl
 
 3. Build and Start Containers
 Run the following commands from inside the `app` directory: <br>
